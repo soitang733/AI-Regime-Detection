@@ -1,0 +1,33 @@
+{
+  "asset": "ETH",
+  "family": "amihud_illiq",
+  "K": 2,
+  "seed": 4,
+  "penalty": 10,
+  "id": "ETH_amihud_illiq_k2_s4_l10",
+  "eligible": true,
+  "converged": true,
+  "iterations": 8,
+  "min_train_share": 0.4923320994182972,
+  "validation_log_score": -3.382543212622004,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 1.482877240004692e-06,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      930.1842331400314,
+      3.0104793175904314
+    ],
+    [
+      2.010481322272688,
+      954.7948062201018
+    ]
+  ],
+  "label_map": {
+    "0": "High-Vol",
+    "1": "Low-Vol"
+  },
+  "high_risk_state": 0,
+  "runtime_seconds": 0.26600000000325963
+}

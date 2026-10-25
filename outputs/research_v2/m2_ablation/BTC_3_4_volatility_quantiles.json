@@ -1,0 +1,13 @@
+{
+  "asset": "BTC",
+  "K": 3,
+  "seed": 4,
+  "initializer": "volatility_quantiles",
+  "id": "BTC_3_4_volatility_quantiles",
+  "eligible": true,
+  "feature_space": "2D; likelihood not comparable to3D",
+  "last_gain": 0.000635457764929015,
+  "min_train_share": 0.24008461131676362,
+  "validation_log_score": -1.304588879006449,
+  "validation_persistence": 0.9491255961844197
+}

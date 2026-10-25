@@ -1,0 +1,1632 @@
+{
+  "status": "passed",
+  "stages": [
+    {
+      "stage": "m1",
+      "exit_code": 0,
+      "seconds": 4.546999999998661,
+      "registered_fit_checkpoints_reused": false
+    },
+    {
+      "stage": "m2",
+      "exit_code": 0,
+      "seconds": 74.54699999999866,
+      "registered_fit_checkpoints_reused": true
+    },
+    {
+      "stage": "ablation",
+      "exit_code": 0,
+      "seconds": 7.063000000001921,
+      "registered_fit_checkpoints_reused": true
+    },
+    {
+      "stage": "simulation",
+      "exit_code": 0,
+      "seconds": 6.5310000000026776,
+      "registered_fit_checkpoints_reused": true
+    },
+    {
+      "stage": "m3",
+      "exit_code": 0,
+      "seconds": 20.625,
+      "registered_fit_checkpoints_reused": true
+    },
+    {
+      "stage": "m3_evaluation",
+      "exit_code": 0,
+      "seconds": 12.421999999998661,
+      "registered_fit_checkpoints_reused": false
+    },
+    {
+      "stage": "m4",
+      "exit_code": 0,
+      "seconds": 7.639999999999418,
+      "registered_fit_checkpoints_reused": true
+    },
+    {
+      "stage": "msgarch",
+      "exit_code": 0,
+      "seconds": 3.0469999999986612,
+      "registered_fit_checkpoints_reused": true
+    },
+    {
+      "stage": "m4_evaluation",
+      "exit_code": 0,
+      "seconds": 33.07800000000134,
+      "registered_fit_checkpoints_reused": false
+    },
+    {
+      "stage": "m5",
+      "exit_code": 0,
+      "seconds": 5.421999999998661,
+      "registered_fit_checkpoints_reused": false
+    },
+    {
+      "stage": "profiles",
+      "exit_code": 0,
+      "seconds": 6.921999999998661,
+      "registered_fit_checkpoints_reused": false
+    },
+    {
+      "stage": "outputs",
+      "exit_code": 0,
+      "seconds": 15.296999999998661,
+      "registered_fit_checkpoints_reused": false
+    },
+    {
+      "stage": "seal",
+      "exit_code": 0,
+      "seconds": 17.8440000000046,
+      "registered_fit_checkpoints_reused": false
+    }
+  ],
+  "csv_comparisons": [
+    {
+      "path": "outputs/research_v2/m1/coverage.csv",
+      "passed": true,
+      "rows": 78,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m1/feature_eligibility.csv",
+      "passed": true,
+      "rows": 26,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m1/volume_drift.csv",
+      "passed": true,
+      "rows": 6,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2/btc_economic_labels.csv",
+      "passed": true,
+      "rows": 4,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2/btc_filtered.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2/btc_smoothed.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2/candidate_results.csv",
+      "passed": true,
+      "rows": 720,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2/eth_economic_labels.csv",
+      "passed": true,
+      "rows": 4,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2/eth_filtered.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2/eth_smoothed.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2/stability.csv",
+      "passed": true,
+      "rows": 216,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2_ablation/results.csv",
+      "passed": true,
+      "rows": 60,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2_ablation/stability.csv",
+      "passed": true,
+      "rows": 6,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_simulation/results.csv",
+      "passed": true,
+      "rows": 20,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3/candidate_results.csv",
+      "passed": true,
+      "rows": 990,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/btc_dynamic_transitions.csv",
+      "passed": true,
+      "rows": 28422,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/btc_economic_labels.csv",
+      "passed": true,
+      "rows": 3,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/btc_filtered.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/btc_latest_forecast.csv",
+      "passed": true,
+      "rows": 3,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/btc_smoothed.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/eth_dynamic_transitions.csv",
+      "passed": true,
+      "rows": 50528,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/eth_economic_labels.csv",
+      "passed": true,
+      "rows": 4,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/eth_filtered.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/eth_latest_forecast.csv",
+      "passed": true,
+      "rows": 4,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/eth_smoothed.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/family_coverage_and_failures.csv",
+      "passed": true,
+      "rows": 22,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/predictive_comparison.csv",
+      "passed": true,
+      "rows": 2,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/qualified_family_comparison.csv",
+      "passed": true,
+      "rows": 150,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m3_evaluation/transition_coefficients.csv",
+      "passed": true,
+      "rows": 48,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_2_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_2_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_2_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_2_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_2_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_3_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_3_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_3_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_3_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_3_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_4_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_4_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_4_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_4_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_GMM_4_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_HDBSCAN_120_15_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_HDBSCAN_120_5_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_HDBSCAN_30_15_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_HDBSCAN_30_5_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_HDBSCAN_60_15_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_HDBSCAN_60_5_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_2_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_2_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_2_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_2_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_2_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_3_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_3_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_3_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_3_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_3_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_4_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_4_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_4_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_4_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_KMeans_4_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_2_0_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_2_0_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_2_1_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_2_1_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_2_2_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_2_2_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_2_3_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_2_3_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_2_4_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_2_4_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_3_0_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_3_0_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_3_1_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_3_1_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_3_2_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_3_2_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_3_3_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_3_3_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_3_4_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_3_4_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_4_0_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_4_0_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_4_1_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_4_1_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_4_2_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_4_2_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_4_3_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_4_3_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_4_4_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_MSAR_4_4_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_PH_10_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_PH_20_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/BTC_PH_5_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/development_results.csv",
+      "passed": true,
+      "rows": 138,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_2_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_2_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_2_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_2_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_2_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_3_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_3_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_3_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_3_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_3_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_4_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_4_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_4_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_4_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_GMM_4_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_HDBSCAN_120_15_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_HDBSCAN_120_5_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_HDBSCAN_30_15_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_HDBSCAN_30_5_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_HDBSCAN_60_15_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_HDBSCAN_60_5_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_2_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_2_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_2_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_2_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_2_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_3_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_3_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_3_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_3_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_3_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_4_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_4_1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_4_2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_4_3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_KMeans_4_4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_2_0_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_2_0_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_2_1_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_2_1_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_2_2_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_2_2_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_2_3_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_2_3_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_2_4_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_2_4_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_3_0_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_3_0_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_3_1_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_3_1_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_3_2_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_3_2_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_3_3_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_3_3_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_3_4_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_3_4_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_4_0_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_4_0_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_4_1_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_4_1_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_4_2_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_4_2_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_4_3_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_4_3_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_4_4_0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_MSAR_4_4_1_development.csv",
+      "passed": true,
+      "rows": 2520,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_PH_10_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_PH_20_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4/ETH_PH_5_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k2_s0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k2_s1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k2_s2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k2_s3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k2_s4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k3_s0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k3_s1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k3_s2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k3_s3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k3_s4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k4_s0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k4_s1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k4_s2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k4_s3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/BTC_k4_s4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/development_results.csv",
+      "passed": true,
+      "rows": 30,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k2_s0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k2_s1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k2_s2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k2_s3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k2_s4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k3_s0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k3_s1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k3_s2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k3_s3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k3_s4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k4_s0_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k4_s1_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k4_s2_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k4_s3_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_msgarch/ETH_k4_s4_development.csv",
+      "passed": true,
+      "rows": 2521,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_GMM_2_0_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_HDBSCAN_120_15_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_HDBSCAN_120_5_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_HDBSCAN_30_15_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_HDBSCAN_30_5_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_HDBSCAN_60_15_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_HDBSCAN_60_5_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_k4_s3_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_KMeans_2_1_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_KMeans_3_1_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_KMeans_4_4_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_MSAR_4_3_1_states.csv",
+      "passed": true,
+      "rows": 3157,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_PH_10_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_PH_20_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/BTC_PH_5_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_GMM_4_2_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_HDBSCAN_120_15_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_HDBSCAN_120_5_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_HDBSCAN_30_15_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_HDBSCAN_30_5_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_HDBSCAN_60_15_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_HDBSCAN_60_5_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_k3_s1_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_KMeans_2_1_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_KMeans_3_4_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_KMeans_4_1_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_MSAR_4_0_1_states.csv",
+      "passed": true,
+      "rows": 3157,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_PH_10_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_PH_20_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/ETH_PH_5_states.csv",
+      "passed": true,
+      "rows": 3158,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/historical_metrics.csv",
+      "passed": true,
+      "rows": 167,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m4_evaluation/seed_stability.csv",
+      "passed": true,
+      "rows": 28,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m5/incremental_uncertainty.csv",
+      "passed": true,
+      "rows": 12,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m5/nav.csv",
+      "passed": true,
+      "rows": 45840,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m5/performance.csv",
+      "passed": true,
+      "rows": 72,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2_profiles/contrasts.csv",
+      "passed": true,
+      "rows": 48,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2_profiles/label_block_sensitivity.csv",
+      "passed": true,
+      "rows": 24,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2_profiles/occupancy_by_year.csv",
+      "passed": true,
+      "rows": 88,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/m2_profiles/profiles.csv",
+      "passed": true,
+      "rows": 32,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T01_descriptive.csv",
+      "passed": true,
+      "rows": 54,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T02_model_selection.csv",
+      "passed": true,
+      "rows": 720,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T03_conditional_contrasts.csv",
+      "passed": true,
+      "rows": 48,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T03_economic_labels.csv",
+      "passed": true,
+      "rows": 8,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T03_regime_profiles.csv",
+      "passed": true,
+      "rows": 32,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T04_transition_matrix.csv",
+      "passed": true,
+      "rows": 32,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T05_coverage_and_failures.csv",
+      "passed": true,
+      "rows": 22,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T05_family_selection.csv",
+      "passed": true,
+      "rows": 150,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T05_NHHMM_regressors.csv",
+      "passed": true,
+      "rows": 48,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T05_predictive_comparison.csv",
+      "passed": true,
+      "rows": 2,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T06_incremental_uncertainty.csv",
+      "passed": true,
+      "rows": 12,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T06_portfolio.csv",
+      "passed": true,
+      "rows": 72,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T07_benchmark_comparison.csv",
+      "passed": true,
+      "rows": 179,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_benchmark_seed_stability.csv",
+      "passed": true,
+      "rows": 28,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_HMM_stability.csv",
+      "passed": true,
+      "rows": 216,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_label_sensitivity.csv",
+      "passed": true,
+      "rows": 24,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_occupancy.csv",
+      "passed": true,
+      "rows": 88,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_volume_ablation.csv",
+      "passed": true,
+      "rows": 60,
+      "max_numeric_error": 0.0
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_volume_ablation_stability.csv",
+      "passed": true,
+      "rows": 6,
+      "max_numeric_error": 0.0
+    }
+  ],
+  "original_artifacts_unchanged": true,
+  "seconds": 231.53199999999924,
+  "fresh_model_fits": 0,
+  "mode": "all stages; registered fit checkpoints reused; data/inference/evaluation rebuilt",
+  "independent_research_confirmation": "pending"
+}

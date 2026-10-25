@@ -1,0 +1,7925 @@
+{
+  "created_before_fit_utc": "2026-10-24T16:53:28.927816+00:00",
+  "candidates": [
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_rv21_k2_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_rv21_k2_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_rv21_k2_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_rv21_k2_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_rv21_k2_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_rv21_k2_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_rv21_k2_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_rv21_k2_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_rv21_k2_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_rv21_k2_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_rv21_k2_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_rv21_k2_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_rv21_k2_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_rv21_k2_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_rv21_k2_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_rv21_k3_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_rv21_k3_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_rv21_k3_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_rv21_k3_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_rv21_k3_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_rv21_k3_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_rv21_k3_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_rv21_k3_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_rv21_k3_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_rv21_k3_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_rv21_k3_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_rv21_k3_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_rv21_k3_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_rv21_k3_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_rv21_k3_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_rv21_k4_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_rv21_k4_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_rv21_k4_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_rv21_k4_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_rv21_k4_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_rv21_k4_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_rv21_k4_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_rv21_k4_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_rv21_k4_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_rv21_k4_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_rv21_k4_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_rv21_k4_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_rv21_k4_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_rv21_k4_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv21",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_rv21_k4_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k2_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k2_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k2_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k2_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k2_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k2_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k2_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k2_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k2_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k2_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k2_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k2_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k2_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k2_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k2_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k3_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k3_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k3_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k3_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k3_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k3_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k3_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k3_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k3_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k3_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k3_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k3_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k3_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k3_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k3_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k4_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k4_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k4_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k4_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k4_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k4_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k4_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k4_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k4_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k4_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k4_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k4_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_log_dollar_volume_k4_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_log_dollar_volume_k4_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_log_dollar_volume_k4_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k2_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k2_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k2_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k2_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k2_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k2_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k2_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k2_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k2_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k2_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k2_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k2_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k2_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k2_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k2_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k3_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k3_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k3_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k3_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k3_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k3_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k3_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k3_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k3_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k3_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k3_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k3_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k3_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k3_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k3_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k4_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k4_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k4_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k4_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k4_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k4_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k4_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k4_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k4_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k4_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k4_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k4_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k4_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_amihud_illiq_k4_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_amihud_illiq_k4_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k2_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k2_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k2_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k2_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k2_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k2_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k2_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k2_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k2_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k2_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k2_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k2_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k2_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k2_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k2_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k3_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k3_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k3_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k3_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k3_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k3_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k3_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k3_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k3_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k3_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k3_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k3_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k3_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k3_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k3_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k4_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k4_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k4_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k4_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k4_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k4_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k4_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k4_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k4_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k4_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k4_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k4_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_funding_sum_k4_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_funding_sum_k4_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_funding_sum_k4_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_vix_k2_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_vix_k2_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_vix_k2_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_vix_k2_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_vix_k2_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_vix_k2_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_vix_k2_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_vix_k2_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_vix_k2_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_vix_k2_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_vix_k2_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_vix_k2_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_vix_k2_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_vix_k2_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_vix_k2_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_vix_k3_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_vix_k3_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_vix_k3_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_vix_k3_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_vix_k3_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_vix_k3_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_vix_k3_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_vix_k3_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_vix_k3_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_vix_k3_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_vix_k3_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_vix_k3_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_vix_k3_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_vix_k3_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_vix_k3_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_vix_k4_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_vix_k4_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_vix_k4_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_vix_k4_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_vix_k4_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_vix_k4_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_vix_k4_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_vix_k4_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_vix_k4_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_vix_k4_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_vix_k4_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_vix_k4_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_vix_k4_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_vix_k4_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "vix",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_vix_k4_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k2_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k2_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k2_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k2_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k2_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k2_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k2_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k2_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k2_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k2_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k2_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k2_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k2_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k2_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k2_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k3_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k3_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k3_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k3_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k3_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k3_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k3_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k3_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k3_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k3_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k3_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k3_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k3_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k3_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k3_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k4_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k4_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k4_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k4_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k4_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k4_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k4_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k4_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k4_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k4_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k4_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k4_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_dxy_return_1d_k4_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_dxy_return_1d_k4_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_dxy_return_1d_k4_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k2_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k2_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k2_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k2_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k2_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k2_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k2_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k2_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k2_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k2_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k2_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k2_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k2_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k2_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k2_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k3_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k3_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k3_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k3_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k3_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k3_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k3_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k3_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k3_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k3_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k3_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k3_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k3_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k3_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k3_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k4_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k4_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k4_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k4_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k4_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k4_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k4_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k4_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k4_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k4_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k4_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k4_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_oi_growth_7d_k4_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_oi_growth_7d_k4_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_oi_growth_7d_k4_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k2_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k3_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_stablecoin_supply_growth_7d_k4_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k2_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k2_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k2_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k2_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k2_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k2_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k2_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k2_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k2_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k2_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k2_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k2_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k2_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k2_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k2_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k3_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k3_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k3_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k3_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k3_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k3_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k3_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k3_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k3_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k3_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k3_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k3_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k3_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k3_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k3_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k4_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k4_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k4_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k4_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k4_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k4_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k4_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k4_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k4_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k4_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k4_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k4_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_rv_volume_k4_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_rv_volume_k4_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_rv_volume_k4_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_macro_k2_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_macro_k2_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_macro_k2_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_macro_k2_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_macro_k2_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_macro_k2_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_macro_k2_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_macro_k2_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_macro_k2_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_macro_k2_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_macro_k2_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_macro_k2_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_macro_k2_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_macro_k2_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_macro_k2_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_macro_k3_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_macro_k3_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_macro_k3_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_macro_k3_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_macro_k3_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_macro_k3_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_macro_k3_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_macro_k3_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_macro_k3_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_macro_k3_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_macro_k3_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_macro_k3_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_macro_k3_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_macro_k3_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_macro_k3_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_macro_k4_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_macro_k4_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_macro_k4_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_macro_k4_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_macro_k4_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_macro_k4_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_macro_k4_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_macro_k4_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_macro_k4_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_macro_k4_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_macro_k4_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_macro_k4_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_macro_k4_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_macro_k4_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "macro",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_macro_k4_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k2_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k2_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k2_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k2_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k2_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k2_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k2_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k2_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k2_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k2_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k2_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k2_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k2_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k2_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k2_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k3_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k3_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k3_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k3_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k3_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k3_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k3_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k3_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k3_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k3_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k3_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k3_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k3_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k3_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k3_s4_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k4_s0_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k4_s0_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k4_s0_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k4_s1_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k4_s1_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k4_s1_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k4_s2_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k4_s2_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k4_s2_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k4_s3_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k4_s3_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k4_s3_l10"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "BTC_rv_funding_k4_s4_l0"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "BTC_rv_funding_k4_s4_l1"
+    },
+    {
+      "asset": "BTC",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "BTC_rv_funding_k4_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_rv21_k2_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_rv21_k2_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_rv21_k2_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_rv21_k2_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_rv21_k2_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_rv21_k2_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_rv21_k2_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_rv21_k2_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_rv21_k2_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_rv21_k2_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_rv21_k2_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_rv21_k2_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_rv21_k2_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_rv21_k2_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_rv21_k2_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_rv21_k3_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_rv21_k3_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_rv21_k3_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_rv21_k3_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_rv21_k3_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_rv21_k3_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_rv21_k3_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_rv21_k3_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_rv21_k3_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_rv21_k3_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_rv21_k3_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_rv21_k3_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_rv21_k3_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_rv21_k3_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_rv21_k3_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_rv21_k4_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_rv21_k4_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_rv21_k4_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_rv21_k4_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_rv21_k4_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_rv21_k4_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_rv21_k4_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_rv21_k4_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_rv21_k4_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_rv21_k4_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_rv21_k4_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_rv21_k4_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_rv21_k4_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_rv21_k4_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv21",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_rv21_k4_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k2_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k2_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k2_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k2_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k2_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k2_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k2_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k2_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k2_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k2_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k2_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k2_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k2_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k2_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k2_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k3_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k3_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k3_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k3_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k3_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k3_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k3_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k3_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k3_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k3_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k3_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k3_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k3_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k3_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k3_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k4_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k4_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k4_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k4_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k4_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k4_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k4_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k4_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k4_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k4_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k4_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k4_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_log_dollar_volume_k4_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_log_dollar_volume_k4_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "log_dollar_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_log_dollar_volume_k4_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k2_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k2_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k2_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k2_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k2_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k2_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k2_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k2_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k2_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k2_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k2_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k2_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k2_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k2_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k2_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k3_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k3_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k3_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k3_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k3_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k3_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k3_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k3_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k3_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k3_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k3_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k3_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k3_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k3_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k3_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k4_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k4_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k4_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k4_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k4_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k4_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k4_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k4_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k4_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k4_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k4_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k4_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_amihud_illiq_k4_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_amihud_illiq_k4_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "amihud_illiq",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_amihud_illiq_k4_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k2_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k2_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k2_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k2_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k2_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k2_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k2_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k2_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k2_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k2_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k2_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k2_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k2_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k2_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k2_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k3_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k3_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k3_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k3_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k3_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k3_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k3_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k3_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k3_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k3_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k3_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k3_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k3_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k3_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k3_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k4_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k4_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k4_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k4_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k4_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k4_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k4_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k4_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k4_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k4_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k4_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k4_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_funding_sum_k4_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_funding_sum_k4_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "funding_sum",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_funding_sum_k4_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_vix_k2_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_vix_k2_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_vix_k2_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_vix_k2_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_vix_k2_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_vix_k2_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_vix_k2_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_vix_k2_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_vix_k2_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_vix_k2_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_vix_k2_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_vix_k2_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_vix_k2_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_vix_k2_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_vix_k2_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_vix_k3_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_vix_k3_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_vix_k3_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_vix_k3_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_vix_k3_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_vix_k3_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_vix_k3_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_vix_k3_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_vix_k3_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_vix_k3_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_vix_k3_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_vix_k3_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_vix_k3_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_vix_k3_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_vix_k3_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_vix_k4_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_vix_k4_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_vix_k4_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_vix_k4_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_vix_k4_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_vix_k4_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_vix_k4_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_vix_k4_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_vix_k4_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_vix_k4_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_vix_k4_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_vix_k4_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_vix_k4_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_vix_k4_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "vix",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_vix_k4_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k2_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k2_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k2_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k2_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k2_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k2_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k2_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k2_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k2_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k2_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k2_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k2_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k2_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k2_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k2_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k3_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k3_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k3_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k3_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k3_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k3_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k3_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k3_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k3_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k3_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k3_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k3_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k3_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k3_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k3_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k4_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k4_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k4_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k4_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k4_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k4_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k4_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k4_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k4_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k4_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k4_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k4_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_dxy_return_1d_k4_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_dxy_return_1d_k4_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "dxy_return_1d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_dxy_return_1d_k4_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k2_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k2_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k2_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k2_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k2_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k2_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k2_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k2_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k2_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k2_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k2_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k2_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k2_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k2_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k2_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k3_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k3_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k3_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k3_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k3_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k3_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k3_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k3_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k3_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k3_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k3_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k3_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k3_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k3_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k3_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k4_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k4_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k4_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k4_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k4_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k4_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k4_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k4_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k4_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k4_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k4_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k4_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_oi_growth_7d_k4_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_oi_growth_7d_k4_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "oi_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_oi_growth_7d_k4_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k2_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k3_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "stablecoin_supply_growth_7d",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_stablecoin_supply_growth_7d_k4_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k2_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k2_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k2_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k2_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k2_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k2_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k2_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k2_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k2_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k2_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k2_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k2_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k2_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k2_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k2_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k3_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k3_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k3_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k3_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k3_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k3_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k3_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k3_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k3_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k3_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k3_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k3_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k3_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k3_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k3_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k4_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k4_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k4_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k4_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k4_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k4_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k4_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k4_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k4_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k4_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k4_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k4_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_rv_volume_k4_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_rv_volume_k4_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_volume",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_rv_volume_k4_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_macro_k2_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_macro_k2_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_macro_k2_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_macro_k2_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_macro_k2_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_macro_k2_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_macro_k2_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_macro_k2_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_macro_k2_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_macro_k2_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_macro_k2_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_macro_k2_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_macro_k2_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_macro_k2_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_macro_k2_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_macro_k3_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_macro_k3_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_macro_k3_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_macro_k3_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_macro_k3_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_macro_k3_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_macro_k3_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_macro_k3_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_macro_k3_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_macro_k3_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_macro_k3_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_macro_k3_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_macro_k3_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_macro_k3_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_macro_k3_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_macro_k4_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_macro_k4_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_macro_k4_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_macro_k4_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_macro_k4_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_macro_k4_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_macro_k4_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_macro_k4_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_macro_k4_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_macro_k4_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_macro_k4_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_macro_k4_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_macro_k4_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_macro_k4_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_macro_k4_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k2_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k2_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k2_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k2_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k2_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k2_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k2_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k2_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k2_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k2_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k2_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k2_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k2_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k2_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 2,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k2_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k3_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k3_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k3_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k3_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k3_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k3_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k3_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k3_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k3_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k3_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k3_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k3_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k3_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k3_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 3,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k3_s4_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 0,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k4_s0_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 0,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k4_s0_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 0,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k4_s0_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 1,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k4_s1_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 1,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k4_s1_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 1,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k4_s1_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 2,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k4_s2_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 2,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k4_s2_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 2,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k4_s2_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 3,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k4_s3_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 3,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k4_s3_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 3,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k4_s3_l10"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_rv_funding_k4_s4_l0"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 4,
+      "penalty": 1,
+      "id": "ETH_rv_funding_k4_s4_l1"
+    },
+    {
+      "asset": "ETH",
+      "family": "rv_funding",
+      "K": 4,
+      "seed": 4,
+      "penalty": 10,
+      "id": "ETH_rv_funding_k4_s4_l10"
+    }
+  ]
+}

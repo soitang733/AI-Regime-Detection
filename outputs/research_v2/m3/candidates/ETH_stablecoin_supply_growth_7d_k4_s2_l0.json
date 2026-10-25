@@ -1,0 +1,51 @@
+{
+  "asset": "ETH",
+  "family": "stablecoin_supply_growth_7d",
+  "K": 4,
+  "seed": 2,
+  "penalty": 0,
+  "id": "ETH_stablecoin_supply_growth_7d_k4_s2_l0",
+  "eligible": true,
+  "converged": true,
+  "iterations": 50,
+  "min_train_share": 0.1145919208573784,
+  "validation_log_score": -2.3998940759374703,
+  "window": "common_window",
+  "sample_start": "2020-01-09",
+  "gradient_norm": 1.8786778238189052e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      133.73928322588355,
+      4.093005247526196,
+      2.2242763776683265,
+      0.0001626158413748875
+    ],
+    [
+      3.1972878582064155,
+      472.9992356555666,
+      1.9623066522127113,
+      5.975069086979816
+    ],
+    [
+      2.0981615137686065,
+      1.9592690506382937,
+      291.305489402961,
+      2.148215933214405
+    ],
+    [
+      1.0220605666814546,
+      5.082871898764894,
+      1.019076928942642,
+      283.1742279851434
+    ]
+  ],
+  "label_map": {
+    "0": "High-Vol",
+    "1": "State 1",
+    "2": "State 2",
+    "3": "Low-Vol"
+  },
+  "high_risk_state": 0,
+  "runtime_seconds": 20.93800000000192
+}

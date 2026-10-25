@@ -1,0 +1,1247 @@
+{
+  "artifacts": [
+    {
+      "path": "outputs/research_v2/deliverables/tables/T01_descriptive.csv",
+      "sha256": "57d0a16f60f73e7e09f9f6161b42f574e6d7f2461396ef2dd4791e1b04d06088",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T02_model_selection.csv",
+      "sha256": "f7b673174a9477a10a4db73b28d4e2ecd0d3c3ad41384095bfb3ffc7d40ed3f2",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T03_conditional_contrasts.csv",
+      "sha256": "b79c1075544f3694465911a6b7a42c4a2fc7b1400e400d8966941484875eda9f",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T03_economic_labels.csv",
+      "sha256": "17b819f5742134d554476ba1e320e97c91446716b06e6e7cdb198c57dc1b3ee9",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T03_regime_profiles.csv",
+      "sha256": "c09517501316b195199c86df555140f6b7ac6ee6f3a84cd0777684a3ba237b91",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T04_transition_matrix.csv",
+      "sha256": "022fd0ae91ed8f96e3e63e45cdcce5a1b2e74dd35255c19e5ecdf3889e7a13e1",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T05_coverage_and_failures.csv",
+      "sha256": "6b152ff97a605952d1017457c5638c1fcf390dc7b8f421f7369ec77c6ecafd7b",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T05_family_selection.csv",
+      "sha256": "982d6f0b7d7c148e11ad8507d821bada49cb62c1d028e3ee0c560b030ef49674",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T05_NHHMM_regressors.csv",
+      "sha256": "11379fc0e65369aabc84e7226678d700b4c181f51c328e74065aa2115037dd1f",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T05_predictive_comparison.csv",
+      "sha256": "6c5ebdfaf930e2741de736b312daf52e59296f0030cb03d811c0e8de82240902",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T06_incremental_uncertainty.csv",
+      "sha256": "7d65ef3368b02225754a92150dc22262c50a2cb946d61a874f123ddcd658b548",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T06_portfolio.csv",
+      "sha256": "bdf0e30487933327d43626c41682da8bab5a50b353f9fb4272b9360d554e15a2",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T07_benchmark_comparison.csv",
+      "sha256": "f71ef9e180ed0813c9e88173ac6f38bbac659f828bc1f0d5cbb6f8bc5a031fc7",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_benchmark_seed_stability.csv",
+      "sha256": "a237da19e5506511688890b76c235114f0113c224675298d57e43b16a642bd23",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_HMM_stability.csv",
+      "sha256": "02b83c8a63ebbafca6214e892819e6aa855519980f4b558cc33201b6bdd2db8b",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_label_sensitivity.csv",
+      "sha256": "b5d8b3a32467db91d8db8d9bd09e4079e75fe4dbc0098eb304542e654b60e0bd",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_occupancy.csv",
+      "sha256": "e4d7d2a94fbdb24ddb5c5d56612eb9442cd94c43353f8095208a7e065d8aa937",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_volume_ablation.csv",
+      "sha256": "8ab7454dd6319a7b4c670c8f6318f5ae94e1143d67f2d8d9fcb92c73f49f2d5e",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/tables/T08_volume_ablation_stability.csv",
+      "sha256": "b85fe6f9da586f3f3f9c07eef87ab12610f47eaf008f907e0c3177d7af24eef8",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F01_BTC_price_regimes.png",
+      "sha256": "9d1efcf6e310690bdf233572b03a8612f61fc94abad03e48405bbff79036a270",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F01_ETH_price_regimes.png",
+      "sha256": "a38de40ec8110f26974c3ec85fe93d30292ac70e2ba1f2c0ee03c436cdf0da4d",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F02_BTC_probabilities.png",
+      "sha256": "46325cb5b4152654361757ed458250457f6752eb5cbf18eb60959c8271b7d94b",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F02_ETH_probabilities.png",
+      "sha256": "70cf71bdbbc6b7b6779ed7c844ff7726cfe4dc12915bdc48509a9437afccbd69",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F03_BTC_dynamic_transitions.png",
+      "sha256": "4f07ac8b709cd17872b62096f7550edf16db9825c63a30408fd64b911b06cc6b",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F03_ETH_dynamic_transitions.png",
+      "sha256": "56c3b51280bb5fdc3bb31e3e498fe4e61e06fed9b4bb2937f6966c6e6e9c798f",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F04_BTC_agreement.png",
+      "sha256": "44338be4d592917889621549ca9d6fc02a4df34976242ffa456277e1d5a62057",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F04_ETH_agreement.png",
+      "sha256": "a1dbe7451a1f10d9efd31835ffc9957ae884f5918400140a7c5c797c7f3f11eb",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F05_BTC_portfolio.png",
+      "sha256": "f336f23a83e964917393fb775086be4f335c11b293b88e31600239fac4349653",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F05_ETH_portfolio.png",
+      "sha256": "0e43fd433c9caf3c4ad954c782852148f9376ffadf5096d9902e45fb7a343010",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F06_BTC_occupancy.png",
+      "sha256": "6959709eaf3e178f088179e4ddc46dfa87c20403a1cf41179a935b01a5097979",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/deliverables/figures/F06_ETH_occupancy.png",
+      "sha256": "ca1d2132e02af9ecabd7bf12ecf9e747c4c526b77f72aa9807ecb4b8ec05296a",
+      "role": "original_locked_output",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T03_between_state_separation.csv",
+      "sha256": "f7d899976829ea1e8094281537f5e8a53508d8d347c3ed144685b7ee64851d1b",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T03_economic_summary.csv",
+      "sha256": "8dbc259013654ac1ab4aaf3f4220aba41f40052ac9b0024f4f79076b02109e2a",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T05_covariate_shift.csv",
+      "sha256": "3a1d9e80cb97ac0de9c7ed7c13701719df41e99d9edf0252e74865051cb9160f",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T05_fit_health.csv",
+      "sha256": "5e8b931ec488e85b9b1a754c90f3c61596d3dd9e62b3c7be436a505e79b269e9",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T05_monthly_loss.csv",
+      "sha256": "c24b4d76cae6c9dd346376d2a3499793d0ff203854996be7d25ab054d232bec9",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T05_selected_numerics.csv",
+      "sha256": "032bc3bedcc08bb4fdba87ac7f638242aa50195608afd190c94a32191d3fe107",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T05_split_prediction_audit.csv",
+      "sha256": "032ab391b57190c12032f0d24260a0dbb4df91ff1f18f42358d4c17efa20b49f",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T05_stress_calibration.csv",
+      "sha256": "4ef2b4fc7623ea3b73fb74247e74bf00b928adb13bfc8c512cefa060564db846",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T05_train_alignment.csv",
+      "sha256": "520858978836cbd9c7327cb2119d993e2e614ba1309509db6c2d951225e5c18f",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T06_absolute_uncertainty.csv",
+      "sha256": "b615b20f59378d86a3740cf5d0bbae6f6b2ff2f20ad9906bc385f5ea8f767338",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T06_paired_uncertainty.csv",
+      "sha256": "f781204a6a458362c8103b138a05c4debc41a6f2cd4bb3c22284d1558a3c6cea",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T07_matched_validation_LL.csv",
+      "sha256": "52a0bc91349e86db96aab206c0ec7179fae9b49bf2861cf592690fc73d676114",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T08_fold_fit_health.csv",
+      "sha256": "e25044fe1564f2b700ae9319afa749ba9cfa3ae9163a1552d64442be95bb948c",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T08_matched_validation_stability.csv",
+      "sha256": "3438b591e60608a7b3be06f1b316c7f0fbeff4c301cca5c36fecf6f584664eed",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    },
+    {
+      "path": "outputs/research_v2/review/T08_rolling_benchmark_stability.csv",
+      "sha256": "f02247b87282d872b597a574ff0c60e6dd30d4ef2719f698a7d868abbb4650f9",
+      "role": "review_addition",
+      "sample_status": "historical_exploratory",
+      "research_confirmation": "pending",
+      "model_run_ids": {
+        "BTC": {
+          "HMM": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "NHHMM": "BTC_amihud_illiq_k3_s1_l0"
+        },
+        "ETH": {
+          "HMM": "ETH_f2_rv21_k4_kmeans_s4",
+          "NHHMM": "ETH_macro_k4_s4_l0"
+        }
+      },
+      "data_through_utc": {
+        "BTC": "2026-10-23",
+        "ETH": "2026-10-23"
+      },
+      "as_of_utc": {
+        "BTC": "2026-10-24 00:00:00+00:00",
+        "ETH": "2026-10-24 00:00:00+00:00"
+      },
+      "probability_type": "filtered for signals; smoothed explicitly hindsight in F02",
+      "units": "defined by named metric/feature columns and source metadata"
+    }
+  ],
+  "RQ_cards": "outputs/research_v2/review/RQ_review_cards.json"
+}

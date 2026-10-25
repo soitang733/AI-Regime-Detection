@@ -1,0 +1,36 @@
+{
+  "created_at_utc": "2026-10-24T18:45:26.844093+00:00",
+  "status": "passed_structural_time_checks",
+  "inputs_unchanged": true,
+  "inputs_sha256": {
+    "data\\raw\\bnb_ohlcv.csv": "c9008a0e81616a993316ea26f3516c95c7ad50dd5f255f2306f9533e8873e2f0",
+    "data\\raw\\btc_ohlcv.csv": "d65484e8782620627c91a0dc80aaff7734142de03681ac2ebf7ee824992b15ea",
+    "data\\raw\\coinmetrics_market_daily.csv": "d800705c50cb956e931ee4a424f7c5f83d7c0fb48ac59fddfc073251a23a20a1",
+    "data\\raw\\crypto_market_daily.csv": "5a2377cdc171edb45f503ef2531c6c431891c99df7d9d31a320a6b22713f2ff9",
+    "data\\raw\\derivatives_daily.csv": "ef19fff56986bfcedeff7bcb09de79b6a5da1f7a25b66f9fe8d44376cc9db3b5",
+    "data\\raw\\eth_ohlcv.csv": "58a7435149257c904963b25f6ab57b5f5a83004176fb631702461a5042455e24",
+    "data\\raw\\macro_daily.csv": "eefe17e0a3a1065560fa04289b8d7339fd391daf0d48e25a2e2243575c8f9bc1",
+    "data\\raw\\open_interest_daily.csv": "0f86ba1abfafa6472a69e589ec23f647874a192f997f45ee042cbb18ee8fdbe5",
+    "data\\raw\\sol_ohlcv.csv": "79b9b974db67446678fd3ae4e1082d7160257afadb458ccc8126bc3637e94cec",
+    "data\\processed\\features_btc.parquet": "064ac3a42b234128ad72f7bdfa05ff6fc4b75638e642c55d61fe9fa4c3a19bb9",
+    "data\\processed\\features_eth.parquet": "5123cb54e86cef41e854f75e4068b50a3cf14bee7705ec1377da1e4e472fe327",
+    "data\\processed\\features_ext_btc.parquet": "b845a777457d7bbb90355300bd802c7faebb4961b6e18ffb7c4027288b3fe318",
+    "data\\processed\\features_ext_eth.parquet": "7fa6f16a814e53034ae8fb4e822cc4bd3241848d569bd0c7cadb88435be82e3d",
+    "config\\config.yaml": "e6326a4ee10f6e0f18c324b845d95e377fdf69742d78decfa264054c5fb7c819",
+    "src\\features\\extended.py": "c490da80844201936b336214fceadf0fbff58ff1802d1e437a2f5d5ba0046d04",
+    "src\\research_v2\\data.py": "6eac2bb3d4db93c52e0668abc4b9f6a32b0325d10fa064dda921b8e66a3b5e32"
+  },
+  "limitations": [
+    "Release times are conservative assumptions, not archived historical vintages.",
+    "Funding daily aggregate does not prove every scheduled payment was captured.",
+    "Liquidity is an Amihud proxy, not order book depth.",
+    "Common-window eligibility is per feature; joint groups must be rechecked."
+  ],
+  "files_sha256": {
+    "features_btc.parquet": "d759c8becc0b7f1daec1d2eac4907a690e91e80f98507454d2a0926286cb9848",
+    "features_eth.parquet": "06fb2539057fbaed68446d206db54c3e01a8369827f00e181aef496dfb280191",
+    "coverage.csv": "9a90fe2e5d81ed85b4c9e7c460b9aebf9b6ab4db5083b39dc8b32afa0bb1fa82",
+    "volume_drift.csv": "106004474d0614eb4bd7a90b8eddd3ac19310ef566f7c62ee430b9d95fb98914",
+    "feature_eligibility.csv": "baa29a0687f09dcc0735f35900332520221fceddbe7b7fccabf3b7c990f32b49"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "btc": {
+    "train_validation_hash": "572c040e00e1abec38513517e229c5f017bdcfa9c0180a50cef7f2abe227d47e",
+    "scaler_hash": "5d7be3918738b005aaa15bbc1e9be75656d4b85577773ceab88953a80e35aebc"
+  },
+  "eth": {
+    "train_validation_hash": "29ccc5a3563dff953d2935daee9314e902e446732c817d4e8715eb4a2c5717c2",
+    "scaler_hash": "98e6fd824c8e0150392a47d3ce28062074d387c8174edb99963f463787d6c5b4"
+  }
+}

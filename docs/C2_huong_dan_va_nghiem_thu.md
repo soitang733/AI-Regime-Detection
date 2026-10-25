@@ -106,7 +106,10 @@ Tỷ lệ bất đồng high-risk trên toàn bộ ngày thấp chưa đủ ch�
 
 Seed có thể rơi vào cực trị địa phương khác nhau; xem toàn bộ B03 và ARI, không chỉ dòng thắng. Các thống kê return/volatility train đã dùng feature đó để fit nên không phải kiểm định độc lập. Val/test là mô tả ngoài mẫu dưới mô hình và mapping đã khóa. Test đã được báo ở lần chạy đầu; đợt này không phải một holdout mới chưa từng xem. Các thay đổi bổ sung chẩn đoán/xác minh, giữ tiêu chí chọn mô hình và không điều chỉnh theo test.
 
-RQ3, NHHMM, K-means và B06 chưa thực hiện. C2 không xuất hệ số/p-value giả. Khối lượng giao dịch không đo đầy đủ liquidity. Rolling RV21 có cửa sổ chồng lấn nên giả định độc lập có điều kiện chỉ là xấp xỉ.
+C2 lõi không fit RQ3/NHHMM/K-means. Đợt mở rộng Blueprint tại `src/research` bổ sung KMeans,
+HMM khởi tạo có cấu trúc, diễn giải kinh tế bằng block bootstrap và RQ3 logistic với B06 hệ số thật;
+đây không phải NHHMM và không xuất p-value giả. Xem `Blueprint_completion.md` và manifest nghiên cứu.
+Khối lượng giao dịch không đo đầy đủ liquidity. Rolling RV21 có cửa sổ chồng lấn nên giả định độc lập có điều kiện chỉ là xấp xỉ.
 
 A-02 mới hoàn tất kiểm tra kỹ thuật C1 → C2 và khả năng đọc tín hiệu của C3. Buổi ghép C3/backtest thực tế, biên bản và xác nhận của cả ba thành viên vẫn cần nhóm thực hiện; không coi mã kiểm thử là chữ ký nghiệm thu của nhóm.
 

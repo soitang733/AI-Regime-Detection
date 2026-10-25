@@ -1,0 +1,49 @@
+......F.................F............................................... [ 91%]
+.......                                                                  [100%]
+================================== FAILURES ===================================
+__________________ test_smoothed_view_is_labelled_hindsight ___________________
+
+ready = {'version': '1.2.2', 'project': 'crypto-market-regime-radar', 'paths': {'raw': 'data/raw', 'interim': 'data/interim', ...', ...}, 'assets': {'BTC': {'symbol': 'BTCUSDT', 'quote': 'USDT'}, 'ETH': {'symbol': 'ETHUSDT', 'quote': 'USDT'}}, ...}
+
+    def test_smoothed_view_is_labelled_hindsight(ready):
+        at = _run(page="Regime History")
+        mode = next(r for r in at.radio if r.label.startswith("Lo\u1ea1i x\xe1c su\u1ea5t"))
+        mode.set_value(mode.options[1]).run()
+        assert not at.exception
+>       assert any("hindsight" in w.value for w in at.warning)
+E       assert False
+E        +  where False = any(<generator object test_smoothed_view_is_labelled_hindsight.<locals>.<genexpr> at 0x00000216799C7D30>)
+
+tests\test_c3_dashboard.py:101: AssertionError
+---------------------------- Captured stderr call -----------------------------
+2026-10-25 03:58:47.484 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+------------------------------ Captured log call ------------------------------
+WARNING  streamlit.runtime.scriptrunner_utils.script_run_context:script_run_context.py:508 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+_________ test_history_can_select_states_and_keeps_hindsight_separate _________
+
+    def test_history_can_select_states_and_keeps_hindsight_separate():
+        at = AppTest.from_file(str(ROOT / "dashboard/app.py"), default_timeout=180).run()
+        next(r for r in at.radio if r.label == "Trang").set_value("Regime History").run()
+        mode = next(r for r in at.radio if r.label.startswith("Lo\u1ea1i x\xe1c su\u1ea5t"))
+        assert mode.value.startswith("Filtered")
+        at.multiselect[0].set_value([0]).run()
+        assert not at.exception and not at.error
+        at.multiselect[0].set_value([]).run()
+        assert not at.exception and any("Ch\u1ecdn \xedt nh\u1ea5t" in m.value for m in at.info)
+        at.multiselect[0].set_value([0]).run()
+        mode = next(r for r in at.radio if r.label.startswith("Lo\u1ea1i x\xe1c su\u1ea5t"))
+        mode.set_value(mode.options[1]).run()
+>       assert not at.exception and any("hindsight" in w.value for w in at.warning)
+E       AssertionError: assert (not ElementList() and False)
+E        +  where ElementList() = AppTest(\n    _script_path='D:\\AI-Regime-Detection-main\\local-demo-20261024\\AI-Regime-Detection-main\\dashboard\\app...              8: Caption()\n            }\n        ),\n        2: SpecialBlock(\n            type='event'\n        )\n    }\n).exception
+E        +  and   False = any(<generator object test_history_can_select_states_and_keeps_hindsight_separate.<locals>.<genexpr> at 0x0000021679559CB0>)
+
+tests\test_regime_radar.py:125: AssertionError
+---------------------------- Captured stderr call -----------------------------
+2026-10-25 03:58:57.870 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+------------------------------ Captured log call ------------------------------
+WARNING  streamlit.runtime.scriptrunner_utils.script_run_context:script_run_context.py:508 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+=========================== short test summary info ===========================
+FAILED tests/test_c3_dashboard.py::test_smoothed_view_is_labelled_hindsight
+FAILED tests/test_regime_radar.py::test_history_can_select_states_and_keeps_hindsight_separate
+2 failed, 77 passed in 81.37s (0:01:21)

@@ -1,7 +1,7 @@
 {
-  "created_at_utc": "2026-10-19T17:39:40+00:00",
-  "config_version": "1.1.0",
-  "config_hash": "9c0fdd7c048a0ea6",
+  "created_at_utc": "2026-10-24T11:30:05+00:00",
+  "config_version": "1.2.2",
+  "config_hash": "e6326a4ee10f6e0f",
   "split_config": {
     "mode": "fixed_dates",
     "train": 0.6,
@@ -17,17 +17,17 @@
   ],
   "assets": {
     "SOL": {
-      "n_rows_clean": 2260,
+      "n_rows_clean": 2265,
       "n_rows_dropped_other_segments": 0,
       "n_warmup_dropped": 21,
-      "n_eligible": 2239,
+      "n_eligible": 2244,
       "segments": [
         {
           "segment_id": 0,
           "start": "2020-08-11",
-          "end": "2026-10-18",
-          "n_days": 2260,
-          "n_eligible": 2239,
+          "end": "2026-10-23",
+          "n_days": 2265,
+          "n_eligible": 2244,
           "selected": true
         }
       ],
@@ -39,23 +39,23 @@
         "start": "2020-09-01",
         "end": "2023-05-05",
         "n": 977,
-        "share": 0.4364
+        "share": 0.4354
       },
       "validation": {
         "start": "2023-05-06",
         "end": "2025-01-24",
         "n": 630,
-        "share": 0.2814
+        "share": 0.2807
       },
       "test": {
         "start": "2025-01-25",
-        "end": "2026-10-18",
-        "n": 632,
-        "share": 0.2823
+        "end": "2026-10-23",
+        "n": 637,
+        "share": 0.2839
       },
       "split_rule": "mốc cố định: train <= 2023-05-05 < validation <= 2025-01-24 < test (đến ngày mới nhất); mốc được chốt bằng 60/20/20 trên dữ liệu đến 2026-10-18; không shuffle",
-      "data_through_utc": "2026-10-18",
-      "latest_clean_date_utc": "2026-10-18",
+      "data_through_utc": "2026-10-23",
+      "latest_clean_date_utc": "2026-10-23",
       "latest_date_in_sample": true,
       "scaler": {
         "features": [
@@ -80,10 +80,10 @@
       }
     },
     "BNB": {
-      "n_rows_clean": 3268,
+      "n_rows_clean": 3273,
       "n_rows_dropped_other_segments": 94,
       "n_warmup_dropped": 21,
-      "n_eligible": 3153,
+      "n_eligible": 3158,
       "segments": [
         {
           "segment_id": 0,
@@ -96,9 +96,9 @@
         {
           "segment_id": 1,
           "start": "2018-02-09",
-          "end": "2026-10-18",
-          "n_days": 3174,
-          "n_eligible": 3153,
+          "end": "2026-10-23",
+          "n_days": 3179,
+          "n_eligible": 3158,
           "selected": true
         }
       ],
@@ -110,23 +110,23 @@
         "start": "2018-03-02",
         "end": "2023-05-05",
         "n": 1891,
-        "share": 0.5997
+        "share": 0.5988
       },
       "validation": {
         "start": "2023-05-06",
         "end": "2025-01-24",
         "n": 630,
-        "share": 0.1998
+        "share": 0.1995
       },
       "test": {
         "start": "2025-01-25",
-        "end": "2026-10-18",
-        "n": 632,
-        "share": 0.2004
+        "end": "2026-10-23",
+        "n": 637,
+        "share": 0.2017
       },
       "split_rule": "mốc cố định: train <= 2023-05-05 < validation <= 2025-01-24 < test (đến ngày mới nhất); mốc được chốt bằng 60/20/20 trên dữ liệu đến 2026-10-18; không shuffle",
-      "data_through_utc": "2026-10-18",
-      "latest_clean_date_utc": "2026-10-18",
+      "data_through_utc": "2026-10-23",
+      "latest_clean_date_utc": "2026-10-23",
       "latest_date_in_sample": true,
       "scaler": {
         "features": [
@@ -152,7 +152,7 @@
     }
   },
   "data_through_utc": {
-    "SOL": "2026-10-18",
-    "BNB": "2026-10-18"
+    "SOL": "2026-10-23",
+    "BNB": "2026-10-23"
   }
 }

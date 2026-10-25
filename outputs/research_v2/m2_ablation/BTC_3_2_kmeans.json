@@ -1,0 +1,13 @@
+{
+  "asset": "BTC",
+  "K": 3,
+  "seed": 2,
+  "initializer": "kmeans",
+  "id": "BTC_3_2_kmeans",
+  "eligible": true,
+  "feature_space": "2D; likelihood not comparable to3D",
+  "last_gain": 0.0006121910564615973,
+  "min_train_share": 0.239555790586991,
+  "validation_log_score": -1.3045368034538274,
+  "validation_persistence": 0.9491255961844197
+}

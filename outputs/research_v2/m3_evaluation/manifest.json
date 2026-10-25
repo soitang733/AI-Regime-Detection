@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "independent_confirmation": "pending",
+  "files_sha256": {
+    "btc.joblib": "c37f84129e3e94e021c965772dc55c8262ba0e973d47e9d440d92dc88d37fa0f",
+    "btc_dynamic_transitions.csv": "1eb8b73bda69d871e50df37590c079a1104749a4c52b92df56e91ed5b6959245",
+    "btc_economic_labels.csv": "affeb64650e04b9bffe1b209a5c3ffb760e8fd2ed9be2f5c7f39c854c3de978a",
+    "btc_filtered.csv": "21c2f41b43d829ae938ec02c2237de4146b493da1495f016bbb2478c08a8db20",
+    "btc_latest_forecast.csv": "ae5aaaae54dac09997d0db430c9b54293873b4e483a3a8552b971a05583e1e81",
+    "btc_metadata.json": "ea6dfc148eabbc47716284c1afe907fe726763af256be64eef1a640b71e22ab1",
+    "btc_smoothed.csv": "3c1aebcdcaa8042d2d40ea6263e2476541b816b8f7778e59e6c12a119af0fa17",
+    "eth.joblib": "4ed44bdcf18a979135656eea8364d4421f56fc972b2d5844e734cf5e31452d9f",
+    "eth_dynamic_transitions.csv": "2042f025f0ae4b31f6afd173c4d1378d402f6976b56d1d3273b4af4e683a360c",
+    "eth_economic_labels.csv": "bdee79d36bedaadfa6fb15a09dd7cea10a46904adbcab9f324e35a695034b8ae",
+    "eth_filtered.csv": "3c44e92d8f403c23f890410bb4fb9df8c4aa7ffdee0cf61497213cde486869b3",
+    "eth_latest_forecast.csv": "953968416b32280d708e7bd6fb95f792aeda9560fedf01295db7159095d507e4",
+    "eth_metadata.json": "68dfbc5744b3aa96a5cfd3e888e8b5977447c6d7f8587568ee604aec55d3fb65",
+    "eth_smoothed.csv": "2e32bab31c8af246c10ece2e45e701e1ecd4c0072cf48c1734881a8f8e60bf93",
+    "family_coverage_and_failures.csv": "6b152ff97a605952d1017457c5638c1fcf390dc7b8f421f7369ec77c6ecafd7b",
+    "predictive_comparison.csv": "90c90a7e7a9b23c7b1cbfe38fd463b63467a45fc42bae88747efb5bd9c60dd70",
+    "qualified_family_comparison.csv": "ddb77a7d21263e28ef09d1cad6a2448e864992c933ab3acffb022342105270a0",
+    "selection.json": "8e626aca6689d02dcae247e781e86dedbc98b0ffa56d6a8cfa17f32e4c2a75db",
+    "transition_coefficients.csv": "dfc9fd94272276c95445107bf1eee1f821b94171bbc0a22ec640d745bb989f22"
+  }
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 0,
+    "initializer": "kmeans",
+    "id": "BTC_2_0_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 0,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_2_0_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 1,
+    "initializer": "kmeans",
+    "id": "BTC_2_1_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 1,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_2_1_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 2,
+    "initializer": "kmeans",
+    "id": "BTC_2_2_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 2,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_2_2_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 3,
+    "initializer": "kmeans",
+    "id": "BTC_2_3_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 3,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_2_3_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 4,
+    "initializer": "kmeans",
+    "id": "BTC_2_4_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 4,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_2_4_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 0,
+    "initializer": "kmeans",
+    "id": "BTC_3_0_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 0,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_3_0_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 1,
+    "initializer": "kmeans",
+    "id": "BTC_3_1_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 1,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_3_1_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 2,
+    "initializer": "kmeans",
+    "id": "BTC_3_2_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 2,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_3_2_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 3,
+    "initializer": "kmeans",
+    "id": "BTC_3_3_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 3,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_3_3_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 4,
+    "initializer": "kmeans",
+    "id": "BTC_3_4_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 4,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_3_4_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 0,
+    "initializer": "kmeans",
+    "id": "BTC_4_0_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 0,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_4_0_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 1,
+    "initializer": "kmeans",
+    "id": "BTC_4_1_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 1,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_4_1_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 2,
+    "initializer": "kmeans",
+    "id": "BTC_4_2_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 2,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_4_2_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 3,
+    "initializer": "kmeans",
+    "id": "BTC_4_3_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 3,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_4_3_volatility_quantiles"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 4,
+    "initializer": "kmeans",
+    "id": "BTC_4_4_kmeans"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 4,
+    "initializer": "volatility_quantiles",
+    "id": "BTC_4_4_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 0,
+    "initializer": "kmeans",
+    "id": "ETH_2_0_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 0,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_2_0_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 1,
+    "initializer": "kmeans",
+    "id": "ETH_2_1_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 1,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_2_1_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 2,
+    "initializer": "kmeans",
+    "id": "ETH_2_2_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 2,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_2_2_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 3,
+    "initializer": "kmeans",
+    "id": "ETH_2_3_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 3,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_2_3_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 4,
+    "initializer": "kmeans",
+    "id": "ETH_2_4_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 4,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_2_4_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 0,
+    "initializer": "kmeans",
+    "id": "ETH_3_0_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 0,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_3_0_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 1,
+    "initializer": "kmeans",
+    "id": "ETH_3_1_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 1,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_3_1_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 2,
+    "initializer": "kmeans",
+    "id": "ETH_3_2_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 2,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_3_2_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 3,
+    "initializer": "kmeans",
+    "id": "ETH_3_3_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 3,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_3_3_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 4,
+    "initializer": "kmeans",
+    "id": "ETH_3_4_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 4,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_3_4_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 0,
+    "initializer": "kmeans",
+    "id": "ETH_4_0_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 0,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_4_0_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 1,
+    "initializer": "kmeans",
+    "id": "ETH_4_1_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 1,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_4_1_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 2,
+    "initializer": "kmeans",
+    "id": "ETH_4_2_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 2,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_4_2_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 3,
+    "initializer": "kmeans",
+    "id": "ETH_4_3_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 3,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_4_3_volatility_quantiles"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 4,
+    "initializer": "kmeans",
+    "id": "ETH_4_4_kmeans"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 4,
+    "initializer": "volatility_quantiles",
+    "id": "ETH_4_4_volatility_quantiles"
+  }
+]

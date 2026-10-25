@@ -1,0 +1,59 @@
+{"asset": "BTC", "width": 1440, "section": "overview_probability_overlay", "passed": true}
+{"asset": "BTC", "width": 1440, "section": "verified_csv_download", "passed": true}
+{"asset": "BTC", "width": 1440, "section": "economic_profiles", "passed": true}
+{"asset": "BTC", "width": 1440, "section": "dynamic_transition_K_and_probability_sums", "passed": true}
+{"asset": "BTC", "width": 1440, "section": "drivers_roles_and_seed_range_label", "passed": true}
+{"asset": "BTC", "width": 1440, "section": "hindsight_is_explicit", "passed": true}
+{"asset": "BTC", "width": 1440, "section": "selection_metric_and_stability", "passed": true}
+{"asset": "BTC", "width": 1440, "section": "nonbaseline_fee_uncertainty_guard", "passed": true}
+{"asset": "ETH", "width": 1440, "section": "overview_probability_overlay", "passed": true}
+{"asset": "ETH", "width": 1440, "section": "verified_csv_download", "passed": true}
+{"asset": "ETH", "width": 1440, "section": "economic_profiles", "passed": true}
+{"asset": "ETH", "width": 1440, "section": "dynamic_transition_K_and_probability_sums", "passed": true}
+{"asset": "ETH", "width": 1440, "section": "drivers_roles_and_seed_range_label", "passed": true}
+{"asset": "ETH", "width": 1440, "section": "hindsight_is_explicit", "passed": true}
+{"asset": "ETH", "width": 1440, "section": "selection_metric_and_stability", "passed": true}
+{"asset": "ETH", "width": 1440, "section": "nonbaseline_fee_uncertainty_guard", "passed": true}
+{"asset": "BTC", "width": 390, "section": "overview_probability_overlay", "passed": true}
+{"asset": "BTC", "width": 390, "section": "verified_csv_download", "passed": true}
+{"asset": "BTC", "width": 390, "section": "economic_profiles", "passed": true}
+{"asset": "BTC", "width": 390, "section": "dynamic_transition_K_and_probability_sums", "passed": true}
+{"asset": "BTC", "width": 390, "section": "drivers_roles_and_seed_range_label", "passed": true}
+{"asset": "BTC", "width": 390, "section": "hindsight_is_explicit", "passed": true}
+{"asset": "BTC", "width": 390, "section": "selection_metric_and_stability", "passed": true}
+{"asset": "BTC", "width": 390, "section": "nonbaseline_fee_uncertainty_guard", "passed": true}
+{"asset": "ETH", "width": 390, "section": "overview_probability_overlay", "passed": true}
+{"asset": "ETH", "width": 390, "section": "verified_csv_download", "passed": true}
+{"asset": "ETH", "width": 390, "section": "economic_profiles", "passed": true}
+{"asset": "ETH", "width": 390, "section": "dynamic_transition_K_and_probability_sums", "passed": true}
+{"asset": "ETH", "width": 390, "section": "drivers_roles_and_seed_range_label", "passed": true}
+{"asset": "ETH", "width": 390, "section": "hindsight_is_explicit", "passed": true}
+{"asset": "ETH", "width": 390, "section": "selection_metric_and_stability", "passed": true}
+{"selector_failure": "Ph\u00ed tr\u00ean turnover", "value": "20 bps", "width": 390, "visible_options": []}
+Traceback (most recent call last):
+  File "D:\AI-Regime-Detection-main\scripts\check_terminal_design.py", line 134, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\AI-Regime-Detection-main\scripts\check_terminal_design.py", line 121, in main
+    choose('Phí trên turnover','20 bps')
+  File "D:\AI-Regime-Detection-main\scripts\check_terminal_design.py", line 46, in choose
+    page.get_by_role('option',name=value,exact=True).click()
+  File "C:\Users\buida\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 18032, in click
+    self._sync(
+  File "C:\Users\buida\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\buida\.venv\Lib\site-packages\playwright\_impl\_locator.py", line 165, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\buida\.venv\Lib\site-packages\playwright\_impl\_frame.py", line 594, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "C:\Users\buida\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\buida\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("option", name="20 bps", exact=True)
+

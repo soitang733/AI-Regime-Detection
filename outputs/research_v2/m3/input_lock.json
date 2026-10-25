@@ -1,0 +1,12 @@
+{
+  "registered_at_utc": "2026-10-24T18:53:16.785343+00:00",
+  "inputs_sha256": {
+    "outputs/research_v2/m1/features_btc.parquet": "d759c8becc0b7f1daec1d2eac4907a690e91e80f98507454d2a0926286cb9848",
+    "outputs/research_v2/m1/features_eth.parquet": "06fb2539057fbaed68446d206db54c3e01a8369827f00e181aef496dfb280191",
+    "reports/m0_lock/PROTOCOL_V2_M0.md": "81232b608731509bc04c765d74cc9a3e6ff5605e71cf84391349f6c8985b4696",
+    "src/research_v2/nhhmm.py": "08673d2f4e22377fc7691d8653719fa06cc8f3bc2a033840af5bed4a6e5738ab",
+    "src/research_v2/nhhmm_run.py": "b66eb445983b0a4a511a5b12072e736b5d6a704fa99246d62e7cf6633d616250"
+  },
+  "existing_results_at_registration": true,
+  "note": "Existing first-batch results were registered after execution; subsequent reuse is guarded."
+}

@@ -4,27 +4,25 @@ Dùng streamlit.testing (chạy app không cần trình duyệt). Skip nếu ch�
 chưa có đầu ra C2/C3; không dùng dữ liệu mock.
 """
 
-import sys
-
 import pandas as pd
+import numpy as np
 import pytest
+from bs4 import BeautifulSoup
 
 pytest.importorskip("streamlit")
 pytest.importorskip("plotly")
 from streamlit.testing.v1 import AppTest
 
-from src.utils.config import ROOT, path_of, read_json
+from src.utils.config import ROOT
+from dashboard import ui, v2_service as service
 
 APP = str(ROOT / "dashboard" / "app.py")
 PAGES = ["Overview", "Regime History", "Model Comparison", "Portfolio & Risk"]
-sys.path.insert(0, str(ROOT / "dashboard"))
-import ui
 
 
 @pytest.fixture(scope="module")
 def ready(cfg):
-    need = [path_of(cfg, "metadata") / "model_manifest.json", path_of(cfg, "metadata") / "backtest_manifest.json",
-            path_of(cfg, "tables") / "B08_portfolio.csv", path_of(cfg, "predictions") / "backtest_nav.csv"]
+    need = [ROOT/'outputs/research_v2'/stage/'manifest.json' for stage in ['m1', 'm2', 'm5']]
     for p in need:
         if not p.exists():
             pytest.skip(f"Chưa có {p.name}: chạy `python run_pipeline.py --steps models backtest`")
@@ -48,8 +46,10 @@ def _run(asset=None, page=None):
 def _kpi(at, label):
     """Giá trị trong thẻ KPI (HTML) có nhãn label."""
     for m in at.markdown:
-        if f"<div class='l'><span>{label}</span>" in m.value:
-            return m.value.split("<div class='v'>")[1].split("</div>")[0]
+        for card in BeautifulSoup(m.value, "html.parser").select(".kpi"):
+            caption = card.select_one(".l > span")
+            if caption and caption.get_text() == label:
+                return card.select_one(".v").get_text()
     raise AssertionError(f"Không thấy thẻ KPI {label}")
 
 
@@ -64,14 +64,14 @@ def test_app_renders_four_pages_without_errors(ready, asset):
 
 
 @pytest.mark.parametrize("asset", ["BTC", "ETH"])
-def test_ui_kpis_match_exported_b08(ready, asset):
+def test_ui_kpis_match_exported_portfolio(ready, asset):
     at = _run(asset, "Portfolio & Risk")
-    b08 = pd.read_csv(path_of(ready, "tables") / "B08_portfolio.csv")
-    row = b08[(b08["asset"] == asset) & (b08["strategy"] == "regime_aware")
-              & (b08["scenario"] == "baseline_close_to_close")].iloc[0]
-    assert _kpi(at, "NAV cuối (regime-aware)") == ui.num(row["final_nav"], 4)
+    b08 = pd.read_csv(ROOT/'outputs/research_v2/m5/performance.csv')
+    row = b08[(b08["asset"] == asset) & (b08["strategy"] == "regime_defensive")
+              & (b08["scenario"] == "baseline_close_to_close") & np.isclose(b08.fee_rate, .001)].iloc[0]
+    assert _kpi(at, "NAV cuối") == ui.num(row["final_nav"], 4)
     assert _kpi(at, "Max drawdown") == ui.pct(row["max_drawdown"])
-    assert _kpi(at, "Sharpe (sau phí)") == ui.num(row["Sharpe"], 3)
+    assert _kpi(at, "Sharpe sau phí") == ui.num(row["Sharpe"], 3)
 
 
 def test_vietnamese_number_format():
@@ -83,13 +83,11 @@ def test_vietnamese_number_format():
 
 
 def test_unstable_model_is_flagged_and_states_follow_k(ready):
-    c2 = read_json(path_of(ready, "metadata") / "model_manifest.json")
     for asset in ready["assets"]:
         at = _run(asset)
-        meta = c2["assets"][asset]
-        texts = " ".join(m.value for m in at.markdown)
-        if meta["seed_stability_status"] != "stable":
-            assert "mô hình unstable" in texts
+        meta = service.context(asset).metadata
+        if not meta['stability']['stable']:
+            assert any('chưa đủ ổn định' in item.value for item in at.warning)
         # Thanh bên ghi đúng K của mô hình (không ép 4 nhãn).
         captions = " ".join(c.value for c in at.caption)
         assert f"K = {meta['K']}" in captions
@@ -100,13 +98,13 @@ def test_smoothed_view_is_labelled_hindsight(ready):
     mode = next(r for r in at.radio if r.label.startswith("Loại xác suất"))
     mode.set_value(mode.options[1]).run()
     assert not at.exception
-    assert any("hindsight" in w.value for w in at.warning)
+    assert any("hindsight" in w.value.lower() for w in at.warning)
 
 
 def test_scenarios_switch_and_show_simulated_label(ready):
     at = _run(page="Portfolio & Risk")
     box = at.selectbox[0]
-    for option in box.options:
+    for option in ['baseline_close_to_close', 'crosscheck_drift_adjusted', 'crosscheck_next_open']:
         box.set_value(option).run()
         assert not at.exception
-        assert any("simulated" in m.value for m in at.markdown)
+        assert any('nghiên cứu mô phỏng' in m.value for m in at.markdown)

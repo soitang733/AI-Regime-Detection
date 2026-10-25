@@ -6,6 +6,10 @@ venv/
 .pytest_cache/
 .ruff_cache/
 .ipynb_checkpoints/
+.work/
+*.nbc
+*.nbi
+*.zip
 .env
 # Dữ liệu tải về & kết quả sinh ra: tái tạo được bằng run_pipeline.py
 # (bỏ comment 2 dòng dưới nếu nhóm KHÔNG muốn commit dữ liệu lên GitHub)
@@ -37,3 +41,22 @@ venv/
 /outputs/figures/H06_*.png
 /outputs/metadata/backtest_manifest.json
 /outputs/metadata/H06_capture.json
+
+# Blueprint research: keep locally, regenerate with scripts/complete_research.py.
+/outputs/archive/
+/outputs/models/research/
+/outputs/predictions/research/
+/outputs/tables/research_*.csv
+/outputs/tables/B06_drivers.csv
+/outputs/metadata/research_*.json
+/outputs/metadata/research_*.log
+/outputs/metadata/project_*.json
+/outputs/metadata/project_*.log
+/outputs/metadata/blueprint_*.json
+/outputs/metadata/blueprint_*.log
+/outputs/metadata/external_refresh_manifest.json
+/outputs/metadata/coinmetrics_refresh.json
+/outputs/metadata/coinmetrics_refresh.log
+/outputs/metadata/local_dashboard.*
+/outputs/figures/blueprint_*.png
+/outputs/figures/radar_*.png

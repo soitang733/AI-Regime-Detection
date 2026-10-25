@@ -1,0 +1,100 @@
+{
+  "locked_at_utc": "2026-10-24T18:51:11.133765+00:00",
+  "selected": [
+    {
+      "asset": "ETH",
+      "family": "macro",
+      "K": 4,
+      "seed": 4,
+      "penalty": 0,
+      "id": "ETH_macro_k4_s4_l0",
+      "eligible": true,
+      "converged": true,
+      "iterations": 30.0,
+      "min_train_share": 0.0809095717,
+      "validation_log_score": -2.1794260473,
+      "window": "full_history",
+      "sample_start": "2018-03-02",
+      "gradient_norm": 1.727e-07,
+      "optimizer_success": true,
+      "expected_transition_counts": [
+        [
+          491.5362368409,
+          5.9561800649,
+          5.9663418552,
+          0.0866208053
+        ],
+        [
+          4.042751476,
+          150.0053678622,
+          1.4974e-06,
+          2.0896653632
+        ],
+        [
+          6.9685523329,
+          2.27e-08,
+          358.6819298242,
+          1.64009e-05
+        ],
+        [
+          1.0000190704,
+          0.176238276,
+          2.0000452231,
+          861.4900330848
+        ]
+      ],
+      "label_map": {
+        "0": "State 0",
+        "1": "High-Vol",
+        "2": "Low-Vol",
+        "3": "State 3"
+      },
+      "high_risk_state": 1.0,
+      "runtime_seconds": 38.172,
+      "reason": null
+    },
+    {
+      "asset": "BTC",
+      "family": "amihud_illiq",
+      "K": 3,
+      "seed": 1,
+      "penalty": 0,
+      "id": "BTC_amihud_illiq_k3_s1_l0",
+      "eligible": true,
+      "converged": true,
+      "iterations": 22.0,
+      "min_train_share": 0.1512427287,
+      "validation_log_score": -3.0595509971,
+      "window": "full_history",
+      "sample_start": "2018-03-02",
+      "gradient_norm": 1.132e-07,
+      "optimizer_success": true,
+      "expected_transition_counts": [
+        [
+          259.7589082696,
+          6.297310529,
+          6.6120570011
+        ],
+        [
+          6.2571636252,
+          711.4836271261,
+          0.4587521498
+        ],
+        [
+          6.6528416006,
+          1.4179673221,
+          891.0613723764
+        ]
+      ],
+      "label_map": {
+        "0": "High-Vol",
+        "1": "State 1",
+        "2": "Low-Vol"
+      },
+      "high_risk_state": 0.0,
+      "runtime_seconds": 4.328,
+      "reason": null
+    }
+  ],
+  "selection_rule": "full-history qualified groups; validation LL, K, stronger penalty, seed; common-window groups reported separately"
+}

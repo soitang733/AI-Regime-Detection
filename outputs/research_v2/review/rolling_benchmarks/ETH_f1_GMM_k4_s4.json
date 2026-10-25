@@ -1,0 +1,17 @@
+{
+  "asset": "ETH",
+  "fold": 1,
+  "K": 4,
+  "seed": 4,
+  "method": "GMM",
+  "id": "ETH_f1_GMM_k4_s4",
+  "eligible": true,
+  "train_days": 1526,
+  "validation_days": 365,
+  "last_date_utc": "2023-05-05",
+  "sample": "development only",
+  "test_used": false,
+  "validation_log_score": -4.234716396735675,
+  "persistence": 0.8434065934065934,
+  "min_validation_share": 0.0273972602739726
+}

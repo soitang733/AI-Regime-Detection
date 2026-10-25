@@ -1,0 +1,45 @@
+{
+  "asset": "BTC",
+  "family": "rv21",
+  "K": 4,
+  "seed": 4,
+  "penalty": 0,
+  "id": "BTC_rv21_k4_s4_l0",
+  "eligible": false,
+  "converged": true,
+  "iterations": 18,
+  "min_train_share": 0.01110523532522475,
+  "validation_log_score": -2.999871509217879,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 1.9446677340533572e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      703.0313950866209,
+      1.049121375046763,
+      9.724390438558729,
+      0.9999943759801224
+    ],
+    [
+      4.666772777656125e-08,
+      679.3975553041705,
+      9.124776138808311,
+      3.555321022863987e-20
+    ],
+    [
+      11.773506161518283,
+      9.075654575987986,
+      444.8236008726187,
+      5.624019877615654e-06
+    ],
+    [
+      1.2625644111298718e-79,
+      4.441100692336294e-120,
+      1.0,
+      20.0
+    ]
+  ],
+  "reason": "nonconvergence_or_sparse_train_state",
+  "runtime_seconds": 7.688000000001921
+}

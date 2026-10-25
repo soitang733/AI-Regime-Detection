@@ -1,0 +1,28 @@
+{
+  "locked_at_utc": "2026-10-24T19:00:04.408357+00:00",
+  "first_prospective_day_utc": "2026-10-25",
+  "status": "pending_future_observations_and_independent_replication",
+  "assessment_dates_utc": {
+    "180_daily_observations": "2027-04-22",
+    "365_daily_observations": "2027-10-24"
+  },
+  "minimum_stress_entry_events_per_asset": 20,
+  "minimum_daily_observations": 180,
+  "multiple_looks": "Bonferroni2looks; report underpowered if event threshold fails; no data-dependent endpoint",
+  "observations_used_for_confirmation": 0,
+  "historical_results_status": "exploratory_already_observed",
+  "warning": "Refitting or changing locked model/strategy/data rules requires a dated amendment and a new confirmation cohort.",
+  "files_sha256": {
+    "outputs/research_v2/m2/btc.joblib": "45a4ca482a4a99a852c65a9e1f04e58bba200ba97850d5fbf9fbd64e1ef222f0",
+    "outputs/research_v2/m2/eth.joblib": "44f139c29a6a88220ce066cc124af1cd1602a913d621c3e654bcee20968c4ff8",
+    "outputs/research_v2/m3_evaluation/btc.joblib": "c37f84129e3e94e021c965772dc55c8262ba0e973d47e9d440d92dc88d37fa0f",
+    "outputs/research_v2/m3_evaluation/eth.joblib": "4ed44bdcf18a979135656eea8364d4421f56fc972b2d5844e734cf5e31452d9f",
+    "config/backtest.yaml": "dd95c971eb86616b2ab6237fa2a08ec5452d41de977f87c026ee30aebee8b192",
+    "config/config.yaml": "e6326a4ee10f6e0f18c324b845d95e377fdf69742d78decfa264054c5fb7c819",
+    "src/research_v2/portfolio.py": "bcd5a2eaf4db7b2d17ddec9d73d19c68fc1bc9118303a1e4ef56b9960b79da70",
+    "src/evaluation/backtest.py": "e72b1cb4688d9b4468bbf18740ecbf55b765b9ba43b8bf161006e081b7c402c0",
+    "src/research_v2/data.py": "6eac2bb3d4db93c52e0668abc4b9f6a32b0325d10fa064dda921b8e66a3b5e32",
+    "src/features/extended.py": "c490da80844201936b336214fceadf0fbff58ff1802d1e437a2f5d5ba0046d04",
+    "reports/m0_lock/PROTOCOL_V2_M0.md": "81232b608731509bc04c765d74cc9a3e6ff5605e71cf84391349f6c8985b4696"
+  }
+}

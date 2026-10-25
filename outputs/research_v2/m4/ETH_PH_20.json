@@ -1,0 +1,12 @@
+{
+  "asset": "ETH",
+  "method": "PageHinkley",
+  "threshold": 20,
+  "id": "ETH_PH_20",
+  "eligible": true,
+  "validation_alarm_count": 0,
+  "probabilities_available": false,
+  "state_kind": "unique chronological segments, not recurrent regimes",
+  "validation_persistence": 1.0,
+  "runtime_seconds": 0.06199999999807915
+}

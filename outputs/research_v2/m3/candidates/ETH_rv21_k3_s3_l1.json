@@ -1,0 +1,41 @@
+{
+  "asset": "ETH",
+  "family": "rv21",
+  "K": 3,
+  "seed": 3,
+  "penalty": 1,
+  "id": "ETH_rv21_k3_s3_l1",
+  "eligible": true,
+  "converged": true,
+  "iterations": 28,
+  "min_train_share": 0.12480169222633528,
+  "validation_log_score": -3.010725903054235,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 2.627078770852478e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      873.4842132151342,
+      1.9938217626853785,
+      1.0188208226840962
+    ],
+    [
+      3.1590113164622866e-06,
+      780.2716969006283,
+      7.284814967358185
+    ],
+    [
+      2.0126394271760266,
+      6.290204091406142,
+      217.64378565391476
+    ]
+  ],
+  "label_map": {
+    "0": "State 0",
+    "1": "Low-Vol",
+    "2": "High-Vol"
+  },
+  "high_risk_state": 2,
+  "runtime_seconds": 6.968000000000757
+}

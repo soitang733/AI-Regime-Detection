@@ -1,0 +1,971 @@
+{
+  "candidates": [
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 2,
+      "seed": 0,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k2_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 2,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k2_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 2,
+      "seed": 1,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k2_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 2,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k2_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 2,
+      "seed": 2,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k2_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 2,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k2_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 2,
+      "seed": 3,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k2_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 2,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k2_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 2,
+      "seed": 4,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k2_s4"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 2,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k2_s4"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 3,
+      "seed": 0,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k3_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 3,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k3_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 3,
+      "seed": 1,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k3_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 3,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k3_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 3,
+      "seed": 2,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k3_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 3,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k3_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 3,
+      "seed": 3,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k3_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 3,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k3_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 3,
+      "seed": 4,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k3_s4"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 3,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k3_s4"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 4,
+      "seed": 0,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k4_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 4,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k4_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 4,
+      "seed": 1,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k4_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 4,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k4_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 4,
+      "seed": 2,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k4_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 4,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k4_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 4,
+      "seed": 3,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k4_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 4,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k4_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 4,
+      "seed": 4,
+      "method": "GMM",
+      "id": "BTC_f0_GMM_k4_s4"
+    },
+    {
+      "asset": "BTC",
+      "fold": 0,
+      "K": 4,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "BTC_f0_KMeans_k4_s4"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 2,
+      "seed": 0,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k2_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 2,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k2_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 2,
+      "seed": 1,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k2_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 2,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k2_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 2,
+      "seed": 2,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k2_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 2,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k2_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 2,
+      "seed": 3,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k2_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 2,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k2_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 2,
+      "seed": 4,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k2_s4"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 2,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k2_s4"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 3,
+      "seed": 0,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k3_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 3,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k3_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 3,
+      "seed": 1,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k3_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 3,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k3_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 3,
+      "seed": 2,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k3_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 3,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k3_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 3,
+      "seed": 3,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k3_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 3,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k3_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 3,
+      "seed": 4,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k3_s4"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 3,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k3_s4"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 4,
+      "seed": 0,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k4_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 4,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k4_s0"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 4,
+      "seed": 1,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k4_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 4,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k4_s1"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 4,
+      "seed": 2,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k4_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 4,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k4_s2"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 4,
+      "seed": 3,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k4_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 4,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k4_s3"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 4,
+      "seed": 4,
+      "method": "GMM",
+      "id": "BTC_f1_GMM_k4_s4"
+    },
+    {
+      "asset": "BTC",
+      "fold": 1,
+      "K": 4,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "BTC_f1_KMeans_k4_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 2,
+      "seed": 0,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k2_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 2,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k2_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 2,
+      "seed": 1,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k2_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 2,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k2_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 2,
+      "seed": 2,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k2_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 2,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k2_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 2,
+      "seed": 3,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k2_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 2,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k2_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 2,
+      "seed": 4,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k2_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 2,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k2_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 3,
+      "seed": 0,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k3_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 3,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k3_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 3,
+      "seed": 1,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k3_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 3,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k3_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 3,
+      "seed": 2,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k3_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 3,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k3_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 3,
+      "seed": 3,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k3_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 3,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k3_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 3,
+      "seed": 4,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k3_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 3,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k3_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 4,
+      "seed": 0,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k4_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 4,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k4_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 4,
+      "seed": 1,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k4_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 4,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k4_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 4,
+      "seed": 2,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k4_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 4,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k4_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 4,
+      "seed": 3,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k4_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 4,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k4_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 4,
+      "seed": 4,
+      "method": "GMM",
+      "id": "ETH_f0_GMM_k4_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 0,
+      "K": 4,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "ETH_f0_KMeans_k4_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 2,
+      "seed": 0,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k2_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 2,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k2_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 2,
+      "seed": 1,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k2_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 2,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k2_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 2,
+      "seed": 2,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k2_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 2,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k2_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 2,
+      "seed": 3,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k2_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 2,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k2_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 2,
+      "seed": 4,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k2_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 2,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k2_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 3,
+      "seed": 0,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k3_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 3,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k3_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 3,
+      "seed": 1,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k3_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 3,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k3_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 3,
+      "seed": 2,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k3_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 3,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k3_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 3,
+      "seed": 3,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k3_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 3,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k3_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 3,
+      "seed": 4,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k3_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 3,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k3_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 4,
+      "seed": 0,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k4_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 4,
+      "seed": 0,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k4_s0"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 4,
+      "seed": 1,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k4_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 4,
+      "seed": 1,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k4_s1"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 4,
+      "seed": 2,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k4_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 4,
+      "seed": 2,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k4_s2"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 4,
+      "seed": 3,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k4_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 4,
+      "seed": 3,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k4_s3"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 4,
+      "seed": 4,
+      "method": "GMM",
+      "id": "ETH_f1_GMM_k4_s4"
+    },
+    {
+      "asset": "ETH",
+      "fold": 1,
+      "K": 4,
+      "seed": 4,
+      "method": "KMeans",
+      "id": "ETH_f1_KMeans_k4_s4"
+    }
+  ],
+  "inputs_sha256": {
+    "docs/V2_REVIEW_PROTOCOL.md": "a763161a6903af9f7e7473436b71cbbc745682d839874dbe91e25006cea01257",
+    "src/research_v2/rolling_benchmarks.py": "0531490e667426f76713b1aab48fbcd2b372993d6cf0155c7547d9617f89c858",
+    "outputs/research_v2/m1/features_btc.parquet": "d759c8becc0b7f1daec1d2eac4907a690e91e80f98507454d2a0926286cb9848",
+    "outputs/research_v2/m1/features_eth.parquet": "06fb2539057fbaed68446d206db54c3e01a8369827f00e181aef496dfb280191"
+  },
+  "registered_before_fit_utc": "2026-10-24T21:12:45.888681+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "asset": "ETH",
+  "family": "funding_sum",
+  "K": 4,
+  "seed": 0,
+  "penalty": 0,
+  "id": "ETH_funding_sum_k4_s0_l0",
+  "eligible": true,
+  "converged": true,
+  "iterations": 37,
+  "min_train_share": 0.12818471337579618,
+  "validation_log_score": -2.3445401375692048,
+  "window": "common_window",
+  "sample_start": "2019-11-27",
+  "gradient_norm": 1.466912720364016e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      281.6251428667912,
+      5.112516877553909,
+      1.0084321214892813,
+      1.0122435252259412
+    ],
+    [
+      6.0728015422194686,
+      472.72578616358106,
+      4.0668376494072,
+      0.9393439043944247
+    ],
+    [
+      7.832732805772791e-07,
+      4.097170548378361,
+      158.98823256623305,
+      2.528469989529359
+    ],
+    [
+      2.059741865094068,
+      1.8698215386472707,
+      1.5504367396944483,
+      311.34302131848614
+    ]
+  ],
+  "label_map": {
+    "0": "Low-Vol",
+    "1": "State 1",
+    "2": "High-Vol",
+    "3": "State 3"
+  },
+  "high_risk_state": 2,
+  "runtime_seconds": 15.671999999998661
+}

@@ -1,0 +1,42 @@
+{
+  "asset": "BTC",
+  "model_run_id": "BTC_amihud_illiq_k3_s1_l0",
+  "K": 3,
+  "label_map": {
+    "0": "High-Vol",
+    "1": "State 1",
+    "2": "Low-Vol"
+  },
+  "high_risk_state": 0,
+  "feature_names": [
+    "intercept",
+    "amihud_illiq"
+  ],
+  "selected_family": "amihud_illiq",
+  "penalty": 0,
+  "expected_train_transition_counts": [
+    [
+      259.75890826962564,
+      6.297310529038682,
+      6.612057001122667
+    ],
+    [
+      6.257163625184936,
+      711.483627126096,
+      0.4587521498036294
+    ],
+    [
+      6.652841600628881,
+      1.417967322051714,
+      891.0613723764452
+    ]
+  ],
+  "stability_status": "not_yet_certified",
+  "economic_label_map": {
+    "0": "Stress",
+    "1": "State 1",
+    "2": "Low-Vol"
+  },
+  "sample_status": "historical_exploratory",
+  "last_data_date_utc": "2026-10-23"
+}

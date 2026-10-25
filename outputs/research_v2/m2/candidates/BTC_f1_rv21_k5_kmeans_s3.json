@@ -1,0 +1,24 @@
+{
+  "asset": "BTC",
+  "fold": 1,
+  "rv": 21,
+  "K": 5,
+  "seed": 3,
+  "initializer": "kmeans",
+  "candidate_id": "BTC_f1_rv21_k5_kmeans_s3",
+  "eligible": false,
+  "reason": "nonconvergence_or_sparse_train_state",
+  "iterations": 30,
+  "last_gain": 0.0006274644551922393,
+  "min_train_share": 0.013761467889908258,
+  "train_n": 1526,
+  "train_LL": -4007.80800858604,
+  "AIC": 8123.61601717208,
+  "BIC": 8411.457898611678,
+  "features": [
+    "log_return",
+    "rv21",
+    "log_dollar_volume"
+  ],
+  "runtime_seconds": 0.3279999999940628
+}

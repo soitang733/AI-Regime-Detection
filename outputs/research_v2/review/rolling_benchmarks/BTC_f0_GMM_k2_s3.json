@@ -1,0 +1,17 @@
+{
+  "asset": "BTC",
+  "fold": 0,
+  "K": 2,
+  "seed": 3,
+  "method": "GMM",
+  "id": "BTC_f0_GMM_k2_s3",
+  "eligible": true,
+  "train_days": 1161,
+  "validation_days": 365,
+  "last_date_utc": "2022-05-05",
+  "sample": "development only",
+  "test_used": false,
+  "validation_log_score": -4.938519332882569,
+  "persistence": 0.6923076923076923,
+  "min_validation_share": 0.3315068493150685
+}

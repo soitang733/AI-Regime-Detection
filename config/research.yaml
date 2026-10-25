@@ -1,0 +1,36 @@
+version: '1.0.0'
+scope: exploratory blueprint completion after original test results were observed
+seed: 20261024
+economics:
+  bootstrap_replicates: 1000
+  block_days: 21
+  confidence: 0.95
+  minimum_effective_days: 100
+  calm_volatility_ratio_upper: 0.85
+  stress_volatility_ratio_lower: 1.25
+  tail_quantile: 0.05
+  direction_min_daily_return: 0.0005
+robust_hmm:
+  states: [2, 3, 4, 5]
+  seeds: [0, 1, 2, 3, 4]
+  initializers: [kmeans, volatility_quantiles]
+  initial_self_transition: 0.95
+  max_iter: 500
+  min_state_share: 0.02
+  tol: 0.001
+  minimum_median_ari: 0.8
+  minimum_pair_ari: 0.5
+drivers:
+  regularization_C: [0.01, 0.1, 1.0]
+  min_train_coverage: 0.50
+  max_source_age_days: 7
+  minimum_train_events: 10
+  macro_features: [vix, vix_change_1d, dxy_return_1d, spx_return_1d, us10y, term_spread_10y_2y]
+  crypto_features: [funding_sum, oi_growth_7d, stablecoin_supply_growth_7d, defi_tvl_growth_7d, cm_mcap_btc_growth_7d, cm_mcap_eth_growth_7d]
+portfolio:
+  annual_volatility_target: 0.40
+  bootstrap_replicates: 1000
+  block_days: 21
+trend_hmm:
+  enabled: true
+  initializers: [kmeans]

@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "last_closed_utc": "2026-10-23",
+  "mode": "append_only",
+  "assets": {
+    "BTC": {
+      "through": "2026-10-23",
+      "added": 0
+    },
+    "ETH": {
+      "through": "2026-10-23",
+      "added": 0
+    }
+  }
+}

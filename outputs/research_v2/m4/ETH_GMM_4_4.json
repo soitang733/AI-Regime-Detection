@@ -1,0 +1,11 @@
+{
+  "asset": "ETH",
+  "method": "GMM",
+  "K": 4,
+  "seed": 4,
+  "id": "ETH_GMM_4_4",
+  "eligible": true,
+  "validation_log_score": -3.7416575921684454,
+  "validation_persistence": 0.8410174880763116,
+  "runtime_seconds": 0.07799999999406282
+}

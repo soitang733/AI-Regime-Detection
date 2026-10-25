@@ -161,6 +161,7 @@ DICTIONARY = [
     ("features_ext", "stablecoin_supply_growth_7d", "ln(S_d / S_{d-7}) tính trên chuỗi gốc rồi ghép as-of; để trống nếu giá trị <= 0 hoặc thiếu", "log", "DefiLlama", "mở rộng RQ3"),
     ("features_ext", "defi_tvl, defi_tvl_growth_7d", "Tổng giá trị khóa DeFi và tăng trưởng 7 ngày (để trống nếu giá trị <= 0)", "USD / log", "DefiLlama", "robustness (blueprint §3.2)"),
     ("features_ext", "mcap_btc, mcap_eth", "Vốn hóa thị trường (CoinGecko miễn phí, lịch sử giới hạn)", "USD", "CoinGecko", "mô tả/robustness (blueprint §3.2)"),
+    ("features_ext", "cm_mcap_btc, cm_mcap_eth, cm_mcap_btc_growth_7d, cm_mcap_eth_growth_7d", "Vốn hóa current-supply Coin Metrics và log tăng trưởng 7 ngày, tách định nghĩa khỏi CoinGecko; ghép as-of ngày+2", "USD / log", "Coin Metrics Community", "RQ3/robustness; current-vintage, không có historical release vintages"),
     ("features_ext", "cmc200", "CMC Crypto 200 Index (nếu Yahoo có dữ liệu)", "điểm", "Yahoo ^CMC200", "mở rộng (blueprint §3.1)"),
     ("features_ext", "open_interest, open_interest_value_usdt", "Open interest ảnh chụp HỢP LỆ cuối ngày UTC t (bỏ dòng lặp và ảnh chụp OI <= 0)", "hợp đồng / USDT", "Binance Futures metrics (data.binance.vision)", "mở rộng RQ3 (blueprint §2.4)"),
     ("features_ext", "oi_growth_7d", "ln(OI_t / OI_{t-7}) theo giá trị USDT; để trống nếu giá trị <= 0 hoặc thiếu", "log", "Binance Futures", "mở rộng RQ3"),

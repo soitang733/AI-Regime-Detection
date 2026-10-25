@@ -1,0 +1,51 @@
+{
+  "asset": "ETH",
+  "family": "rv_funding",
+  "K": 4,
+  "seed": 3,
+  "penalty": 10,
+  "id": "ETH_rv_funding_k4_s3_l10",
+  "eligible": true,
+  "converged": true,
+  "iterations": 36,
+  "min_train_share": 0.12818471337579618,
+  "validation_log_score": -2.3478461819304233,
+  "window": "common_window",
+  "sample_start": "2019-11-27",
+  "gradient_norm": 4.7665407303534645e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      310.68810222274135,
+      2.0819248721692616,
+      1.8811278628893617,
+      1.3700713948836223
+    ],
+    [
+      1.051094551967094,
+      282.986070828107,
+      5.014140185100853,
+      1.0151828558788265
+    ],
+    [
+      0.9274549781854615,
+      5.997581331256989,
+      471.81804391311067,
+      4.059589730475457
+    ],
+    [
+      2.3546381169747783,
+      8.390216080727423e-05,
+      4.090038702089881,
+      159.664854552008
+    ]
+  ],
+  "label_map": {
+    "0": "State 0",
+    "1": "Low-Vol",
+    "2": "State 2",
+    "3": "High-Vol"
+  },
+  "high_risk_state": 3,
+  "runtime_seconds": 11.421999999998661
+}

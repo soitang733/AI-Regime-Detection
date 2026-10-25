@@ -1,0 +1,41 @@
+{
+  "asset": "BTC",
+  "family": "log_dollar_volume",
+  "K": 3,
+  "seed": 0,
+  "penalty": 10,
+  "id": "BTC_log_dollar_volume_k3_s0_l10",
+  "eligible": true,
+  "converged": true,
+  "iterations": 21,
+  "min_train_share": 0.14859862506610258,
+  "validation_log_score": -3.0640158961987094,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 1.4890616372150948e-06,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      708.1841069543148,
+      3.5373659389220386e-07,
+      6.235804567854476
+    ],
+    [
+      0.9886008344714332,
+      900.4978398284687,
+      4.709612764337156
+    ],
+    [
+      6.246413844438499,
+      4.698213680398191,
+      258.43940717197717
+    ]
+  ],
+  "label_map": {
+    "0": "State 0",
+    "1": "Low-Vol",
+    "2": "High-Vol"
+  },
+  "high_risk_state": 2,
+  "runtime_seconds": 3.062000000005355
+}

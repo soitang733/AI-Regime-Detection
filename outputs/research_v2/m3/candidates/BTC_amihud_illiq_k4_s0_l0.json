@@ -1,0 +1,45 @@
+{
+  "asset": "BTC",
+  "family": "amihud_illiq",
+  "K": 4,
+  "seed": 0,
+  "penalty": 0,
+  "id": "BTC_amihud_illiq_k4_s0_l0",
+  "eligible": false,
+  "converged": true,
+  "iterations": 17,
+  "min_train_share": 0.01110523532522475,
+  "validation_log_score": -2.9941279595093273,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 2.0208568228955102e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      674.4642018742464,
+      1.432567473088623e-09,
+      0.6269651713212058,
+      7.270368362356463
+    ],
+    [
+      6.088612037239134e-12,
+      20.0,
+      4.4883180288177866e-13,
+      0.9999999999934627
+    ],
+    [
+      1.6140670295720525,
+      0.9999999968319032,
+      702.5897042373823,
+      6.181875093635773
+    ],
+    [
+      7.283257807725065,
+      1.735529341496027e-09,
+      8.168976955679137,
+      459.800583468082
+    ]
+  ],
+  "reason": "nonconvergence_or_sparse_train_state",
+  "runtime_seconds": 6.078000000001339
+}

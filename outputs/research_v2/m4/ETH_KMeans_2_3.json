@@ -1,0 +1,12 @@
+{
+  "asset": "ETH",
+  "method": "KMeans",
+  "K": 2,
+  "seed": 3,
+  "id": "ETH_KMeans_2_3",
+  "eligible": true,
+  "train_inertia": 4140.8839373391365,
+  "probabilities_available": false,
+  "validation_persistence": 0.9173290937996821,
+  "runtime_seconds": 0.07800000000133878
+}

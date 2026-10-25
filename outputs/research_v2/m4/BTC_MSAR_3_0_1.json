@@ -1,0 +1,14 @@
+{
+  "asset": "BTC",
+  "method": "MSAR",
+  "K": 3,
+  "seed": 0,
+  "order": 1,
+  "id": "BTC_MSAR_3_0_1",
+  "eligible": true,
+  "validation_log_score": -2.2813441941853694,
+  "feature_space": "100 * daily log return",
+  "warnings": [],
+  "validation_persistence": 0.7138314785373608,
+  "runtime_seconds": 10.578000000001339
+}

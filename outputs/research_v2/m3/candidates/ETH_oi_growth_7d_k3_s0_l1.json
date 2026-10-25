@@ -1,0 +1,11 @@
+{
+  "asset": "ETH",
+  "family": "oi_growth_7d",
+  "K": 3,
+  "seed": 0,
+  "penalty": 1,
+  "id": "ETH_oi_growth_7d_k3_s0_l1",
+  "eligible": false,
+  "reason": "Common window below 730 train / 180 validation days",
+  "runtime_seconds": 0.030999999995401595
+}

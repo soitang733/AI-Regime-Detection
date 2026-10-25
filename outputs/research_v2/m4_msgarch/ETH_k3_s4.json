@@ -1,0 +1,20 @@
+{
+  "asset": "ETH",
+  "K": 3,
+  "seed": 4,
+  "id": "ETH_k3_s4",
+  "eligible": true,
+  "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+  "iterations": 91,
+  "gradient_norm": 1.9831604179955798e-05,
+  "train_objective": 2.894515606924754,
+  "validation_log_score": -2.454921243986162,
+  "minimum_variance": 0.8288433843009401,
+  "alpha_plus_beta": [
+    0.9718485512756277,
+    0.8148162379173476,
+    0.8989979187166213
+  ],
+  "feature_space": "100 * daily log return",
+  "runtime_seconds": 1.5779999999940628
+}

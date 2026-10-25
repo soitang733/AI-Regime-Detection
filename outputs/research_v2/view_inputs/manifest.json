@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "created_at_utc": "2026-10-24T19:28:25.156369+00:00",
+  "model_run_ids": {
+    "BTC": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+    "ETH": "ETH_f2_rv21_k4_kmeans_s4"
+  },
+  "source_inputs_sha256": {
+    "data/raw/btc_ohlcv.csv": "d65484e8782620627c91a0dc80aaff7734142de03681ac2ebf7ee824992b15ea",
+    "data/raw/eth_ohlcv.csv": "58a7435149257c904963b25f6ab57b5f5a83004176fb631702461a5042455e24"
+  },
+  "files_sha256": {
+    "prices_btc.parquet": "72f640c6f609488fe2d467225f2bf6b98566d9d1418b7dbb8bef892f7f5b7b71",
+    "prices_eth.parquet": "a7f00d388f9fdbd7c552814d44781fa2c84ddd52c6e15accd4438d119549c1b8"
+  }
+}

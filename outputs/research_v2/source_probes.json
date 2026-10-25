@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2020-09-01.zip",
+    "http_status": 404,
+    "bytes": 359,
+    "checked_at_utc": "2026-10-24T16:41:37.213772+00:00"
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2021-01-01.zip",
+    "http_status": 404,
+    "bytes": 339,
+    "checked_at_utc": "2026-10-24T16:41:37.215122+00:00"
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2021-11-30.zip",
+    "http_status": 404,
+    "bytes": 359,
+    "checked_at_utc": "2026-10-24T16:41:37.212283+00:00"
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/ETHUSDT/ETHUSDT-metrics-2021-12-01.zip",
+    "http_status": 200,
+    "bytes": 14930,
+    "checked_at_utc": "2026-10-24T16:41:37.231014+00:00"
+  }
+]

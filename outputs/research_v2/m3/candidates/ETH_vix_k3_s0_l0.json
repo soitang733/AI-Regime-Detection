@@ -1,0 +1,41 @@
+{
+  "asset": "ETH",
+  "family": "vix",
+  "K": 3,
+  "seed": 0,
+  "penalty": 0,
+  "id": "ETH_vix_k3_s0_l0",
+  "eligible": true,
+  "converged": true,
+  "iterations": 35,
+  "min_train_share": 0.12691697514542571,
+  "validation_log_score": -3.011096768651635,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 1.1906604788832488e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      780.3714775972937,
+      7.456046793904922e-07,
+      7.310256463553241
+    ],
+    [
+      2.000214797504802,
+      872.9369225552151,
+      1.6316291749416645
+    ],
+    [
+      6.309419574084764,
+      2.631843227224787,
+      216.80823586457302
+    ]
+  ],
+  "label_map": {
+    "0": "Low-Vol",
+    "1": "State 1",
+    "2": "High-Vol"
+  },
+  "high_risk_state": 2,
+  "runtime_seconds": 4.51600000000326
+}

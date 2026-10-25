@@ -1,0 +1,41 @@
+{
+  "asset": "BTC",
+  "family": "vix",
+  "K": 3,
+  "seed": 3,
+  "penalty": 1,
+  "id": "BTC_vix_k3_s3_l1",
+  "eligible": true,
+  "converged": true,
+  "iterations": 21,
+  "min_train_share": 0.14859862506610258,
+  "validation_log_score": -3.064056096136847,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 2.1909789014842634e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      900.4783014923677,
+      4.7215274535112375,
+      0.9879676170452202
+    ],
+    [
+      4.709495405889307,
+      258.47403676690453,
+      6.246584493451136
+    ],
+    [
+      9.962163403269218e-08,
+      6.235341406998232,
+      708.1467452642083
+    ]
+  ],
+  "label_map": {
+    "0": "Low-Vol",
+    "1": "High-Vol",
+    "2": "State 2"
+  },
+  "high_risk_state": 1,
+  "runtime_seconds": 1.6090000000040163
+}

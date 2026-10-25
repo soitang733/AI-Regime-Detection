@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "candidate_count": 720,
+  "created_at_utc": "2026-10-24T18:38:40.463455+00:00",
+  "sample_status": "historical_exploratory",
+  "files_sha256": {
+    "btc.joblib": "45a4ca482a4a99a852c65a9e1f04e58bba200ba97850d5fbf9fbd64e1ef222f0",
+    "btc_economic_labels.csv": "edb9e6bd0334929c9c1688a2b474c0305d182e2d3f1f18941a5281ef411d9411",
+    "btc_filtered.csv": "d9642111b8538cd115a8f213856f7b8cba0bd0f955006da4b9533d8c65d78666",
+    "btc_metadata.json": "203ccf2e054ffb83e34b4055edb5ea025263057f4d10347292329b24a940fb74",
+    "btc_selection.json": "46ba9599ced5358a8997161a501c4feb16aec246ea6e35c39012e9b13a867f97",
+    "btc_smoothed.csv": "e484207ebfb1d18ea90fc74f327550c2a591ecb33b6f2b0aa81544273f60883d",
+    "candidate_results.csv": "2d59ff336b51edd436e0f967e188fbb0a1d4a382af312402c0eb0247f0eb9559",
+    "eth.joblib": "44f139c29a6a88220ce066cc124af1cd1602a913d621c3e654bcee20968c4ff8",
+    "eth_economic_labels.csv": "320087229b5a0189d884059ba420852fdcf718ac03cbef9e17442f70de5cfba8",
+    "eth_filtered.csv": "cbc361d044103136e53ee25a1dd76b90de0548919a090b423ca9edae9460799a",
+    "eth_metadata.json": "264659307a2450cb62c4bbe036c83e08dc688752cd14ade79502a9e0fb29765f",
+    "eth_selection.json": "12d557673ca838c8f9aa3bfc6a0927f3bd41bfbeefc2615a96933a813300f929",
+    "eth_smoothed.csv": "76716bf43ce94df229c7de2b034585e9626871c2af45ee780f737bd899029a6f",
+    "input_lock.json": "597938a8e0bef2da457cb1c4a9e9c3783f0609a090b2552bc5ef01fb39175de2",
+    "registry.json": "ab416551ba353670bf09c7c4c4a4fba2ef3d20f28c31f3a90a5a1a5a47676567",
+    "stability.csv": "e87be378567adaaba458210f8cbe15fabf1dcd7e0ac176a689339cc72599e443"
+  }
+}

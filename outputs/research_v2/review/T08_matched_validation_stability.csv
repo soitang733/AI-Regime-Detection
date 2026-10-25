@@ -1,0 +1,19 @@
+asset,K,method,sample,planned_fits,valid_fits,median_ARI,minimum_ARI,persistence,claim
+BTC,2,GMM,fold2 validation,5,5,1.0,1.0,0.8855325914149443,same days/features/K; method-specific fitted parameters; no superiority imposed
+BTC,2,KMeans,fold2 validation,5,5,1.0,1.0,0.7583465818759937,same days/features/K; method-specific fitted parameters; no superiority imposed
+BTC,2,HMM,fold2 validation,10,10,-0.06195434184770208,-0.06195434184770208,0.9761526232114466,pooled initializers; consult T08_HMM_stability for family coverage
+BTC,3,GMM,fold2 validation,5,5,0.9582704433704867,0.9361000823897343,0.757710651828299,same days/features/K; method-specific fitted parameters; no superiority imposed
+BTC,3,KMeans,fold2 validation,5,5,0.9875049999000223,0.9717096746547106,0.7268680445151032,same days/features/K; method-specific fitted parameters; no superiority imposed
+BTC,3,HMM,fold2 validation,10,10,-0.03500525822445629,-0.03500525822445629,0.9705882352941175,pooled initializers; consult T08_HMM_stability for family coverage
+BTC,4,GMM,fold2 validation,5,5,0.94837594109267,0.9050963793002299,0.707154213036566,same days/features/K; method-specific fitted parameters; no superiority imposed
+BTC,4,KMeans,fold2 validation,5,5,0.9648313393854016,0.3089472542282344,0.5961844197138315,same days/features/K; method-specific fitted parameters; no superiority imposed
+BTC,4,HMM,fold2 validation,10,5,1.0,1.0,0.9523052464228934,pooled initializers; consult T08_HMM_stability for family coverage
+ETH,2,GMM,fold2 validation,5,5,1.0,0.6117645884213332,0.8982511923688395,same days/features/K; method-specific fitted parameters; no superiority imposed
+ETH,2,KMeans,fold2 validation,5,5,1.0,0.9709509241515623,0.9179650238473769,same days/features/K; method-specific fitted parameters; no superiority imposed
+ETH,2,HMM,fold2 validation,10,10,0.10648167457326684,0.09243710087939337,0.9767885532591416,pooled initializers; consult T08_HMM_stability for family coverage
+ETH,3,GMM,fold2 validation,5,5,0.8281568058158708,0.7777828030606009,0.8721780604133546,same days/features/K; method-specific fitted parameters; no superiority imposed
+ETH,3,KMeans,fold2 validation,5,5,0.9431644551050977,0.9297192905922113,0.9198728139904612,same days/features/K; method-specific fitted parameters; no superiority imposed
+ETH,3,HMM,fold2 validation,10,10,0.002537234375365281,0.002537234375365281,0.9880763116057235,pooled initializers; consult T08_HMM_stability for family coverage
+ETH,4,GMM,fold2 validation,5,5,0.8637821228197811,0.320753921503281,0.8343402225755167,same days/features/K; method-specific fitted parameters; no superiority imposed
+ETH,4,KMeans,fold2 validation,5,5,0.9608227596865787,0.9126257510212892,0.779014308426073,same days/features/K; method-specific fitted parameters; no superiority imposed
+ETH,4,HMM,fold2 validation,10,10,0.7910574381079727,0.008338513780626246,0.9742448330683624,pooled initializers; consult T08_HMM_stability for family coverage

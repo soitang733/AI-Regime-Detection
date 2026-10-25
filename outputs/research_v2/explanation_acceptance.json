@@ -1,0 +1,12 @@
+{
+  "btc": {
+    "status": "passed",
+    "date_utc": "2026-10-23",
+    "posterior_sum": 1.0
+  },
+  "eth": {
+    "status": "passed",
+    "date_utc": "2026-10-23",
+    "posterior_sum": 1.0
+  }
+}

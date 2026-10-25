@@ -1,0 +1,8 @@
+asset,hmm_state,nhhmm_state,train_mean_squared_distance,hmm_train_share,nhhmm_train_share,mapping_scope
+BTC,0,2,1.065399325292981,0.23003701745108407,0.47382337387625595,train emission coordinates only; no test remapping
+BTC,1,1,0.6896025494213545,0.5023796932839767,0.3749338974087784,train emission coordinates only; no test remapping
+BTC,2,0,0.41723634811510346,0.2675832892649392,0.15124272871496564,train emission coordinates only; no test remapping
+ETH,0,0,0.0001470602912786228,0.26916975145425703,0.26916975145425703,train emission coordinates only; no test remapping
+ETH,1,1,0.0024456990631862873,0.08038075092543628,0.08090957165520889,train emission coordinates only; no test remapping
+ETH,2,2,7.850952619110004e-05,0.19090428344791116,0.19090428344791116,train emission coordinates only; no test remapping
+ETH,3,3,1.3056714826607935e-05,0.4595452141723956,0.45901639344262296,train emission coordinates only; no test remapping

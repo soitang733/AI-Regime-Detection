@@ -1,0 +1,45 @@
+{
+  "asset": "BTC",
+  "family": "stablecoin_supply_growth_7d",
+  "K": 4,
+  "seed": 1,
+  "penalty": 1,
+  "id": "BTC_stablecoin_supply_growth_7d_k4_s1_l1",
+  "eligible": false,
+  "converged": true,
+  "iterations": 16,
+  "min_train_share": 0.01731244847485573,
+  "validation_log_score": -3.0519705761160814,
+  "window": "common_window",
+  "sample_start": "2020-01-09",
+  "gradient_norm": 1.9042684697826584e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      258.80427263104326,
+      1.9721389719809481,
+      1.0541670293925773,
+      0.9999999999995662
+    ],
+    [
+      3.0263039622710206,
+      248.82465210402896,
+      7.201665900531323,
+      4.331879302748767e-13
+    ],
+    [
+      2.0426080225818517e-06,
+      7.255838078594278,
+      661.8609592795492,
+      5.390522024449216e-16
+    ],
+    [
+      1.99705581181546e-70,
+      1.0,
+      7.739632379074348e-29,
+      20.0
+    ]
+  ],
+  "reason": "nonconvergence_or_sparse_train_state",
+  "runtime_seconds": 3.5319999999992433
+}

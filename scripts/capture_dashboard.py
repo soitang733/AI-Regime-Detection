@@ -45,7 +45,7 @@ def main(argv=None):
         # Streamlit cuộn trong khung riêng nên full_page không mở rộng; dùng viewport cao để thấy đủ trang.
         page = browser.new_page(viewport={"width": 1500, "height": 3000}, device_scale_factor=1.5)
         page.goto(args.url, wait_until="networkidle")
-        page.get_by_text("REGIME RADAR").first.wait_for(timeout=60_000)
+        page.locator(".wordmark").wait_for(timeout=60_000)
         sidebar = page.get_by_test_id("stSidebar")
         for asset in assets:
             sidebar.get_by_text(asset, exact=True).click()

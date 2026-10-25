@@ -1,5 +1,9 @@
 # C3 Backtest regime-aware và dashboard Crypto Market Regime Radar
 
+> Tài liệu này mô tả baseline C3. Bản mở rộng Blueprint bổ sung diễn giải train,
+> drivers, heatmap và volatility targeting tại `src/research`/dashboard; xem
+> `Blueprint_completion.md`. B08/NAV lõi vẫn được giữ để đối chiếu.
+
 C3 dùng xác suất **filtered** đã kiểm chứng của C2 để mô phỏng chiến lược phân bổ phòng thủ theo regime, so sánh công bằng với buy-and-hold trên tập test, và dựng dashboard Streamlit 4 trang chỉ đọc kết quả đã xuất. Đây là mô phỏng nghiên cứu, không phải giao dịch thật và không phải khuyến nghị đầu tư.
 
 ## 1. Chạy lại

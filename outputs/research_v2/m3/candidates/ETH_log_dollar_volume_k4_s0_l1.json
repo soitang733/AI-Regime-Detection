@@ -1,0 +1,51 @@
+{
+  "asset": "ETH",
+  "family": "log_dollar_volume",
+  "K": 4,
+  "seed": 0,
+  "penalty": 1,
+  "id": "ETH_log_dollar_volume_k4_s0_l1",
+  "eligible": true,
+  "converged": true,
+  "iterations": 27,
+  "min_train_share": 0.08038075092543628,
+  "validation_log_score": -2.1925966001295727,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 1.2206152761712671e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      364.536329621515,
+      5.970642890496342,
+      7.128538285968455e-16,
+      1.0201537413333974
+    ],
+    [
+      5.989738499752908,
+      488.04171949304504,
+      2.532731495200136e-09,
+      4.087295576366459
+    ],
+    [
+      2.0000464147924486,
+      9.352139694268623e-10,
+      858.4553642480488,
+      1.0342856163886331
+    ],
+    [
+      6.654759217848222e-06,
+      4.107303198912594,
+      2.0343320296060963,
+      152.7227820115134
+    ]
+  ],
+  "label_map": {
+    "0": "Low-Vol",
+    "1": "State 1",
+    "2": "State 2",
+    "3": "High-Vol"
+  },
+  "high_risk_state": 3,
+  "runtime_seconds": 28.25
+}

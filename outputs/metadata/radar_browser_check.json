@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-24T10:00:42.103069+00:00",
+  "url": "http://localhost:8501",
+  "checks": [
+    {
+      "asset": "BTC",
+      "page": "Overview",
+      "charts": 4,
+      "exception_count": 0,
+      "screenshot": "outputs/figures/radar_btc_page1.png"
+    },
+    {
+      "asset": "BTC",
+      "page": "Regime History",
+      "charts": 6,
+      "exception_count": 0,
+      "screenshot": "outputs/figures/radar_btc_page2.png"
+    },
+    {
+      "asset": "BTC",
+      "page": "Model Comparison",
+      "charts": 4,
+      "exception_count": 0,
+      "screenshot": "outputs/figures/radar_btc_page3.png"
+    },
+    {
+      "asset": "BTC",
+      "page": "Portfolio & Risk",
+      "charts": 6,
+      "exception_count": 0,
+      "screenshot": "outputs/figures/radar_btc_page4.png"
+    },
+    {
+      "asset": "ETH",
+      "page": "Overview",
+      "charts": 4,
+      "exception_count": 0,
+      "screenshot": "outputs/figures/radar_eth_page1.png"
+    },
+    {
+      "asset": "ETH",
+      "page": "Regime History",
+      "charts": 6,
+      "exception_count": 0,
+      "screenshot": "outputs/figures/radar_eth_page2.png"
+    },
+    {
+      "asset": "ETH",
+      "page": "Model Comparison",
+      "charts": 4,
+      "exception_count": 0,
+      "screenshot": "outputs/figures/radar_eth_page3.png"
+    },
+    {
+      "asset": "ETH",
+      "page": "Portfolio & Risk",
+      "charts": 6,
+      "exception_count": 0,
+      "screenshot": "outputs/figures/radar_eth_page4.png"
+    }
+  ]
+}

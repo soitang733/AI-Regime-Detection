@@ -1,0 +1,45 @@
+{
+  "asset": "BTC",
+  "family": "rv_volume",
+  "K": 4,
+  "seed": 0,
+  "penalty": 1,
+  "id": "BTC_rv_volume_k4_s0_l1",
+  "eligible": false,
+  "converged": true,
+  "iterations": 19,
+  "min_train_share": 0.01110523532522475,
+  "validation_log_score": -2.9971405873487367,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 2.3198592309938995e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      672.8378566927063,
+      5.689899499114558e-10,
+      1.825283005092045e-09,
+      7.120258954577417
+    ],
+    [
+      1.3520050892315063e-15,
+      20.0,
+      6.4691373790692464e-15,
+      0.9999999999999923
+    ],
+    [
+      1.0082151876159757,
+      0.9999999978558805,
+      708.2901152588954,
+      5.542841575892712
+    ],
+    [
+      7.112032317605571,
+      1.5751295046518795e-09,
+      7.551056773940663,
+      458.5376232369396
+    ]
+  ],
+  "reason": "nonconvergence_or_sparse_train_state",
+  "runtime_seconds": 5.014999999999418
+}

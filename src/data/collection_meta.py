@@ -32,6 +32,8 @@ EXT_VARS = {
     "defi_tvl": ("C1-08", "crypto_market_daily.csv", "DEFI_TVL", "Blueprint §3.2 (DefiLlama TVL)"),
     "market_cap_btc": ("C1-08", "crypto_market_daily.csv", "MCAP_BTC", "Blueprint §3.2 (CoinGecko)"),
     "market_cap_eth": ("C1-08", "crypto_market_daily.csv", "MCAP_ETH", "Blueprint §3.2 (CoinGecko)"),
+    "coinmetrics_market_cap_btc": ("C1-08", "coinmetrics_market_daily.csv", "CM_MCAP_BTC", "Blueprint §3.2; Coin Metrics current-supply cap, distinct from CoinGecko"),
+    "coinmetrics_market_cap_eth": ("C1-08", "coinmetrics_market_daily.csv", "CM_MCAP_ETH", "Blueprint §3.2; Coin Metrics current-supply cap, distinct from CoinGecko"),
     "crypto_index_cmc200": ("C1-08", "crypto_market_daily.csv", "CMC200", "Blueprint §3.1 (crypto market index)"),
     "funding_rate": ("C1-09", "derivatives_daily.csv", None, "Excel C1-09; blueprint §2.4"),
     "open_interest": ("C1-09", "open_interest_daily.csv", None, "Excel C1-09; blueprint §2.4, §3.2"),

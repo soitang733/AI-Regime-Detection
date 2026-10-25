@@ -1,0 +1,4 @@
+state_id,model_label,economic_label,current_probability,next_day_probability,date_utc,as_of_utc,model_run_id
+0,High-Vol,Stress,0.004481980353688228,0.010623072031642098,2026-10-23,2026-10-24 00:00:00+00:00,BTC_amihud_illiq_k3_s1_l0
+1,State 1,State 1,0.9954565476215356,0.989271544245104,2026-10-23,2026-10-24 00:00:00+00:00,BTC_amihud_illiq_k3_s1_l0
+2,Low-Vol,Low-Vol,6.147202477609139e-05,0.0001053837232536053,2026-10-23,2026-10-24 00:00:00+00:00,BTC_amihud_illiq_k3_s1_l0

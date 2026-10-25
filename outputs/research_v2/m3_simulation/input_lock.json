@@ -1,0 +1,10 @@
+{
+  "registered_at_utc": "2026-10-24T18:46:16.453168+00:00",
+  "inputs_sha256": {
+    "src/research_v2/nhhmm.py": "08673d2f4e22377fc7691d8653719fa06cc8f3bc2a033840af5bed4a6e5738ab",
+    "src/research_v2/simulation.py": "12294f198d45f1115e274d10f9624b3ab287eb7b40133f1c7cf762442c06ef39",
+    "reports/m0_lock/PROTOCOL_V2_M0.md": "81232b608731509bc04c765d74cc9a3e6ff5605e71cf84391349f6c8985b4696"
+  },
+  "existing_results_at_registration": true,
+  "note": "Existing first-batch results were registered after execution; subsequent reuse is guarded."
+}

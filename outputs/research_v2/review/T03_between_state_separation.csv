@@ -1,0 +1,9 @@
+asset,feature,between_state_mean_variance_share,conditional_Holm_contrasts_below_05,pairwise_contrasts,sample,scope
+BTC,log_return,0.0019038020767742565,0,6,train only,"descriptive fixed posterior; not feature importance, causality or independent significance"
+BTC,rv21,0.6399958312759554,6,6,train only,"descriptive fixed posterior; not feature importance, causality or independent significance"
+BTC,log_dollar_volume,0.02113661193171427,0,6,train only,"descriptive fixed posterior; not feature importance, causality or independent significance"
+BTC,amihud_illiq,0.018905881802228932,0,6,train only,"descriptive fixed posterior; not feature importance, causality or independent significance"
+ETH,log_return,0.0007726760923376259,0,6,train only,"descriptive fixed posterior; not feature importance, causality or independent significance"
+ETH,rv21,0.5215729259486714,5,6,train only,"descriptive fixed posterior; not feature importance, causality or independent significance"
+ETH,log_dollar_volume,0.7980056359869374,4,6,train only,"descriptive fixed posterior; not feature importance, causality or independent significance"
+ETH,amihud_illiq,0.3270558711485414,3,6,train only,"descriptive fixed posterior; not feature importance, causality or independent significance"

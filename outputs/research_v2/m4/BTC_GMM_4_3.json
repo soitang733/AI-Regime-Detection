@@ -1,0 +1,11 @@
+{
+  "asset": "BTC",
+  "method": "GMM",
+  "K": 4,
+  "seed": 3,
+  "id": "BTC_GMM_4_3",
+  "eligible": true,
+  "validation_log_score": -3.429631051193334,
+  "validation_persistence": 0.7042925278219396,
+  "runtime_seconds": 0.06300000000192085
+}

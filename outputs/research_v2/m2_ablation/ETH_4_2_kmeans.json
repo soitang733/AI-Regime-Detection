@@ -1,0 +1,13 @@
+{
+  "asset": "ETH",
+  "K": 4,
+  "seed": 2,
+  "initializer": "kmeans",
+  "id": "ETH_4_2_kmeans",
+  "eligible": true,
+  "feature_space": "2D; likelihood not comparable to3D",
+  "last_gain": 0.0002754832030404941,
+  "min_train_share": 0.08143839238498149,
+  "validation_log_score": -1.6729606338489258,
+  "validation_persistence": 0.9745627980922098
+}

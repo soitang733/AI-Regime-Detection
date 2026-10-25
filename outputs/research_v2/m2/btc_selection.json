@@ -1,0 +1,79 @@
+{
+  "asset": "BTC",
+  "fold": 2,
+  "rv": 21,
+  "K": 4,
+  "seed": 3,
+  "initializer": "volatility_quantiles",
+  "candidate_id": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+  "eligible": true,
+  "reason": "",
+  "iterations": 25,
+  "last_gain": 0.0009356427262900979,
+  "min_train_share": 0.22263352723426758,
+  "train_n": 1891,
+  "train_LL": -5830.012926960441,
+  "AIC": 11738.025853920883,
+  "BIC": 11954.275435598562,
+  "features": [
+    "log_return",
+    "rv21",
+    "log_dollar_volume"
+  ],
+  "validation_log_score": -2.387947061070117,
+  "label_map": {
+    "0": "Low-Vol",
+    "1": "State 1",
+    "2": "State 2",
+    "3": "High-Vol"
+  },
+  "high_risk_state": 3,
+  "runtime_seconds": 0.6569999999992433,
+  "selection_locked_at_utc": "2026-10-24T18:38:22.573812+00:00",
+  "selection_rule": "validation LL, tie BIC/K/seed; K5 sensitivity only",
+  "sample_status": "historical_exploratory",
+  "probability_type": "filtered",
+  "transition_matrix": [
+    [
+      0.9503155517574027,
+      0.041815979100730406,
+      0.0002477854705270681,
+      0.007620683671339828
+    ],
+    [
+      0.03465383691048973,
+      0.9230959303189898,
+      0.03363376278868574,
+      0.008616469981834584
+    ],
+    [
+      0.004602098041118274,
+      0.05213690170980058,
+      0.9273642952473894,
+      0.015896705001691817
+    ],
+    [
+      0.0040471243175834795,
+      1.9228386606682217e-15,
+      0.029438421618466225,
+      0.9665144540639484
+    ]
+  ],
+  "stability": {
+    "asset": "BTC",
+    "fold": 2,
+    "rv": 21,
+    "K": 4,
+    "family": "pooled",
+    "valid_fits": 5,
+    "median_ari": 1.0,
+    "minimum_ari": 1.0,
+    "metric_gate_passed": true,
+    "eligible_initializer_families": 1,
+    "stable": false,
+    "scope": "within one eligible initializer family only",
+    "risk_probability_mae": 3.868944404245225e-06,
+    "risk_disagreement": 0.0,
+    "risk_jaccard": 1.0
+  }
+}

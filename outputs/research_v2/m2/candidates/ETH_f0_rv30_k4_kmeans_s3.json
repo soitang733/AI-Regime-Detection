@@ -1,0 +1,32 @@
+{
+  "asset": "ETH",
+  "fold": 0,
+  "rv": 30,
+  "K": 4,
+  "seed": 3,
+  "initializer": "kmeans",
+  "candidate_id": "ETH_f0_rv30_k4_kmeans_s3",
+  "eligible": true,
+  "reason": "",
+  "iterations": 32,
+  "last_gain": 0.0009477911817157292,
+  "min_train_share": 0.026041666666666668,
+  "train_n": 1152,
+  "train_LL": -3157.581974875893,
+  "AIC": 6393.163949751786,
+  "BIC": 6590.084888560764,
+  "features": [
+    "log_return",
+    "rv30",
+    "log_dollar_volume"
+  ],
+  "validation_log_score": -3.834218279560924,
+  "label_map": {
+    "0": "State 0",
+    "1": "State 1",
+    "2": "Low-Vol",
+    "3": "High-Vol"
+  },
+  "high_risk_state": 3,
+  "runtime_seconds": 0.4530000000013388
+}

@@ -1,0 +1,4 @@
+D:\AI-Regime-Detection-main\.work\v2-reproduction\src\research_v2\portfolio.py:16: UnstableResearchWarning: Unstable V2 model: historical exploratory research only
+  prediction,metadata=load_hmm(asset,require_stable=False,acknowledge_unstable=True)
+D:\AI-Regime-Detection-main\.work\v2-reproduction\src\research_v2\portfolio.py:16: UnstableResearchWarning: Unstable V2 model: historical exploratory research only
+  prediction,metadata=load_hmm(asset,require_stable=False,acknowledge_unstable=True)

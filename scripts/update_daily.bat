@@ -8,7 +8,8 @@ REM  new days are only appended to the end of the test set.
 REM  Log: outputs\metadata\update_log.txt
 REM ==================================================================
 cd /d "%~dp0.."
-call .venv\Scripts\activate.bat
+call "%USERPROFILE%\.venv\Scripts\activate.bat"
+if errorlevel 1 exit /b 1
 echo ===== %date% %time% ===== >> outputs\metadata\update_log.txt
-python run_pipeline.py --download >> outputs\metadata\update_log.txt 2>&1
-python -m pytest -q >> outputs\metadata\update_log.txt 2>&1
+python scripts\complete_research.py --download --rebuild-core >> outputs\metadata\update_log.txt 2>&1
+exit /b %errorlevel%

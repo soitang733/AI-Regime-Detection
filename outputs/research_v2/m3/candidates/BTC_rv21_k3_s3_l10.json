@@ -1,0 +1,41 @@
+{
+  "asset": "BTC",
+  "family": "rv21",
+  "K": 3,
+  "seed": 3,
+  "penalty": 10,
+  "id": "BTC_rv21_k3_s3_l10",
+  "eligible": true,
+  "converged": true,
+  "iterations": 21,
+  "min_train_share": 0.14859862506610258,
+  "validation_log_score": -3.0639968843576235,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 1.1811593465300166e-06,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      900.4938661529116,
+      4.710445058170463,
+      0.9884979111886051
+    ],
+    [
+      4.698943303941895,
+      258.44388785382324,
+      6.246950421430782
+    ],
+    [
+      1.0117331858573591e-07,
+      6.2362385412062205,
+      708.1811706561498
+    ]
+  ],
+  "label_map": {
+    "0": "Low-Vol",
+    "1": "High-Vol",
+    "2": "State 2"
+  },
+  "high_risk_state": 1,
+  "runtime_seconds": 7.125
+}

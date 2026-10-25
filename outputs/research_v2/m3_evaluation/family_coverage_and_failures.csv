@@ -1,0 +1,23 @@
+asset,family,attempted,valid_fits,interpretation
+BTC,amihud_illiq,45,30,Compare validation scores only within the same sample window; not evidence of predictor causality.
+BTC,dxy_return_1d,45,30,Compare validation scores only within the same sample window; not evidence of predictor causality.
+BTC,funding_sum,45,15,Compare validation scores only within the same sample window; not evidence of predictor causality.
+BTC,log_dollar_volume,45,30,Compare validation scores only within the same sample window; not evidence of predictor causality.
+BTC,macro,45,30,Compare validation scores only within the same sample window; not evidence of predictor causality.
+BTC,oi_growth_7d,45,45,Compare validation scores only within the same sample window; not evidence of predictor causality.
+BTC,rv21,45,30,Compare validation scores only within the same sample window; not evidence of predictor causality.
+BTC,rv_funding,45,15,Compare validation scores only within the same sample window; not evidence of predictor causality.
+BTC,rv_volume,45,30,Compare validation scores only within the same sample window; not evidence of predictor causality.
+BTC,stablecoin_supply_growth_7d,45,15,Compare validation scores only within the same sample window; not evidence of predictor causality.
+BTC,vix,45,30,Compare validation scores only within the same sample window; not evidence of predictor causality.
+ETH,amihud_illiq,45,45,Compare validation scores only within the same sample window; not evidence of predictor causality.
+ETH,dxy_return_1d,45,45,Compare validation scores only within the same sample window; not evidence of predictor causality.
+ETH,funding_sum,45,45,Compare validation scores only within the same sample window; not evidence of predictor causality.
+ETH,log_dollar_volume,45,45,Compare validation scores only within the same sample window; not evidence of predictor causality.
+ETH,macro,45,45,Compare validation scores only within the same sample window; not evidence of predictor causality.
+ETH,oi_growth_7d,45,0,Compare validation scores only within the same sample window; not evidence of predictor causality.
+ETH,rv21,45,45,Compare validation scores only within the same sample window; not evidence of predictor causality.
+ETH,rv_funding,45,45,Compare validation scores only within the same sample window; not evidence of predictor causality.
+ETH,rv_volume,45,45,Compare validation scores only within the same sample window; not evidence of predictor causality.
+ETH,stablecoin_supply_growth_7d,45,45,Compare validation scores only within the same sample window; not evidence of predictor causality.
+ETH,vix,45,45,Compare validation scores only within the same sample window; not evidence of predictor causality.

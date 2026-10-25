@@ -1,0 +1,217 @@
+asset,fold,rv,K,family,valid_fits,median_ari,minimum_ari,metric_gate_passed,eligible_initializer_families,stable,scope,risk_probability_mae,risk_disagreement,risk_jaccard
+BTC,0,14,2,pooled,10,1.0,1.0,True,2,True,pooled across at least two eligible initializer families,0.003129299281713653,0.0,1.0
+BTC,0,14,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,0.0043850209068468215,0.0,1.0
+BTC,0,14,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,6.714618098211023e-07,0.0,1.0
+BTC,0,14,3,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,3.360105281211294e-06,0.0,1.0
+BTC,0,14,3,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,0,14,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,3.360105281211294e-06,0.0,1.0
+BTC,0,14,4,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,9.511370234303558e-06,0.0,1.0
+BTC,0,14,4,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,0,14,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,9.511370234303558e-06,0.0,1.0
+BTC,0,14,5,pooled,5,0.9381148816014829,0.9381148816014829,True,1,False,within one eligible initializer family only,0.0007060800601525246,0.001643835616438356,0.9983193277310924
+BTC,0,14,5,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,0,14,5,volatility_quantiles,5,0.9381148816014829,0.9381148816014829,True,1,True,within one eligible initializer family only,0.0007060800601525246,0.001643835616438356,0.9983193277310924
+BTC,0,21,2,pooled,10,1.0,1.0,True,2,True,pooled across at least two eligible initializer families,0.00570314362567837,0.0,1.0
+BTC,0,21,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.5248371004374532e-06,0.0,1.0
+BTC,0,21,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.0755095618492462e-06,0.0,1.0
+BTC,0,21,3,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,1.5771580410991464e-05,0.0,1.0
+BTC,0,21,3,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,0,21,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.5771580410991464e-05,0.0,1.0
+BTC,0,21,4,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,1.6848936038773956e-06,0.0,1.0
+BTC,0,21,4,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,0,21,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.6848936038773956e-06,0.0,1.0
+BTC,0,21,5,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,3.9100858519275633e-07,0.0,1.0
+BTC,0,21,5,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,0,21,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,3.9100858519275633e-07,0.0,1.0
+BTC,0,30,2,pooled,10,0.32657859095903713,0.32657859095903713,False,2,False,pooled across at least two eligible initializer families,0.00893985209321227,0.006088280060882801,0.993894993894994
+BTC,0,30,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.72206091449362e-06,0.0,1.0
+BTC,0,30,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,6.791693283762113e-07,0.0,1.0
+BTC,0,30,3,pooled,10,0.0,0.0,False,2,False,pooled across at least two eligible initializer families,0.11123360238429526,0.1050228310502283,0.2857142857142857
+BTC,0,30,3,kmeans,5,1.0,0.0,False,1,False,within one eligible initializer family only,0.00044780435792380545,0.0,
+BTC,0,30,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,5.803448496707564e-05,0.0,1.0
+BTC,0,30,4,pooled,10,0.0,0.0,False,2,False,pooled across at least two eligible initializer families,0.1076585627347006,0.10240487062404872,0.28067226890756297
+BTC,0,30,4,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.960655280495196e-55,0.0,
+BTC,0,30,4,volatility_quantiles,5,1.0,0.9715932343391872,True,1,True,within one eligible initializer family only,0.003148609948394071,0.003287671232876712,0.9823529411764704
+BTC,0,30,5,pooled,10,0.19624380395289692,0.16875284366971016,False,2,False,pooled across at least two eligible initializer families,0.2051722071884756,0.2031659056316591,0.2704029304029304
+BTC,0,30,5,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,7.95649169871734e-63,0.0,
+BTC,0,30,5,volatility_quantiles,5,0.9441050844198752,0.8948973771290829,True,1,True,within one eligible initializer family only,0.024116588891094182,0.019726027397260277,0.9464102564102564
+BTC,1,14,2,pooled,10,1.0,1.0,True,2,True,pooled across at least two eligible initializer families,1.0289948830401218e-06,0.0,1.0
+BTC,1,14,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.4047243427729102e-06,0.0,1.0
+BTC,1,14,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,7.281403115207503e-07,0.0,1.0
+BTC,1,14,3,pooled,10,0.28239188713214824,0.2764508185077251,False,2,False,pooled across at least two eligible initializer families,0.10136227702364715,0.10958904109589042,0.7765363128491619
+BTC,1,14,3,kmeans,5,1.0,0.9890625659698806,True,1,True,within one eligible initializer family only,3.370358478488532e-05,0.0,1.0
+BTC,1,14,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,0.00017284794232068763,0.0,1.0
+BTC,1,14,4,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,1.4433520902325728e-05,0.0,1.0
+BTC,1,14,4,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,1,14,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.4433520902325728e-05,0.0,1.0
+BTC,1,14,5,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,4.229916548520406e-05,0.0,1.0
+BTC,1,14,5,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,1,14,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.229916548520406e-05,0.0,1.0
+BTC,1,21,2,pooled,10,1.0,1.0,True,2,True,pooled across at least two eligible initializer families,0.0002668075557116771,0.0,1.0
+BTC,1,21,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,3.921613053952841e-07,0.0,1.0
+BTC,1,21,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,0.00020036489219740945,0.0,1.0
+BTC,1,21,3,pooled,10,0.1934655367282987,0.1934655367282987,False,2,False,pooled across at least two eligible initializer families,0.13320796277795938,0.1354642313546423,0.7190656565656566
+BTC,1,21,3,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,9.885265318382838e-06,0.0,1.0
+BTC,1,21,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.7687981653214894e-05,0.0,1.0
+BTC,1,21,4,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,0.0001408879543975153,0.0,1.0
+BTC,1,21,4,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,1,21,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,0.0001408879543975153,0.0,1.0
+BTC,1,21,5,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,6.1819787578874036e-06,0.0,1.0
+BTC,1,21,5,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,1,21,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,6.1819787578874036e-06,0.0,1.0
+BTC,1,30,2,pooled,10,1.0,-0.003754460024709785,False,2,False,pooled across at least two eligible initializer families,0.11793812187009234,0.11999999999999998,0.8793388429752066
+BTC,1,30,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.878458265373382e-07,0.0,1.0
+BTC,1,30,2,volatility_quantiles,5,1.0,-0.003754460024709785,False,1,False,within one eligible initializer family only,0.23521122744731454,0.24,0.7586776859504132
+BTC,1,30,3,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,6.466189691639083e-05,0.0,1.0
+BTC,1,30,3,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,1,30,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,6.466189691639083e-05,0.0,1.0
+BTC,1,30,4,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,0.00020644196975026235,0.0,1.0
+BTC,1,30,4,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,1,30,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,0.00020644196975026235,0.0,1.0
+BTC,1,30,5,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,0.001178407022928802,0.0,1.0
+BTC,1,30,5,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,1,30,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,0.001178407022928802,0.0,1.0
+BTC,2,14,2,pooled,10,-0.07945266867918283,-0.07945266867918283,False,2,False,pooled across at least two eligible initializer families,0.39792245764289447,0.4047619047619046,0.4970414201183433
+BTC,2,14,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.663702236087291e-05,0.0,1.0
+BTC,2,14,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,8.180428648395592e-06,0.0,1.0
+BTC,2,14,3,pooled,10,-0.0322975664523953,-0.0322975664523953,False,2,False,pooled across at least two eligible initializer families,0.01599756248914178,0.013227513227513227,0.691358024691358
+BTC,2,14,3,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.804889832880615e-06,0.0,1.0
+BTC,2,14,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.1144115561223812e-05,0.0,1.0
+BTC,2,14,4,pooled,10,0.11393936575724486,0.11393936575724486,False,2,False,pooled across at least two eligible initializer families,0.023277089327913593,0.02204585537918871,0.2857142857142857
+BTC,2,14,4,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.543964483907808e-07,0.0,
+BTC,2,14,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.5178797211586289e-06,0.0,1.0
+BTC,2,14,5,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,5.4071922852904564e-06,0.0,
+BTC,2,14,5,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,2,14,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,5.4071922852904564e-06,0.0,
+BTC,2,21,2,pooled,10,-0.06195434184770208,-0.06195434184770208,False,2,False,pooled across at least two eligible initializer families,0.41413996897859595,0.42151675485008816,0.48032180908893246
+BTC,2,21,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,6.1849132118046225e-06,0.0,1.0
+BTC,2,21,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.902464630385474e-05,0.0,1.0
+BTC,2,21,3,pooled,10,-0.03500525822445629,-0.03500525822445629,False,2,False,pooled across at least two eligible initializer families,0.013002380874862109,0.01146384479717813,0.638888888888889
+BTC,2,21,3,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.0214428113801904e-06,0.0,1.0
+BTC,2,21,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.8830007444544818e-06,0.0,1.0
+BTC,2,21,4,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,3.868944404245225e-06,0.0,1.0
+BTC,2,21,4,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,2,21,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,3.868944404245225e-06,0.0,1.0
+BTC,2,21,5,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,4.257860507107293e-07,0.0,
+BTC,2,21,5,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,2,21,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.257860507107293e-07,0.0,
+BTC,2,30,2,pooled,10,-0.057403932121546174,-0.057403932121546174,False,2,False,pooled across at least two eligible initializer families,0.4320619183202672,0.43738977072310414,0.47513227513227524
+BTC,2,30,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.1662718395323848e-05,0.0,1.0
+BTC,2,30,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.732401981041393e-06,0.0,1.0
+BTC,2,30,3,pooled,10,-0.10912918475515344,-0.11093270326992975,False,2,False,pooled across at least two eligible initializer families,0.006727214455429112,0.0044444444444444444,0.0
+BTC,2,30,3,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.298372902290513e-06,0.0,
+BTC,2,30,3,volatility_quantiles,5,1.0,0.7292728644968993,True,1,True,within one eligible initializer family only,0.009450002559982813,0.008888888888888889,0.0
+BTC,2,30,4,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,7.891740724510507e-07,0.0,1.0
+BTC,2,30,4,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,2,30,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,7.891740724510507e-07,0.0,1.0
+BTC,2,30,5,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,8.485427747704408e-05,0.0,1.0
+BTC,2,30,5,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+BTC,2,30,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,8.485427747704408e-05,0.0,1.0
+ETH,0,14,2,pooled,10,1.0,1.0,True,2,True,pooled across at least two eligible initializer families,3.359669057821918e-09,0.0,1.0
+ETH,0,14,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,3.1429727142943138e-09,0.0,1.0
+ETH,0,14,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.325390320483826e-09,0.0,1.0
+ETH,0,14,3,pooled,6,1.0,0.0,False,2,False,pooled across at least two eligible initializer families,0.08827619453989127,0.08767123287671233,0.6666666666666666
+ETH,0,14,3,kmeans,1,,,False,1,False,within one eligible initializer family only,,,
+ETH,0,14,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,0.000220385997739289,0.0,1.0
+ETH,0,14,4,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,0.00033324308299780995,0.0,1.0
+ETH,0,14,4,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+ETH,0,14,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,0.00033324308299780995,0.0,1.0
+ETH,0,14,5,pooled,5,1.0,0.9444258081552254,True,1,False,within one eligible initializer family only,0.006160891008924352,0.005479452054794521,0.9911504424778761
+ETH,0,14,5,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+ETH,0,14,5,volatility_quantiles,5,1.0,0.9444258081552254,True,1,True,within one eligible initializer family only,0.006160891008924352,0.005479452054794521,0.9911504424778761
+ETH,0,21,2,pooled,10,1.0,1.0,True,2,True,pooled across at least two eligible initializer families,3.984190703592019e-08,0.0,1.0
+ETH,0,21,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.9056835399572868e-08,0.0,1.0
+ETH,0,21,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.687907953498371e-09,0.0,1.0
+ETH,0,21,3,pooled,6,1.0,0.0,False,2,False,pooled across at least two eligible initializer families,0.11491349530081434,0.11872146118721462,0.6666666666666666
+ETH,0,21,3,kmeans,1,,,False,1,False,within one eligible initializer family only,,,
+ETH,0,21,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.493077510054679e-05,0.0,1.0
+ETH,0,21,4,pooled,5,1.0,1.0,True,1,False,within one eligible initializer family only,2.9169324882074573e-05,0.0,1.0
+ETH,0,21,4,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+ETH,0,21,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.9169324882074573e-05,0.0,1.0
+ETH,0,21,5,pooled,5,1.0,0.9834867467561925,True,1,False,within one eligible initializer family only,0.0024842428815962073,0.001095890410958904,0.9978835978835979
+ETH,0,21,5,kmeans,0,,,False,0,False,within one eligible initializer family only,,,
+ETH,0,21,5,volatility_quantiles,5,1.0,0.9834867467561925,True,1,True,within one eligible initializer family only,0.0024842428815962073,0.001095890410958904,0.9978835978835979
+ETH,0,30,2,pooled,10,1.0,1.0,True,2,True,pooled across at least two eligible initializer families,4.379735131525497e-06,0.0,1.0
+ETH,0,30,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,3.284946011902167e-06,0.0,1.0
+ETH,0,30,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.7907586676842225e-10,0.0,1.0
+ETH,0,30,3,pooled,10,0.0,0.0,False,2,False,pooled across at least two eligible initializer families,0.1437109722828456,0.12937595129375948,0.2857142857142857
+ETH,0,30,3,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.3168985847352077e-26,0.0,
+ETH,0,30,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.7237203015462402e-05,0.0,1.0
+ETH,0,30,4,pooled,10,0.0,0.0,False,2,False,pooled across at least two eligible initializer families,0.2139782574666843,0.21917808219178084,0.2857142857142857
+ETH,0,30,4,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.7415102925563907e-41,0.0,
+ETH,0,30,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,0.0007550904508147123,0.0,1.0
+ETH,0,30,5,pooled,10,0.0,0.0,False,2,False,pooled across at least two eligible initializer families,0.18260586451071564,0.182648401826484,0.2857142857142857
+ETH,0,30,5,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.239785039608879e-37,0.0,
+ETH,0,30,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,0.0003030771611003377,0.0,1.0
+ETH,1,14,2,pooled,10,-0.05192234548793747,-0.05192234548793747,False,2,False,pooled across at least two eligible initializer families,0.3764089311547756,0.37442922374429227,0.6050096339113681
+ETH,1,14,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.182635985985883e-06,0.0,1.0
+ETH,1,14,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,7.458567536405748e-05,0.0,1.0
+ETH,1,14,3,pooled,10,0.24183294721480833,0.23670115314110626,False,2,False,pooled across at least two eligible initializer families,0.024873403980268025,0.0197869101978691,0.8796296296296295
+ETH,1,14,3,kmeans,5,0.9785004865323174,0.9472826429066885,True,1,True,within one eligible initializer family only,0.0015891312710477272,0.0,1.0
+ETH,1,14,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.924659215708574e-05,0.0,1.0
+ETH,1,14,4,pooled,10,0.1605341015876547,0.16049822008816877,False,2,False,pooled across at least two eligible initializer families,0.034626678407371464,0.03500761035007611,0.7337962962962964
+ETH,1,14,4,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.57172818647353e-07,0.0,1.0
+ETH,1,14,4,volatility_quantiles,5,0.9907305492260262,0.9815391618864937,True,1,True,within one eligible initializer family only,6.892816985085076e-06,0.0,1.0
+ETH,1,14,5,pooled,10,0.24941276076226224,0.1843432233039283,False,2,False,pooled across at least two eligible initializer families,0.03812161750881845,0.030745814307458142,0.5795454545454546
+ETH,1,14,5,kmeans,5,0.29220804281480883,0.1843432233039283,False,1,False,within one eligible initializer family only,0.05842895029831633,0.049315068493150684,0.3333333333333333
+ETH,1,14,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,9.939653229281244e-07,0.0,1.0
+ETH,1,21,2,pooled,10,-0.051232709601074324,-0.051232709601074324,False,2,False,pooled across at least two eligible initializer families,0.4219636022456744,0.4246575342465754,0.557142857142857
+ETH,1,21,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,7.633277080638616e-06,0.0,1.0
+ETH,1,21,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,6.916203540359488e-06,0.0,1.0
+ETH,1,21,3,pooled,10,0.24571987500008613,0.24571987500008613,False,2,False,pooled across at least two eligible initializer families,0.007311858110634541,0.0030441400304414006,0.9722222222222224
+ETH,1,21,3,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.3895090893597295e-05,0.0,1.0
+ETH,1,21,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,7.988845758938087e-07,0.0,1.0
+ETH,1,21,4,pooled,10,0.1357737782782856,0.1357737782782856,False,2,False,pooled across at least two eligible initializer families,0.008752171979089368,0.006088280060882801,0.947089947089947
+ETH,1,21,4,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,9.604418088568704e-06,0.0,1.0
+ETH,1,21,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,7.288001182548307e-07,0.0,1.0
+ETH,1,21,5,pooled,10,0.31002639691136297,0.2651382710612886,False,2,False,pooled across at least two eligible initializer families,0.03561195423586219,0.03305936073059361,0.7184076456466364
+ETH,1,21,5,kmeans,5,0.9395628089971345,0.35292886860757106,False,1,False,within one eligible initializer family only,0.05572100069843331,0.054246575342465755,0.5574468085106383
+ETH,1,21,5,volatility_quantiles,5,0.9915194704105665,0.9870026266196579,True,1,True,within one eligible initializer family only,0.0026263253717005233,0.0,1.0
+ETH,1,30,2,pooled,10,0.0,0.0,False,2,False,pooled across at least two eligible initializer families,0.41407781241615976,0.41552511415525123,0.5844748858447487
+ETH,1,30,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.6987827411925664e-06,0.0,1.0
+ETH,1,30,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.0113382507272897e-05,0.0,1.0
+ETH,1,30,3,pooled,10,0.29825359525129364,0.15833527855649882,False,2,False,pooled across at least two eligible initializer families,0.01819791257285545,0.01692541856925419,0.8896171245724374
+ETH,1,30,3,kmeans,5,1.0,0.7270265190138984,True,1,True,within one eligible initializer family only,0.017172278297246112,0.018630136986301372,0.8716981132075471
+ETH,1,30,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.5623697022635446e-05,0.0,1.0
+ETH,1,30,4,pooled,10,0.8325891734209464,0.8325891734209464,True,2,True,pooled across at least two eligible initializer families,0.004486526280954084,0.0076103500761035,0.9206349206349204
+ETH,1,30,4,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.1665635334982217e-06,0.0,1.0
+ETH,1,30,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.845652918393252e-06,0.0,1.0
+ETH,1,30,5,pooled,10,0.1743510966992527,0.0561470923295874,False,2,False,pooled across at least two eligible initializer families,0.04489703753166161,0.04456621004566211,0.6443307757885761
+ETH,1,30,5,kmeans,5,1.0,0.5003501412704467,True,1,True,within one eligible initializer family only,0.0033032738327237743,0.003287671232876712,0.9647058823529411
+ETH,1,30,5,volatility_quantiles,5,1.0,0.9634606131609436,True,1,True,within one eligible initializer family only,0.0004451375504905521,0.0,1.0
+ETH,2,14,2,pooled,10,-0.05809687414418635,-0.05809687414418635,False,2,False,pooled across at least two eligible initializer families,0.47890317727879606,0.48500881834215176,0.48385885885885893
+ETH,2,14,2,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,0.0002622811606118425,0.0,1.0
+ETH,2,14,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,7.74286522199717e-06,0.0,1.0
+ETH,2,14,3,pooled,10,-0.02720180734333184,-0.02720180734333184,False,2,False,pooled across at least two eligible initializer families,0.009983872634401049,0.009700176366843033,0.5299145299145298
+ETH,2,14,3,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,5.498311383878424e-06,0.0,1.0
+ETH,2,14,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,9.646533592700084e-06,0.0,1.0
+ETH,2,14,4,pooled,10,0.7185595358442283,0.12108655715190081,False,2,False,pooled across at least two eligible initializer families,0.002958449450176544,0.0025396825396825397,0.2
+ETH,2,14,4,kmeans,5,0.9788419766437623,0.13745637528013252,False,1,False,within one eligible initializer family only,0.002399171979625061,0.001904761904761905,0.6
+ETH,2,14,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,8.729472554129348e-08,0.0,
+ETH,2,14,5,pooled,10,0.6173017491590465,0.6173017491590465,False,2,False,pooled across at least two eligible initializer families,0.0008178525099323011,0.0,
+ETH,2,14,5,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.576607889698188e-06,0.0,
+ETH,2,14,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,5.3524130919484405e-08,0.0,
+ETH,2,21,2,pooled,10,0.10648167457326684,0.09243710087939337,False,2,False,pooled across at least two eligible initializer families,0.23798120936438605,0.24232804232804234,0.41324257301486905
+ETH,2,21,2,kmeans,5,1.0,0.9284140560911233,True,1,True,within one eligible initializer family only,0.38608621858614095,0.39682539682539686,0.6
+ETH,2,21,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,9.265012980373146e-06,0.0,1.0
+ETH,2,21,3,pooled,10,0.002537234375365281,0.002537234375365281,False,2,False,pooled across at least two eligible initializer families,0.005489046989967049,0.002645502645502646,0.2857142857142857
+ETH,2,21,3,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.302458394205415e-06,0.0,1.0
+ETH,2,21,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,6.738142464417573e-07,0.0,
+ETH,2,21,4,pooled,10,0.7910574381079727,0.008338513780626246,False,2,False,pooled across at least two eligible initializer families,0.008149981741308095,0.008183421516754849,0.3636363636363636
+ETH,2,21,4,kmeans,5,0.008338513780626246,0.008338513780626246,False,1,False,within one eligible initializer family only,0.003547418421924853,0.0019047619047619045,0.3333333333333333
+ETH,2,21,4,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,4.640588590003628e-06,0.0,1.0
+ETH,2,21,5,pooled,10,0.666509175682862,0.666509175682862,False,2,False,pooled across at least two eligible initializer families,0.0002946152350633749,0.0,
+ETH,2,21,5,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.183314851683439e-07,0.0,
+ETH,2,21,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,2.9160779570451373e-08,0.0,
+ETH,2,30,2,pooled,10,0.09657362215954109,0.09376900158597476,False,2,False,pooled across at least two eligible initializer families,0.23898115103448928,0.24469135802469133,0.411906283766303
+ETH,2,30,2,kmeans,5,1.0,0.8982101817866563,True,1,True,within one eligible initializer family only,0.3849784748999641,0.39555555555555555,0.6
+ETH,2,30,2,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,5.9171482822002126e-05,0.0,1.0
+ETH,2,30,3,pooled,10,0.08960476309911007,0.08960476309911007,False,2,False,pooled across at least two eligible initializer families,0.015475176411544642,0.014991181657848327,0.5502645502645502
+ETH,2,30,3,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,1.1731481651169993e-05,0.0,1.0
+ETH,2,30,3,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,3.7484227392505887e-06,0.0,1.0
+ETH,2,30,4,pooled,10,0.6531953289601085,0.5735457711967604,False,2,False,pooled across at least two eligible initializer families,0.0330203532991973,0.03216931216931217,0.2688814700844776
+ETH,2,30,4,kmeans,5,1.0,1.0,True,1,True,within one eligible initializer family only,5.427704440095741e-09,0.0,
+ETH,2,30,4,volatility_quantiles,5,0.8943623508116871,0.8869566382105114,True,1,True,within one eligible initializer family only,0.0036152473439569365,0.003492063492063492,0.9410851452956717
+ETH,2,30,5,pooled,10,0.6837169909547304,0.6325878824327321,False,2,False,pooled across at least two eligible initializer families,0.01848657320985684,0.017989417989417993,0.43750000000000006
+ETH,2,30,5,kmeans,5,0.940640483130972,0.940640483130972,True,1,True,within one eligible initializer family only,0.00989753754010866,0.009523809523809523,0.3333333333333333
+ETH,2,30,5,volatility_quantiles,5,1.0,1.0,True,1,True,within one eligible initializer family only,7.389184708376901e-07,0.0,1.0

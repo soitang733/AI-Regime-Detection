@@ -1,0 +1,41 @@
+{
+  "asset": "BTC",
+  "family": "oi_growth_7d",
+  "K": 3,
+  "seed": 3,
+  "penalty": 10,
+  "id": "BTC_oi_growth_7d_k3_s3_l10",
+  "eligible": true,
+  "converged": true,
+  "iterations": 19,
+  "min_train_share": 0.2824742268041237,
+  "validation_log_score": -3.8788928886917327,
+  "window": "common_window",
+  "sample_start": "2020-09-08",
+  "gradient_norm": 5.237883558941589e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      423.6328162632278,
+      0.00016970592312419306,
+      5.5131458806756095
+    ],
+    [
+      0.0034974771075205616,
+      273.8298810113645,
+      3.0259973178819286
+    ],
+    [
+      5.509798916514099,
+      3.029325273100957,
+      254.45536815420485
+    ]
+  ],
+  "label_map": {
+    "0": "State 0",
+    "1": "Low-Vol",
+    "2": "High-Vol"
+  },
+  "high_risk_state": 2,
+  "runtime_seconds": 1.5939999999973224
+}

@@ -30,6 +30,8 @@ TURNOVER_METHODS = ("target_change_approx", "drift_adjusted")
 def regime_weights(p_risk, threshold=0.5, weight_risk_on=1.0, weight_risk_off=0.25):
     """Quy tắc phân bổ chỉ định trước: w = weight_risk_off khi p_risk >= threshold."""
     p = np.asarray(p_risk, dtype=float)
+    if not np.isfinite(threshold) or not 0 < threshold < 1:
+        raise ValueError("Risk threshold must lie strictly between zero and one")
     if p.size == 0 or not np.isfinite(p).all() or (p < 0).any() or (p > 1 + 1e-9).any():
         raise ValueError("p_risk phải là xác suất hữu hạn trong [0, 1]")
     for w in (weight_risk_on, weight_risk_off):
@@ -70,8 +72,12 @@ def simulate(
         raise ValueError("weights/returns chứa giá trị không hữu hạn")
     if (w < 0).any() or (w > 1).any():
         raise ValueError("Tỷ trọng phải nằm trong [0, 1]")
-    if fee_rate < 0:
+    if not np.isfinite(fee_rate) or fee_rate < 0:
         raise ValueError("fee_rate không được âm")
+    if not np.isfinite(initial_weight) or not 0 <= initial_weight <= 1:
+        raise ValueError("Initial weight must be finite and lie in [0, 1]")
+    if not np.isfinite(cash_return) or cash_return <= -1 or (r < -1).any():
+        raise ValueError("Invalid simple return for a long/cash portfolio")
 
     n = w.size
     pre = np.empty(n)
@@ -89,6 +95,8 @@ def simulate(
         fee[i] = fee_rate * turnover[i]
         gross[i] = w[i] * r[i] + (1.0 - w[i]) * cash_return
         net[i] = gross[i] - fee[i]
+        if net[i] <= -1:
+            raise ValueError("Portfolio value exhausted; negative NAV is not a valid backtest")
         nav[i] = nav_prev * (1.0 + net[i])
         nav_prev = nav[i]
         previous_target = w[i]

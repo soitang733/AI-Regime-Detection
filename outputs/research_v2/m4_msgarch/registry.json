@@ -1,0 +1,182 @@
+[
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 0,
+    "id": "BTC_k2_s0"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 1,
+    "id": "BTC_k2_s1"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 2,
+    "id": "BTC_k2_s2"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 3,
+    "id": "BTC_k2_s3"
+  },
+  {
+    "asset": "BTC",
+    "K": 2,
+    "seed": 4,
+    "id": "BTC_k2_s4"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 0,
+    "id": "BTC_k3_s0"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 1,
+    "id": "BTC_k3_s1"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 2,
+    "id": "BTC_k3_s2"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 3,
+    "id": "BTC_k3_s3"
+  },
+  {
+    "asset": "BTC",
+    "K": 3,
+    "seed": 4,
+    "id": "BTC_k3_s4"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 0,
+    "id": "BTC_k4_s0"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 1,
+    "id": "BTC_k4_s1"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 2,
+    "id": "BTC_k4_s2"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 3,
+    "id": "BTC_k4_s3"
+  },
+  {
+    "asset": "BTC",
+    "K": 4,
+    "seed": 4,
+    "id": "BTC_k4_s4"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 0,
+    "id": "ETH_k2_s0"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 1,
+    "id": "ETH_k2_s1"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 2,
+    "id": "ETH_k2_s2"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 3,
+    "id": "ETH_k2_s3"
+  },
+  {
+    "asset": "ETH",
+    "K": 2,
+    "seed": 4,
+    "id": "ETH_k2_s4"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 0,
+    "id": "ETH_k3_s0"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 1,
+    "id": "ETH_k3_s1"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 2,
+    "id": "ETH_k3_s2"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 3,
+    "id": "ETH_k3_s3"
+  },
+  {
+    "asset": "ETH",
+    "K": 3,
+    "seed": 4,
+    "id": "ETH_k3_s4"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 0,
+    "id": "ETH_k4_s0"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 1,
+    "id": "ETH_k4_s1"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 2,
+    "id": "ETH_k4_s2"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 3,
+    "id": "ETH_k4_s3"
+  },
+  {
+    "asset": "ETH",
+    "K": 4,
+    "seed": 4,
+    "id": "ETH_k4_s4"
+  }
+]

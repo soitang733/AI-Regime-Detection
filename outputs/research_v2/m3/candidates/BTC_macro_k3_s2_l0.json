@@ -1,0 +1,41 @@
+{
+  "asset": "BTC",
+  "family": "macro",
+  "K": 3,
+  "seed": 2,
+  "penalty": 0,
+  "id": "BTC_macro_k3_s2_l0",
+  "eligible": true,
+  "converged": true,
+  "iterations": 22,
+  "min_train_share": 0.15071390798519302,
+  "validation_log_score": -3.0742369865030965,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 1.4567186152705665e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      704.7987968212086,
+      0.05560287013996059,
+      6.248322405688997
+    ],
+    [
+      1.081086420712671,
+      903.0498494104768,
+      4.681338737208582
+    ],
+    [
+      6.222153332653147,
+      4.706822457943011,
+      259.15602754396684
+    ]
+  ],
+  "label_map": {
+    "0": "State 0",
+    "1": "Low-Vol",
+    "2": "High-Vol"
+  },
+  "high_risk_state": 2,
+  "runtime_seconds": 7.061999999998079
+}

@@ -1,0 +1,41 @@
+{
+  "asset": "ETH",
+  "family": "macro",
+  "K": 3,
+  "seed": 1,
+  "penalty": 0,
+  "id": "ETH_macro_k3_s1_l0",
+  "eligible": true,
+  "converged": true,
+  "iterations": 16,
+  "min_train_share": 0.09571655208884189,
+  "validation_log_score": -3.218823444869159,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 1.2028284119124926e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      906.5681290245242,
+      0.9989189979184511,
+      3.017012604184292
+    ],
+    [
+      2.002137700739783,
+      165.11254599795154,
+      4.77551699680956
+    ],
+    [
+      1.013794335010468,
+      5.779025929605812,
+      800.7329184132524
+    ]
+  ],
+  "label_map": {
+    "0": "State 0",
+    "1": "High-Vol",
+    "2": "Low-Vol"
+  },
+  "high_risk_state": 1,
+  "runtime_seconds": 3.7180000000007567
+}

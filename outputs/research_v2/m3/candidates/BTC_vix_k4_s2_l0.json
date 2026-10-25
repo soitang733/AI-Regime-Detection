@@ -1,0 +1,45 @@
+{
+  "asset": "BTC",
+  "family": "vix",
+  "K": 4,
+  "seed": 2,
+  "penalty": 0,
+  "id": "BTC_vix_k4_s2_l0",
+  "eligible": false,
+  "converged": true,
+  "iterations": 15,
+  "min_train_share": 0.01110523532522475,
+  "validation_log_score": -3.0192149679022102,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 9.818507283954311e-08,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      278.5425504553896,
+      4.9156002947059205,
+      5.323883679874146e-13,
+      7.19408714198134
+    ],
+    [
+      3.76744154918458,
+      898.749858452363,
+      8.007749995936892e-07,
+      2.332931702432229
+    ],
+    [
+      0.9999999999998996,
+      1.0033890873368845e-13,
+      20.0,
+      1.2859748478114367e-48
+    ],
+    [
+      7.342259678062104,
+      0.184773760495512,
+      0.9999991992244679,
+      664.9704969653845
+    ]
+  ],
+  "reason": "nonconvergence_or_sparse_train_state",
+  "runtime_seconds": 7.922000000005937
+}

@@ -1,0 +1,14 @@
+{
+  "asset": "ETH",
+  "method": "HDBSCAN",
+  "size": 30,
+  "samples": 5,
+  "id": "ETH_HDBSCAN_30_5",
+  "eligible": true,
+  "K": 3,
+  "validation_noise_rate": 0.30952380952380953,
+  "assignment": "fixed nearest train medoid with 95% train-radius; not native prediction",
+  "probabilities_available": false,
+  "validation_persistence": 0.7869634340222575,
+  "runtime_seconds": 0.06199999999807915
+}

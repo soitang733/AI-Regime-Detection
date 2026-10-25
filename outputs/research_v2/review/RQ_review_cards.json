@@ -1,0 +1,726 @@
+{
+  "BTC": {
+    "RQ1": {
+      "K": 4,
+      "model_run_id": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+      "selection_sample": "validation",
+      "champion_changed": false
+    },
+    "RQ2": {
+      "labels": [
+        {
+          "state_id": 0,
+          "economic_label": "Calm",
+          "direction": "Uncertain",
+          "risk_profile": "Calm",
+          "same_label_blocks_14_21_42": true
+        },
+        {
+          "state_id": 1,
+          "economic_label": "State 1",
+          "direction": "Uncertain",
+          "risk_profile": "Intermediate",
+          "same_label_blocks_14_21_42": true
+        },
+        {
+          "state_id": 2,
+          "economic_label": "State 2",
+          "direction": "Uncertain",
+          "risk_profile": "Intermediate",
+          "same_label_blocks_14_21_42": true
+        },
+        {
+          "state_id": 3,
+          "economic_label": "Stress",
+          "direction": "Uncertain",
+          "risk_profile": "Stress",
+          "same_label_blocks_14_21_42": true
+        }
+      ],
+      "claim": "train-only conditional statistics; no forced four labels"
+    },
+    "RQ3": {
+      "split_metrics": [
+        {
+          "asset": "BTC",
+          "split": "train",
+          "days": 1890,
+          "observed_LL_NHHMM_minus_HMM": 0.1352634225,
+          "proxy_logloss_NHHMM_minus_HMM": 4.9101249036,
+          "proxy_target_probability_below_1e12": 12,
+          "state_ARI": 0.1586935459,
+          "at_risk_days": 1384,
+          "stress_proxy_entries": 18,
+          "event_rate": 0.0130057803,
+          "Brier_NHHMM": 0.0152121116,
+          "Brier_HMM": 0.0136514777,
+          "PR_AUC_NHHMM": 0.0712474586,
+          "PR_AUC_HMM": 0.0823975026,
+          "event_count_screen_20": false,
+          "target": "matched HMM filtered next-state argmax, proxy not latent truth",
+          "scope": "train descriptive"
+        },
+        {
+          "asset": "BTC",
+          "split": "validation",
+          "days": 630,
+          "observed_LL_NHHMM_minus_HMM": -0.5169338213,
+          "proxy_logloss_NHHMM_minus_HMM": 5.0730734971,
+          "proxy_target_probability_below_1e12": 0,
+          "state_ARI": -0.0368071685,
+          "at_risk_days": 611,
+          "stress_proxy_entries": 2,
+          "event_rate": 0.0032733224,
+          "Brier_NHHMM": 0.0052201217,
+          "Brier_HMM": 0.0027077261,
+          "PR_AUC_NHHMM": 0.0075472773,
+          "PR_AUC_HMM": 0.5666666667,
+          "event_count_screen_20": false,
+          "target": "matched HMM filtered next-state argmax, proxy not latent truth",
+          "scope": "development"
+        },
+        {
+          "asset": "BTC",
+          "split": "test",
+          "days": 637,
+          "observed_LL_NHHMM_minus_HMM": -1.0535828091,
+          "proxy_logloss_NHHMM_minus_HMM": 7.4671274726,
+          "proxy_target_probability_below_1e12": 0,
+          "state_ARI": 0.2031971019,
+          "at_risk_days": 611,
+          "stress_proxy_entries": 2,
+          "event_rate": 0.0032733224,
+          "Brier_NHHMM": 0.0034446085,
+          "Brier_HMM": 0.0032961683,
+          "PR_AUC_NHHMM": 0.0271317829,
+          "PR_AUC_HMM": 0.5088495575,
+          "event_count_screen_20": false,
+          "target": "matched HMM filtered next-state argmax, proxy not latent truth",
+          "scope": "historical exploratory"
+        }
+      ],
+      "claim": "no confirmed predictive improvement; proxy labels differ from latent truth"
+    },
+    "RQ4": {
+      "selected_model_stability": {
+        "asset": "BTC",
+        "fold": 2,
+        "rv": 21,
+        "K": 4,
+        "family": "pooled",
+        "valid_fits": 5,
+        "median_ari": 1.0,
+        "minimum_ari": 1.0,
+        "metric_gate_passed": true,
+        "eligible_initializer_families": 1,
+        "stable": false,
+        "scope": "within one eligible initializer family only",
+        "risk_probability_mae": 3.868944404245225e-06,
+        "risk_disagreement": 0.0,
+        "risk_jaccard": 1.0
+      },
+      "matched_validation": [
+        {
+          "asset": "BTC",
+          "K": 2,
+          "method": "GMM",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 1.0,
+          "minimum_ARI": 1.0,
+          "persistence": 0.8855325914,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "BTC",
+          "K": 2,
+          "method": "KMeans",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 1.0,
+          "minimum_ARI": 1.0,
+          "persistence": 0.7583465819,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "BTC",
+          "K": 2,
+          "method": "HMM",
+          "sample": "fold2 validation",
+          "planned_fits": 10,
+          "valid_fits": 10,
+          "median_ARI": -0.0619543418,
+          "minimum_ARI": -0.0619543418,
+          "persistence": 0.9761526232,
+          "claim": "pooled initializers; consult T08_HMM_stability for family coverage"
+        },
+        {
+          "asset": "BTC",
+          "K": 3,
+          "method": "GMM",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 0.9582704434,
+          "minimum_ARI": 0.9361000824,
+          "persistence": 0.7577106518,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "BTC",
+          "K": 3,
+          "method": "KMeans",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 0.9875049999,
+          "minimum_ARI": 0.9717096747,
+          "persistence": 0.7268680445,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "BTC",
+          "K": 3,
+          "method": "HMM",
+          "sample": "fold2 validation",
+          "planned_fits": 10,
+          "valid_fits": 10,
+          "median_ARI": -0.0350052582,
+          "minimum_ARI": -0.0350052582,
+          "persistence": 0.9705882353,
+          "claim": "pooled initializers; consult T08_HMM_stability for family coverage"
+        },
+        {
+          "asset": "BTC",
+          "K": 4,
+          "method": "GMM",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 0.9483759411,
+          "minimum_ARI": 0.9050963793,
+          "persistence": 0.707154213,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "BTC",
+          "K": 4,
+          "method": "KMeans",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 0.9648313394,
+          "minimum_ARI": 0.3089472542,
+          "persistence": 0.5961844197,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "BTC",
+          "K": 4,
+          "method": "HMM",
+          "sample": "fold2 validation",
+          "planned_fits": 10,
+          "valid_fits": 5,
+          "median_ARI": 1.0,
+          "minimum_ARI": 1.0,
+          "persistence": 0.9523052464,
+          "claim": "pooled initializers; consult T08_HMM_stability for family coverage"
+        }
+      ],
+      "claim": "HMM superiority not established; rolling comparisons development only"
+    },
+    "RQ5": {
+      "net_performance": [
+        {
+          "asset": "BTC",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "buy_and_hold",
+          "model_run_id": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "final_nav": 0.7734123965,
+          "cumulative_return": -0.2265876035,
+          "CAGR": -0.136902712,
+          "ann_volatility": 0.4298650097,
+          "Sharpe": -0.1277693231,
+          "max_drawdown": -0.5297176591,
+          "turnover": 1.0,
+          "total_cost": 0.001,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "BTC",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "volatility_targeting",
+          "model_run_id": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "final_nav": 0.7888561526,
+          "cumulative_return": -0.2111438474,
+          "CAGR": -0.1270690116,
+          "ann_volatility": 0.381358581,
+          "Sharpe": -0.1655243394,
+          "max_drawdown": -0.5172712032,
+          "turnover": 9.0927875631,
+          "total_cost": 0.0090927876,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "BTC",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "regime_defensive",
+          "model_run_id": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "final_nav": 0.730739661,
+          "cumulative_return": -0.269260339,
+          "CAGR": -0.1645196709,
+          "ann_volatility": 0.4129948717,
+          "Sharpe": -0.2280762872,
+          "max_drawdown": -0.5509156028,
+          "turnover": 4.0,
+          "total_cost": 0.004,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "BTC",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "regime_volatility_targeting",
+          "model_run_id": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "final_nav": 0.7567716333,
+          "cumulative_return": -0.2432283667,
+          "CAGR": -0.1475929244,
+          "ann_volatility": 0.376428101,
+          "Sharpe": -0.2356937951,
+          "max_drawdown": -0.5339280891,
+          "turnover": 10.5682757048,
+          "total_cost": 0.0105682757,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        }
+      ],
+      "paired_Sharpe_CI_block21": [
+        {
+          "asset": "BTC",
+          "strategy": "regime_defensive",
+          "reference": "buy_and_hold",
+          "metric": "Sharpe",
+          "block_days": 21,
+          "point": -0.1003069641,
+          "ci_low": -0.3596835444,
+          "ci_high": 0.0667572094,
+          "bootstrap_p": 0.3586413586,
+          "scope": "historical exploratory; model/strategy selection uncertainty excluded",
+          "holm_adjusted_p": 1.0
+        },
+        {
+          "asset": "BTC",
+          "strategy": "regime_defensive",
+          "reference": "volatility_targeting",
+          "metric": "Sharpe",
+          "block_days": 21,
+          "point": -0.0625519478,
+          "ci_low": -0.2817040295,
+          "ci_high": 0.1471945353,
+          "bootstrap_p": 0.5524475524,
+          "scope": "historical exploratory; model/strategy selection uncertainty excluded",
+          "holm_adjusted_p": 1.0
+        },
+        {
+          "asset": "BTC",
+          "strategy": "regime_volatility_targeting",
+          "reference": "buy_and_hold",
+          "metric": "Sharpe",
+          "block_days": 21,
+          "point": -0.107924472,
+          "ci_low": -0.4475222142,
+          "ci_high": 0.1492239318,
+          "bootstrap_p": 0.4555444555,
+          "scope": "historical exploratory; model/strategy selection uncertainty excluded",
+          "holm_adjusted_p": 1.0
+        },
+        {
+          "asset": "BTC",
+          "strategy": "regime_volatility_targeting",
+          "reference": "volatility_targeting",
+          "metric": "Sharpe",
+          "block_days": 21,
+          "point": -0.0701694557,
+          "ci_low": -0.2203845021,
+          "ci_high": 0.0211637561,
+          "bootstrap_p": 0.2807192807,
+          "scope": "historical exploratory; model/strategy selection uncertainty excluded",
+          "holm_adjusted_p": 1.0
+        }
+      ],
+      "claim": "fixed strategies; conditional block bootstrap; no test tuning"
+    },
+    "technical_status": "passed",
+    "research_confirmation": "pending"
+  },
+  "ETH": {
+    "RQ1": {
+      "K": 4,
+      "model_run_id": "ETH_f2_rv21_k4_kmeans_s4",
+      "selection_sample": "validation",
+      "champion_changed": false
+    },
+    "RQ2": {
+      "labels": [
+        {
+          "state_id": 0,
+          "economic_label": "State 0",
+          "direction": "Uncertain",
+          "risk_profile": "Intermediate",
+          "same_label_blocks_14_21_42": true
+        },
+        {
+          "state_id": 1,
+          "economic_label": "High-Vol",
+          "direction": "Uncertain",
+          "risk_profile": "Intermediate",
+          "same_label_blocks_14_21_42": true
+        },
+        {
+          "state_id": 2,
+          "economic_label": "Calm",
+          "direction": "Uncertain",
+          "risk_profile": "Calm",
+          "same_label_blocks_14_21_42": true
+        },
+        {
+          "state_id": 3,
+          "economic_label": "State 3",
+          "direction": "Uncertain",
+          "risk_profile": "Intermediate",
+          "same_label_blocks_14_21_42": true
+        }
+      ],
+      "claim": "train-only conditional statistics; no forced four labels"
+    },
+    "RQ3": {
+      "split_metrics": [
+        {
+          "asset": "ETH",
+          "split": "train",
+          "days": 1890,
+          "observed_LL_NHHMM_minus_HMM": 0.0050113683,
+          "proxy_logloss_NHHMM_minus_HMM": -0.0037487536,
+          "proxy_target_probability_below_1e12": 0,
+          "state_ARI": 0.9922268812,
+          "at_risk_days": 1738,
+          "stress_proxy_entries": 6,
+          "event_rate": 0.003452244,
+          "Brier_NHHMM": 0.0026889067,
+          "Brier_HMM": 0.0034972752,
+          "PR_AUC_NHHMM": 0.5116967503,
+          "PR_AUC_HMM": 0.1404346763,
+          "event_count_screen_20": false,
+          "target": "matched HMM filtered next-state argmax, proxy not latent truth",
+          "scope": "train descriptive"
+        },
+        {
+          "asset": "ETH",
+          "split": "validation",
+          "days": 630,
+          "observed_LL_NHHMM_minus_HMM": 0.0130917845,
+          "proxy_logloss_NHHMM_minus_HMM": 0.1165586897,
+          "proxy_target_probability_below_1e12": 0,
+          "state_ARI": 0.9318191379,
+          "at_risk_days": 628,
+          "stress_proxy_entries": 1,
+          "event_rate": 0.0015923567,
+          "Brier_NHHMM": 0.0018320337,
+          "Brier_HMM": 0.0014311101,
+          "PR_AUC_NHHMM": 0.004784689,
+          "PR_AUC_HMM": 0.3333333333,
+          "event_count_screen_20": false,
+          "target": "matched HMM filtered next-state argmax, proxy not latent truth",
+          "scope": "development"
+        },
+        {
+          "asset": "ETH",
+          "split": "test",
+          "days": 637,
+          "observed_LL_NHHMM_minus_HMM": -0.0188294201,
+          "proxy_logloss_NHHMM_minus_HMM": 0.0516979168,
+          "proxy_target_probability_below_1e12": 0,
+          "state_ARI": 0.960388252,
+          "at_risk_days": 635,
+          "stress_proxy_entries": 2,
+          "event_rate": 0.0031496063,
+          "Brier_NHHMM": 0.0086821204,
+          "Brier_HMM": 0.0036162019,
+          "PR_AUC_NHHMM": 0.0040583756,
+          "PR_AUC_HMM": 0.0033168317,
+          "event_count_screen_20": false,
+          "target": "matched HMM filtered next-state argmax, proxy not latent truth",
+          "scope": "historical exploratory"
+        }
+      ],
+      "claim": "no confirmed predictive improvement; proxy labels differ from latent truth"
+    },
+    "RQ4": {
+      "selected_model_stability": {
+        "asset": "ETH",
+        "fold": 2,
+        "rv": 21,
+        "K": 4,
+        "family": "pooled",
+        "valid_fits": 10,
+        "median_ari": 0.7910574381079727,
+        "minimum_ari": 0.008338513780626246,
+        "metric_gate_passed": false,
+        "eligible_initializer_families": 2,
+        "stable": false,
+        "scope": "pooled across at least two eligible initializer families",
+        "risk_probability_mae": 0.008149981741308095,
+        "risk_disagreement": 0.008183421516754849,
+        "risk_jaccard": 0.3636363636363636
+      },
+      "matched_validation": [
+        {
+          "asset": "ETH",
+          "K": 2,
+          "method": "GMM",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 1.0,
+          "minimum_ARI": 0.6117645884,
+          "persistence": 0.8982511924,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "ETH",
+          "K": 2,
+          "method": "KMeans",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 1.0,
+          "minimum_ARI": 0.9709509242,
+          "persistence": 0.9179650238,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "ETH",
+          "K": 2,
+          "method": "HMM",
+          "sample": "fold2 validation",
+          "planned_fits": 10,
+          "valid_fits": 10,
+          "median_ARI": 0.1064816746,
+          "minimum_ARI": 0.0924371009,
+          "persistence": 0.9767885533,
+          "claim": "pooled initializers; consult T08_HMM_stability for family coverage"
+        },
+        {
+          "asset": "ETH",
+          "K": 3,
+          "method": "GMM",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 0.8281568058,
+          "minimum_ARI": 0.7777828031,
+          "persistence": 0.8721780604,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "ETH",
+          "K": 3,
+          "method": "KMeans",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 0.9431644551,
+          "minimum_ARI": 0.9297192906,
+          "persistence": 0.919872814,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "ETH",
+          "K": 3,
+          "method": "HMM",
+          "sample": "fold2 validation",
+          "planned_fits": 10,
+          "valid_fits": 10,
+          "median_ARI": 0.0025372344,
+          "minimum_ARI": 0.0025372344,
+          "persistence": 0.9880763116,
+          "claim": "pooled initializers; consult T08_HMM_stability for family coverage"
+        },
+        {
+          "asset": "ETH",
+          "K": 4,
+          "method": "GMM",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 0.8637821228,
+          "minimum_ARI": 0.3207539215,
+          "persistence": 0.8343402226,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "ETH",
+          "K": 4,
+          "method": "KMeans",
+          "sample": "fold2 validation",
+          "planned_fits": 5,
+          "valid_fits": 5,
+          "median_ARI": 0.9608227597,
+          "minimum_ARI": 0.912625751,
+          "persistence": 0.7790143084,
+          "claim": "same days/features/K; method-specific fitted parameters; no superiority imposed"
+        },
+        {
+          "asset": "ETH",
+          "K": 4,
+          "method": "HMM",
+          "sample": "fold2 validation",
+          "planned_fits": 10,
+          "valid_fits": 10,
+          "median_ARI": 0.7910574381,
+          "minimum_ARI": 0.0083385138,
+          "persistence": 0.9742448331,
+          "claim": "pooled initializers; consult T08_HMM_stability for family coverage"
+        }
+      ],
+      "claim": "HMM superiority not established; rolling comparisons development only"
+    },
+    "RQ5": {
+      "net_performance": [
+        {
+          "asset": "ETH",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "buy_and_hold",
+          "model_run_id": "ETH_f2_rv21_k4_kmeans_s4",
+          "final_nav": 0.7205902693,
+          "cumulative_return": -0.2794097307,
+          "CAGR": -0.1711886826,
+          "ann_volatility": 0.6908073211,
+          "Sharpe": 0.0698437806,
+          "max_drawdown": -0.6755345018,
+          "turnover": 1.0,
+          "total_cost": 0.001,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "ETH",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "volatility_targeting",
+          "model_run_id": "ETH_f2_rv21_k4_kmeans_s4",
+          "final_nav": 0.8206535303,
+          "cumulative_return": -0.1793464697,
+          "CAGR": -0.1070775869,
+          "ann_volatility": 0.4616218587,
+          "Sharpe": -0.0176213251,
+          "max_drawdown": -0.5701340386,
+          "turnover": 16.2622892546,
+          "total_cost": 0.0162622893,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "ETH",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "regime_defensive",
+          "model_run_id": "ETH_f2_rv21_k4_kmeans_s4",
+          "final_nav": 0.6983086571,
+          "cumulative_return": -0.3016913429,
+          "CAGR": -0.1859718567,
+          "ann_volatility": 0.6889748017,
+          "Sharpe": 0.0421451358,
+          "max_drawdown": -0.670620103,
+          "turnover": 4.0,
+          "total_cost": 0.004,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "ETH",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "regime_volatility_targeting",
+          "model_run_id": "ETH_f2_rv21_k4_kmeans_s4",
+          "final_nav": 0.8100729049,
+          "cumulative_return": -0.1899270951,
+          "CAGR": -0.1136924344,
+          "ann_volatility": 0.4611080569,
+          "Sharpe": -0.0342707082,
+          "max_drawdown": -0.5669825921,
+          "turnover": 17.6235540815,
+          "total_cost": 0.0176235541,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        }
+      ],
+      "paired_Sharpe_CI_block21": [
+        {
+          "asset": "ETH",
+          "strategy": "regime_defensive",
+          "reference": "buy_and_hold",
+          "metric": "Sharpe",
+          "block_days": 21,
+          "point": -0.0276986448,
+          "ci_low": -0.112570565,
+          "ci_high": 0.0273235688,
+          "bootstrap_p": 0.5524475524,
+          "scope": "historical exploratory; model/strategy selection uncertainty excluded",
+          "holm_adjusted_p": 1.0
+        },
+        {
+          "asset": "ETH",
+          "strategy": "regime_defensive",
+          "reference": "volatility_targeting",
+          "metric": "Sharpe",
+          "block_days": 21,
+          "point": 0.0597664609,
+          "ci_low": -0.2745506407,
+          "ci_high": 0.4692496041,
+          "bootstrap_p": 0.7402597403,
+          "scope": "historical exploratory; model/strategy selection uncertainty excluded",
+          "holm_adjusted_p": 1.0
+        },
+        {
+          "asset": "ETH",
+          "strategy": "regime_volatility_targeting",
+          "reference": "buy_and_hold",
+          "metric": "Sharpe",
+          "block_days": 21,
+          "point": -0.1041144888,
+          "ci_low": -0.5313142879,
+          "ci_high": 0.2291410857,
+          "bootstrap_p": 0.5834165834,
+          "scope": "historical exploratory; model/strategy selection uncertainty excluded",
+          "holm_adjusted_p": 1.0
+        },
+        {
+          "asset": "ETH",
+          "strategy": "regime_volatility_targeting",
+          "reference": "volatility_targeting",
+          "metric": "Sharpe",
+          "block_days": 21,
+          "point": -0.0166493831,
+          "ci_low": -0.0728363889,
+          "ci_high": 0.0198916599,
+          "bootstrap_p": 0.5724275724,
+          "scope": "historical exploratory; model/strategy selection uncertainty excluded",
+          "holm_adjusted_p": 1.0
+        }
+      ],
+      "claim": "fixed strategies; conditional block bootstrap; no test tuning"
+    },
+    "technical_status": "passed",
+    "research_confirmation": "pending"
+  }
+}

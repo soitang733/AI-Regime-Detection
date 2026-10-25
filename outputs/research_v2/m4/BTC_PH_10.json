@@ -1,0 +1,12 @@
+{
+  "asset": "BTC",
+  "method": "PageHinkley",
+  "threshold": 10,
+  "id": "BTC_PH_10",
+  "eligible": true,
+  "validation_alarm_count": 2,
+  "probabilities_available": false,
+  "state_kind": "unique chronological segments, not recurrent regimes",
+  "validation_persistence": 0.9968203497615262,
+  "runtime_seconds": 0.062000000005355105
+}

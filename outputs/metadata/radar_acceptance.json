@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-24T10:01:20.146448+00:00",
+  "protected_files_checked": 92,
+  "protected_files_changed": [],
+  "original_theme_retained": {
+    "dashboard/ui.py": true,
+    ".streamlit/config.toml": true
+  },
+  "full_verification": {
+    "tests": 127,
+    "failures_or_errors": 0,
+    "skipped": 0,
+    "suite_errors": 0
+  },
+  "browser_pages_checked": 8,
+  "bundle_integrity": {
+    "ok": true,
+    "errors": []
+  },
+  "snapshots": [
+    {
+      "asset": "BTC",
+      "K": 3,
+      "model_run_id": "btc-5c260ade6a90e577",
+      "date_utc": "2026-10-23T00:00:00+00:00",
+      "as_of_utc": "2026-10-24T00:00:00+00:00",
+      "forecast_date_utc": "2026-10-24T00:00:00+00:00",
+      "state_id": 2,
+      "label": "Low-Vol",
+      "state_probability": 0.9998629147833156,
+      "high_risk_state": 0,
+      "prob_high_risk": 0.0001342992379759,
+      "prob_high_risk_next_day": 0.007132540610353562,
+      "seed_stability_status": "unstable",
+      "states": [
+        {
+          "state_id": 0,
+          "label": "High-Vol",
+          "current_probability": 0.0001342992379759,
+          "next_day_probability": 0.007132540610353562,
+          "persistence": 0.9694648955644104
+        },
+        {
+          "state_id": 1,
+          "label": "State 1",
+          "current_probability": 2.7859787085522845e-06,
+          "next_day_probability": 0.03753404101269006,
+          "persistence": 0.9668140509637918
+        },
+        {
+          "state_id": 2,
+          "label": "Low-Vol",
+          "current_probability": 0.9998629147833156,
+          "next_day_probability": 0.9553334183769564,
+          "persistence": 0.9554640847225864
+        }
+      ]
+    },
+    {
+      "asset": "ETH",
+      "K": 4,
+      "model_run_id": "eth-6cc217183d757b89",
+      "date_utc": "2026-10-23T00:00:00+00:00",
+      "as_of_utc": "2026-10-24T00:00:00+00:00",
+      "forecast_date_utc": "2026-10-24T00:00:00+00:00",
+      "state_id": 1,
+      "label": "Low-Vol",
+      "state_probability": 0.9999611247155226,
+      "high_risk_state": 2,
+      "prob_high_risk": 3.681538966859806e-05,
+      "prob_high_risk_next_day": 0.0027722292059990583,
+      "seed_stability_status": "unstable",
+      "states": [
+        {
+          "state_id": 0,
+          "label": "State 0",
+          "current_probability": 3.340041515798642e-09,
+          "next_day_probability": 9.301556779686085e-07,
+          "persistence": 0.9921767985209828
+        },
+        {
+          "state_id": 1,
+          "label": "Low-Vol",
+          "current_probability": 0.9999611247155226,
+          "next_day_probability": 0.980909780549082,
+          "persistence": 0.9809478899553705
+        },
+        {
+          "state_id": 2,
+          "label": "High-Vol",
+          "current_probability": 3.681538966859806e-05,
+          "next_day_probability": 0.0027722292059990583,
+          "persistence": 0.9511304579600881
+        },
+        {
+          "state_id": 3,
+          "label": "State 3",
+          "current_probability": 2.056554767338446e-06,
+          "next_day_probability": 0.01631706008924098,
+          "persistence": 0.977430731252461
+        }
+      ]
+    }
+  ]
+}

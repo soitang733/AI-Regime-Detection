@@ -1,0 +1,14 @@
+{
+  "asset": "ETH",
+  "method": "MSAR",
+  "K": 3,
+  "seed": 2,
+  "order": 1,
+  "id": "ETH_MSAR_3_2_1",
+  "eligible": true,
+  "validation_log_score": -2.4856670368720413,
+  "feature_space": "100 * daily log return",
+  "warnings": [],
+  "validation_persistence": 0.7821939586645469,
+  "runtime_seconds": 13.56199999999808
+}

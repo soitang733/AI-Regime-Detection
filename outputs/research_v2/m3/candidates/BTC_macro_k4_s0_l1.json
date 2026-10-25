@@ -1,0 +1,45 @@
+{
+  "asset": "BTC",
+  "family": "macro",
+  "K": 4,
+  "seed": 0,
+  "penalty": 1,
+  "id": "BTC_macro_k4_s0_l1",
+  "eligible": false,
+  "converged": true,
+  "iterations": 19,
+  "min_train_share": 0.01110523532522475,
+  "validation_log_score": -2.997424817544457,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 1.199833408993047e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      672.8585964587107,
+      1.8798246925762224e-09,
+      4.385092811223997e-12,
+      7.116680306163488
+    ],
+    [
+      4.107950544268646e-12,
+      20.0,
+      8.438666725608921e-13,
+      0.9999999999950482
+    ],
+    [
+      1.0081709832619465,
+      0.9999999973849928,
+      708.4016712350565,
+      5.523685393416744
+    ],
+    [
+      7.10849780704444,
+      7.351825513255819e-10,
+      7.531856388174932,
+      458.450841428165
+    ]
+  ],
+  "reason": "nonconvergence_or_sparse_train_state",
+  "runtime_seconds": 16.75
+}

@@ -1,0 +1,111 @@
+{
+  "status": "complete",
+  "asset": "ETH",
+  "core_model_run_id": "eth-347a3c7d09e9edee",
+  "selected_on": "validation log loss, then smaller feature set and stronger regularization",
+  "selected": {
+    "group": "macro",
+    "C": 0.1,
+    "validation_log_loss": 0.013841425576725009,
+    "n_features": 9
+  },
+  "candidates": [
+    {
+      "group": "core",
+      "C": 0.01,
+      "validation_log_loss": 0.01587739630283427,
+      "n_features": 3
+    },
+    {
+      "group": "core",
+      "C": 0.1,
+      "validation_log_loss": 0.014833733039648241,
+      "n_features": 3
+    },
+    {
+      "group": "core",
+      "C": 1.0,
+      "validation_log_loss": 0.015714632276359195,
+      "n_features": 3
+    },
+    {
+      "group": "macro",
+      "C": 0.01,
+      "validation_log_loss": 0.015044492778172828,
+      "n_features": 9
+    },
+    {
+      "group": "macro",
+      "C": 0.1,
+      "validation_log_loss": 0.013841425576725009,
+      "n_features": 9
+    },
+    {
+      "group": "macro",
+      "C": 1.0,
+      "validation_log_loss": 0.01516324293556902,
+      "n_features": 9
+    },
+    {
+      "group": "macro_crypto",
+      "C": 0.01,
+      "validation_log_loss": 0.014957670088337727,
+      "n_features": 16
+    },
+    {
+      "group": "macro_crypto",
+      "C": 0.1,
+      "validation_log_loss": 0.014318279162487487,
+      "n_features": 16
+    },
+    {
+      "group": "macro_crypto",
+      "C": 1.0,
+      "validation_log_loss": 0.016119939412601272,
+      "n_features": 16
+    }
+  ],
+  "features": {
+    "core": [
+      "log_return",
+      "rv21",
+      "log_dollar_volume"
+    ],
+    "macro": [
+      "log_return",
+      "rv21",
+      "log_dollar_volume",
+      "vix",
+      "vix_change_1d",
+      "dxy_return_1d",
+      "spx_return_1d",
+      "us10y",
+      "term_spread_10y_2y"
+    ],
+    "macro_crypto": [
+      "log_return",
+      "rv21",
+      "log_dollar_volume",
+      "vix",
+      "vix_change_1d",
+      "dxy_return_1d",
+      "spx_return_1d",
+      "us10y",
+      "term_spread_10y_2y",
+      "funding_sum",
+      "stablecoin_supply_growth_7d",
+      "defi_tvl_growth_7d",
+      "cm_mcap_btc_growth_7d",
+      "cm_mcap_eth_growth_7d",
+      "amihud_illiq",
+      "btc_eth_corr21"
+    ]
+  },
+  "target": "next-day non-risk -> high-risk FILTERED HMM proxy; not ground truth",
+  "causal_interpretation": false,
+  "NHHMM": false,
+  "test_used_for_selection": false,
+  "missing_values": "median and indicators fitted on train only; no backfill; stale macro >7 days set missing",
+  "train_events": 15,
+  "validation_events": 1
+}

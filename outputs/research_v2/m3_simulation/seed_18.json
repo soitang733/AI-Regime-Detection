@@ -1,0 +1,26 @@
+{
+  "seed": 18,
+  "converged": true,
+  "iterations": 10,
+  "objective": 1.7606634994118504,
+  "transition_gradient_norm": 9.607695229967382e-08,
+  "transition_optimizer_success": true,
+  "beta_zero_max_error": 5.551115123125783e-16,
+  "coefficient_errors": [
+    [
+      [
+        0.008199790271516072,
+        0.061532630737515914
+      ]
+    ],
+    [
+      [
+        0.1247248419943412,
+        0.04246844170794695
+      ]
+    ]
+  ],
+  "coefficient_rmse": 0.07282402755545556,
+  "transition_probability_rmse": 0.012612805514667503,
+  "runtime_seconds": 0.6089999999967404
+}

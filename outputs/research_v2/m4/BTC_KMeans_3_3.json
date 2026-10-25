@@ -1,0 +1,12 @@
+{
+  "asset": "BTC",
+  "method": "KMeans",
+  "K": 3,
+  "seed": 3,
+  "id": "BTC_KMeans_3_3",
+  "eligible": true,
+  "train_inertia": 3348.4527005463,
+  "probabilities_available": false,
+  "validation_persistence": 0.724960254372019,
+  "runtime_seconds": 0.07800000000133878
+}

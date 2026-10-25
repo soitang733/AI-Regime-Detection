@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "research_confirmation": "pending",
+  "acknowledge_unstable": true,
+  "strategy_parameters_tuned_on_test": false,
+  "assumption": "close-to-close is idealized; next-open sensitivity, no intraday latency model",
+  "files_sha256": {
+    "incremental_uncertainty.csv": "479c0d9614ff33174ea0e9cccc822aac89dd0b6f30703e68d40c8fc4cec2764c",
+    "nav.csv": "d33318e2be78d09dea2d4f8ae680431e2e24c3a69f9bb6c567caa3f1a6eb03f8",
+    "performance.csv": "939f7373257dfd99cef1f89f416b9ed3fc44450fbcf7b586585070255238f1ed"
+  }
+}

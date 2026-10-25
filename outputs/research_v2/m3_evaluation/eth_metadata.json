@@ -1,0 +1,54 @@
+{
+  "asset": "ETH",
+  "model_run_id": "ETH_macro_k4_s4_l0",
+  "K": 4,
+  "label_map": {
+    "0": "State 0",
+    "1": "High-Vol",
+    "2": "Low-Vol",
+    "3": "State 3"
+  },
+  "high_risk_state": 1,
+  "feature_names": [
+    "intercept",
+    "vix",
+    "dxy_return_1d"
+  ],
+  "selected_family": "macro",
+  "penalty": 0,
+  "expected_train_transition_counts": [
+    [
+      491.5362368408765,
+      5.956180064944623,
+      5.96634185515805,
+      0.0866208053198729
+    ],
+    [
+      4.0427514759857415,
+      150.00536786215136,
+      1.4973554447331125e-06,
+      2.089665363171948
+    ],
+    [
+      6.968552332946587,
+      2.2686256951035846e-08,
+      358.6819298241949,
+      1.6400946843055494e-05
+    ],
+    [
+      1.0000190703567027,
+      0.17623827599464034,
+      2.0000452230872945,
+      861.4900330848224
+    ]
+  ],
+  "stability_status": "not_yet_certified",
+  "economic_label_map": {
+    "0": "State 0",
+    "1": "High-Vol",
+    "2": "Calm",
+    "3": "State 3"
+  },
+  "sample_status": "historical_exploratory",
+  "last_data_date_utc": "2026-10-23"
+}

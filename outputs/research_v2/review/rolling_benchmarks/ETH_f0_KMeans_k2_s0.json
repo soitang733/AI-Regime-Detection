@@ -1,0 +1,17 @@
+{
+  "asset": "ETH",
+  "fold": 0,
+  "K": 2,
+  "seed": 0,
+  "method": "KMeans",
+  "id": "ETH_f0_KMeans_k2_s0",
+  "eligible": true,
+  "train_days": 1161,
+  "validation_days": 365,
+  "last_date_utc": "2022-05-05",
+  "sample": "development only",
+  "test_used": false,
+  "train_inertia": 2566.2580736200803,
+  "persistence": 1.0,
+  "min_validation_share": 0.0
+}

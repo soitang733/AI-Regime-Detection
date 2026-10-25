@@ -1,5 +1,8 @@
 # Báo cáo hoàn thiện C2
 
+> Biên bản lịch sử của C2 lõi. Phần mở rộng Blueprint, RQ3 và bootstrap mới nằm
+> trong `Blueprint_completion.md`; kết quả test hiện tại lấy từ `project_completion.json`.
+
 Ngày nghiệm thu kỹ thuật: 2026-10-22. Đã khắc phục lỗi đồng bộ metadata, tái tạo B03/B04/B05/B07, xác suất và artifacts, kiểm tra giao diện tiêu thụ C3 trên dữ liệu thật. Lần chạy cuối đạt **75/75 test, không lỗi hoặc skip**, bao gồm đủ 55 trường hợp trước đợt hoàn thiện. Chất lượng thống kê của mô hình vẫn có cảnh báo độ nhạy seed.
 
 ## Các vấn đề đã sửa

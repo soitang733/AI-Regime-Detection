@@ -1,0 +1,79 @@
+{
+  "asset": "ETH",
+  "fold": 2,
+  "rv": 21,
+  "K": 4,
+  "seed": 4,
+  "initializer": "kmeans",
+  "candidate_id": "ETH_f2_rv21_k4_kmeans_s4",
+  "eligible": true,
+  "reason": "",
+  "iterations": 24,
+  "last_gain": 0.0005099834570501116,
+  "min_train_share": 0.08038075092543628,
+  "train_n": 1891,
+  "train_LL": -5178.341483945202,
+  "AIC": 10434.682967890403,
+  "BIC": 10650.932549568082,
+  "features": [
+    "log_return",
+    "rv21",
+    "log_dollar_volume"
+  ],
+  "validation_log_score": -2.192517831822543,
+  "label_map": {
+    "0": "State 0",
+    "1": "High-Vol",
+    "2": "Low-Vol",
+    "3": "State 3"
+  },
+  "high_risk_state": 1,
+  "runtime_seconds": 1.6719999999986612,
+  "selection_locked_at_utc": "2026-10-24T18:38:30.550791+00:00",
+  "selection_rule": "validation LL, tie BIC/K/seed; K5 sensitivity only",
+  "sample_status": "historical_exploratory",
+  "probability_type": "filtered",
+  "transition_matrix": [
+    [
+      0.9797729410691607,
+      0.008205601764058178,
+      0.012021457166781165,
+      8.87932010914546e-37
+    ],
+    [
+      0.02585515202307864,
+      0.9613396200422154,
+      1.2029851562860176e-37,
+      0.012805227934705987
+    ],
+    [
+      0.016065204805176356,
+      0.002744689625023018,
+      0.9811901055698006,
+      1.1562468403460876e-59
+    ],
+    [
+      7.781018878410321e-64,
+      0.001200240043617745,
+      0.00232161798093248,
+      0.9964781419754498
+    ]
+  ],
+  "stability": {
+    "asset": "ETH",
+    "fold": 2,
+    "rv": 21,
+    "K": 4,
+    "family": "pooled",
+    "valid_fits": 10,
+    "median_ari": 0.7910574381079727,
+    "minimum_ari": 0.008338513780626246,
+    "metric_gate_passed": false,
+    "eligible_initializer_families": 2,
+    "stable": false,
+    "scope": "pooled across at least two eligible initializer families",
+    "risk_probability_mae": 0.008149981741308095,
+    "risk_disagreement": 0.008183421516754849,
+    "risk_jaccard": 0.3636363636363636
+  }
+}

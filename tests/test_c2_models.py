@@ -219,7 +219,15 @@ def test_selection_stability_and_comparison_tables(cfg):
         info = manifest["assets"][asset]
         assert info["test_evaluated"]
         assert info["seed_stability_pairs"] > 0
-    assert not (path_of(cfg, "tables") / "B06_drivers.csv").exists()
+    drivers_path = path_of(cfg, "tables") / "B06_drivers.csv"
+    if drivers_path.exists():
+        research = read_json(path_of(cfg, "metadata") / "research_manifest.json")
+        assert research["status"] == "complete"
+        drivers = pd.read_csv(drivers_path)
+        assert drivers["fit_on"].eq("train").all()
+        assert drivers["model"].eq("regularized_logistic_transition_proxy").all()
+        assert np.isfinite(drivers["standardized_coefficient"]).all()
+        assert not any("p_value" in name for name in drivers.columns)
 
 
 def test_btc_eth_models_independent(artifacts):

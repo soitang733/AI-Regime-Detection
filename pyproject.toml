@@ -1,7 +1,7 @@
 [project]
 name = "crypto-regime-radar"
-version = "0.1.0"
-description = "AI Crypto Market Regime Detection — HMM/GMM regime radar cho BTC & ETH"
+version = "2.0.0"
+description = "AI Crypto Market Regime Radar V2 — HMM/NHHMM research for BTC and ETH"
 requires-python = ">=3.10"
 
 [tool.pytest.ini_options]

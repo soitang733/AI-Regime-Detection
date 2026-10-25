@@ -28,6 +28,7 @@ def main():
     commands = [
         ("core", ["run_pipeline.py", "--steps", "models"], "C2_completion_pipeline.log"),
         ("diagnostics", ["-m", "src.models.diagnostics"], "C2_window_diagnostics.log"),
+        ("backtest", ["run_pipeline.py", "--steps", "backtest"], "C3_backtest.log"),
         ("verification", ["scripts/verify_c2.py"], "C2_completion_verification.log"),
     ]
     destination.write_text(json.dumps(report, indent=2), encoding="utf-8")

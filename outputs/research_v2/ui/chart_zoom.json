@@ -1,0 +1,199 @@
+{
+  "checked_at_utc": "2026-10-25T01:46:48.427782+00:00",
+  "checks": [
+    {
+      "asset": "BTC",
+      "page": "2.  Regime History",
+      "chart_index": 0,
+      "width": 1440,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2024-10-24",
+        "2026-10-24"
+      ],
+      "passed": true
+    },
+    {
+      "asset": "BTC",
+      "page": "2.  Regime History",
+      "chart_index": 1,
+      "width": 1440,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2024-10-24",
+        "2026-10-23"
+      ],
+      "passed": true
+    },
+    {
+      "asset": "BTC",
+      "page": "4.  Portfolio & Risk",
+      "chart_index": 0,
+      "width": 1440,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2025-01-25",
+        "2026-10-23"
+      ],
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "page": "2.  Regime History",
+      "chart_index": 0,
+      "width": 1440,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2024-10-24",
+        "2026-10-24"
+      ],
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "page": "2.  Regime History",
+      "chart_index": 1,
+      "width": 1440,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2024-10-24",
+        "2026-10-23"
+      ],
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "page": "4.  Portfolio & Risk",
+      "chart_index": 0,
+      "width": 1440,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2025-01-25",
+        "2026-10-23"
+      ],
+      "passed": true
+    },
+    {
+      "asset": "BTC",
+      "page": "2.  Regime History",
+      "chart_index": 0,
+      "width": 390,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2024-10-24",
+        "2026-10-24"
+      ],
+      "passed": true
+    },
+    {
+      "asset": "BTC",
+      "page": "2.  Regime History",
+      "chart_index": 1,
+      "width": 390,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2024-10-24",
+        "2026-10-23"
+      ],
+      "passed": true
+    },
+    {
+      "asset": "BTC",
+      "page": "4.  Portfolio & Risk",
+      "chart_index": 0,
+      "width": 390,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2025-01-25",
+        "2026-10-23"
+      ],
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "page": "2.  Regime History",
+      "chart_index": 0,
+      "width": 390,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2024-10-24",
+        "2026-10-24"
+      ],
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "page": "2.  Regime History",
+      "chart_index": 1,
+      "width": 390,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2024-10-24",
+        "2026-10-23"
+      ],
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "page": "4.  Portfolio & Risk",
+      "chart_index": 0,
+      "width": 390,
+      "zoom_in": true,
+      "zoom_out": true,
+      "wheel_zoom": true,
+      "reset": true,
+      "initial_x_range": [
+        "2025-01-25",
+        "2026-10-23"
+      ],
+      "passed": true
+    }
+  ],
+  "source_sha256": "0935234dd37b07a9dbd4e5833ea14fe6e861f731577e491abcb4338f9d2c33de",
+  "chart_modules_sha256": {
+    "dashboard/app.py": "1574134b8d640b99433f9e934b36bd64d69165ec90ba24b6b9a7cb1a63da4a84",
+    "dashboard/ui.py": "b72ced188a5e9f3a870913c2d352bfc2083350020a47f134fa8c5bb30260e3e6",
+    "dashboard/v2_charts.py": "91207786e6cfe83327d84c66d82133870b6e914d9d23ca7f0c769e33064b6d40",
+    "dashboard/v2_comparison.py": "183649baeb616c8728309c7f82ff9364d7eb9b23d851527f72afa57381a5aac0",
+    "dashboard/v2_history.py": "ef19e2aa349384417f1af5910e063af0ee015bfea3f4622f9a9a0a970df7273f",
+    "dashboard/v2_interpretation.py": "778e1b3ccefe2ec2516bcb1910ae0032ef548490f11fa8f54ded8c6e69a56651",
+    "dashboard/v2_market_art.py": "6d29e2318460de13e6787adb0e3714cf3ac5723d49a4158817bbd2876799eaeb",
+    "dashboard/v2_overview.py": "3781e7c99db1fc15b9467f63d3b454ef9a838dc327c729d1c8542ff2b4e7bf83",
+    "dashboard/v2_pages.py": "0935234dd37b07a9dbd4e5833ea14fe6e861f731577e491abcb4338f9d2c33de",
+    "dashboard/v2_panels.py": "ffe61f8bcc0e9139ce5b09ba169d4f12c0596195adc5b2ef845b4f0967bc182f",
+    "dashboard/v2_service.py": "6de2fe9c3e16ff9b22a3b9041488d3bfa7de253f42e49dc5652b03462b8d3baf"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "asset": "ETH",
+  "K": 3,
+  "seed": 3,
+  "initializer": "volatility_quantiles",
+  "id": "ETH_3_3_volatility_quantiles",
+  "eligible": true,
+  "feature_space": "2D; likelihood not comparable to3D",
+  "last_gain": 0.0008585753721490619,
+  "min_train_share": 0.0904283447911158,
+  "validation_log_score": -1.918721435544473,
+  "validation_persistence": 0.9904610492845787
+}

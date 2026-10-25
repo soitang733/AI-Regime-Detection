@@ -1,0 +1,17 @@
+{
+  "asset": "ETH",
+  "fold": 0,
+  "K": 2,
+  "seed": 0,
+  "method": "GMM",
+  "id": "ETH_f0_GMM_k2_s0",
+  "eligible": true,
+  "train_days": 1161,
+  "validation_days": 365,
+  "last_date_utc": "2022-05-05",
+  "sample": "development only",
+  "test_used": false,
+  "validation_log_score": -5.929049840390574,
+  "persistence": 0.9835164835164835,
+  "min_validation_share": 0.00821917808219178
+}

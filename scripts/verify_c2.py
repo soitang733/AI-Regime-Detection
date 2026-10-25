@@ -28,10 +28,10 @@ def sha256(path):
 
 
 def input_inventory():
-    paths = [ROOT / name for name in ("config/config.yaml", "config/schema.yaml", "requirements-lock.txt")]
+    paths = [ROOT / name for name in ("config/config.yaml", "config/backtest.yaml", "config/schema.yaml", "requirements-lock.txt")]
     paths.append(Path(__file__).resolve())
     paths.append(TEST_INVENTORY)
-    for folder, pattern in (("src", "*.py"), ("tests", "*.py"), ("data/processed", "*.parquet")):
+    for folder, pattern in (("src", "*.py"), ("tests", "*.py"), ("dashboard", "*.py"), ("data/processed", "*.parquet")):
         paths += sorted((ROOT / folder).rglob(pattern))
     return {p.relative_to(ROOT).as_posix(): sha256(p) for p in paths}
 

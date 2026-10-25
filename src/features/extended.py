@@ -27,8 +27,9 @@ import pandas as pd
 from src.utils.config import get_logger
 
 log = get_logger("extended")
-SERIES_FILES = ["macro_daily.csv", "crypto_market_daily.csv"]
-GROWTH_SERIES = {"STABLECOIN_SUPPLY": "stablecoin_supply_growth_7d", "DEFI_TVL": "defi_tvl_growth_7d"}
+SERIES_FILES = ["macro_daily.csv", "crypto_market_daily.csv", "coinmetrics_market_daily.csv"]
+GROWTH_SERIES = {"STABLECOIN_SUPPLY": "stablecoin_supply_growth_7d", "DEFI_TVL": "defi_tvl_growth_7d",
+                 "CM_MCAP_BTC": "cm_mcap_btc_growth_7d", "CM_MCAP_ETH": "cm_mcap_eth_growth_7d"}
 # Biến thay đổi 1 phiên của thị trường Mỹ (blueprint §3.3 "S&P 500 returns", VIX, DXY).
 # Tính trên CHUỖI PHIÊN GIAO DỊCH GỐC (phiên trước = quan sát liền trước), KHÔNG tính trên lịch
 # crypto 7 ngày (nếu tính sau khi ghép, thứ Bảy/CN lặp giá thứ Sáu -> return giả bằng 0).

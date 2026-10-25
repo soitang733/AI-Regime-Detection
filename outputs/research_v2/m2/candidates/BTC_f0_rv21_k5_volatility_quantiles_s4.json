@@ -1,0 +1,33 @@
+{
+  "asset": "BTC",
+  "fold": 0,
+  "rv": 21,
+  "K": 5,
+  "seed": 4,
+  "initializer": "volatility_quantiles",
+  "candidate_id": "BTC_f0_rv21_k5_volatility_quantiles_s4",
+  "eligible": true,
+  "reason": "",
+  "iterations": 50,
+  "last_gain": 0.0004312414021114819,
+  "min_train_share": 0.11283376399655469,
+  "train_n": 1161,
+  "train_LL": -2982.5819704832525,
+  "AIC": 6073.163940966505,
+  "BIC": 6346.243937978191,
+  "features": [
+    "log_return",
+    "rv21",
+    "log_dollar_volume"
+  ],
+  "validation_log_score": -3.5661735625934976,
+  "label_map": {
+    "0": "Low-Vol",
+    "1": "State 1",
+    "2": "State 2",
+    "3": "State 3",
+    "4": "High-Vol"
+  },
+  "high_risk_state": 4,
+  "runtime_seconds": 0.5
+}

@@ -1,0 +1,45 @@
+{
+  "asset": "BTC",
+  "family": "rv_funding",
+  "K": 4,
+  "seed": 0,
+  "penalty": 10,
+  "id": "BTC_rv_funding_k4_s0_l10",
+  "eligible": false,
+  "converged": true,
+  "iterations": 14,
+  "min_train_share": 0.015742128935532233,
+  "validation_log_score": -3.057461259578547,
+  "window": "common_window",
+  "sample_start": "2019-09-10",
+  "gradient_norm": 2.1609514069820003e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      20.0,
+      1.0,
+      3.9821691291541343e-42,
+      8.680005558816637e-26
+    ],
+    [
+      1.41283715535159e-10,
+      253.3176845406628,
+      4.028060001225591,
+      7.207334449588084
+    ],
+    [
+      0.9999999990024734,
+      2.987101826071032,
+      373.39609303806924,
+      1.0409606213209728
+    ],
+    [
+      8.562429000669224e-10,
+      7.24830053800719,
+      2.452528977164761e-06,
+      661.7744625325246
+    ]
+  ],
+  "reason": "nonconvergence_or_sparse_train_state",
+  "runtime_seconds": 13.718999999997322
+}

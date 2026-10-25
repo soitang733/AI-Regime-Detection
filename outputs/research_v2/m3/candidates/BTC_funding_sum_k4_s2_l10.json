@@ -1,0 +1,45 @@
+{
+  "asset": "BTC",
+  "family": "funding_sum",
+  "K": 4,
+  "seed": 2,
+  "penalty": 10,
+  "id": "BTC_funding_sum_k4_s2_l10",
+  "eligible": false,
+  "converged": true,
+  "iterations": 14,
+  "min_train_share": 0.015742128935532233,
+  "validation_log_score": -3.057515762952261,
+  "window": "common_window",
+  "sample_start": "2019-09-10",
+  "gradient_norm": 1.0164058931013816e-06,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      661.779027291015,
+      2.4176849413207875e-06,
+      7.247635575156303,
+      1.2158336219521935e-10
+    ],
+    [
+      1.0409260200948562,
+      373.3959548951145,
+      2.9870042739095597,
+      0.9999999996587411
+    ],
+    [
+      7.206704050584183,
+      4.027927883251307,
+      253.31481759318766,
+      2.196755497924035e-10
+    ],
+    [
+      5.827686636902079e-54,
+      2.178713139370027e-43,
+      1.0,
+      20.0
+    ]
+  ],
+  "reason": "nonconvergence_or_sparse_train_state",
+  "runtime_seconds": 8.139999999999418
+}

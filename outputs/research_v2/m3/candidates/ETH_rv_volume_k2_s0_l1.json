@@ -1,0 +1,33 @@
+{
+  "asset": "ETH",
+  "family": "rv_volume",
+  "K": 2,
+  "seed": 0,
+  "penalty": 1,
+  "id": "ETH_rv_volume_k2_s0_l1",
+  "eligible": true,
+  "converged": true,
+  "iterations": 8,
+  "min_train_share": 0.4923320994182972,
+  "validation_log_score": -3.3825216269462977,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 2.7771834970057515e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      930.1890337130579,
+      3.0106043797047954
+    ],
+    [
+      2.010606384493122,
+      954.7897555227411
+    ]
+  ],
+  "label_map": {
+    "0": "High-Vol",
+    "1": "Low-Vol"
+  },
+  "high_risk_state": 0,
+  "runtime_seconds": 0.4530000000013388
+}

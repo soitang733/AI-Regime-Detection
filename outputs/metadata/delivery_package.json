@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "created_at_utc": "2026-10-24T13:04:34.701111+00:00",
+  "path": "D:\\AI-Regime-Detection-main\\AI-Crypto-Regime-Radar-complete-20261024.zip",
+  "files": 327,
+  "bytes": 30408188,
+  "sha256": "f9b0c5644f313a684b72385ae74eea18fd6c0ed47633e0cbcc58a5b2ae6bb5eb",
+  "crc_check": "passed",
+  "extracted_package_smoke": {
+    "status": "passed",
+    "independent_root": true,
+    "assets": [
+      {
+        "asset": "BTC",
+        "K": 3,
+        "date": "2026-10-23 00:00:00+00:00",
+        "current_sum": 1.0,
+        "forecast_sum": 1.0
+      },
+      {
+        "asset": "ETH",
+        "K": 4,
+        "date": "2026-10-23 00:00:00+00:00",
+        "current_sum": 1.0,
+        "forecast_sum": 1.0
+      }
+    ]
+  },
+  "excludes": [
+    "virtual environments",
+    "caches",
+    "secrets",
+    "runtime PIDs",
+    "superseded development logs"
+  ]
+}

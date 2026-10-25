@@ -1,0 +1,51 @@
+{
+  "asset": "ETH",
+  "family": "dxy_return_1d",
+  "K": 4,
+  "seed": 1,
+  "penalty": 1,
+  "id": "ETH_dxy_return_1d_k4_s1_l1",
+  "eligible": true,
+  "converged": true,
+  "iterations": 28,
+  "min_train_share": 0.08038075092543628,
+  "validation_log_score": -2.192391149546,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 1.8021802403609e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      858.4248716208418,
+      2.0000470024910335,
+      1.0337150546515057,
+      4.139484784233635e-10
+    ],
+    [
+      4.930101027720687e-09,
+      364.49239609513086,
+      1.021750040545225,
+      5.966980102652753
+    ],
+    [
+      2.033762052649315,
+      4.305420636185075e-06,
+      152.78211514139824,
+      4.10755207474275
+    ],
+    [
+      3.923414949126986e-18,
+      5.9876475878339255,
+      4.08595048709888,
+      488.06320842919627
+    ]
+  ],
+  "label_map": {
+    "0": "State 0",
+    "1": "Low-Vol",
+    "2": "High-Vol",
+    "3": "State 3"
+  },
+  "high_risk_state": 2,
+  "runtime_seconds": 23.75
+}

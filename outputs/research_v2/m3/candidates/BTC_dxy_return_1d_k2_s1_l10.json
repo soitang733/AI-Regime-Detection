@@ -1,0 +1,33 @@
+{
+  "asset": "BTC",
+  "family": "dxy_return_1d",
+  "K": 2,
+  "seed": 1,
+  "penalty": 10,
+  "id": "BTC_dxy_return_1d_k2_s1_l10",
+  "eligible": true,
+  "converged": true,
+  "iterations": 10,
+  "min_train_share": 0.48122686409307247,
+  "validation_log_score": -3.5934997520635092,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 1.085816388364e-08,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      914.4473871496679,
+      4.097933853672778
+    ],
+    [
+      3.0982767828353195,
+      968.3564022138235
+    ]
+  ],
+  "label_map": {
+    "0": "Low-Vol",
+    "1": "High-Vol"
+  },
+  "high_risk_state": 1,
+  "runtime_seconds": 0.18800000000192085
+}

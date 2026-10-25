@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "hashes_sealed_at_utc": "2026-10-24T18:53:35.464386+00:00",
+  "files_sha256": {
+    "contrasts.csv": "7dd5fac7d0ee0429e264ea596ca2fdcc3ee772a6fb4730f7d847160143281a00",
+    "label_block_sensitivity.csv": "0fd586fd98520146e092e46426b92ed2af60752ea2f0bae23463d9255757230e",
+    "occupancy_by_year.csv": "dd63d1bd3dfc42d24a0dc5684164bc720e66305cb7b7679db26afe270f3decf4",
+    "profiles.csv": "cb62c86c14a0a5e6f526c9319c6e8e8b672915cbd0be57a079156c6c00d26252"
+  }
+}

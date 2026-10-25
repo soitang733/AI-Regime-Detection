@@ -1,0 +1,16 @@
+{
+  "asset": "BTC",
+  "method": "MSAR",
+  "K": 4,
+  "seed": 3,
+  "order": 0,
+  "id": "BTC_MSAR_4_3_0",
+  "eligible": false,
+  "validation_log_score": -2.2872785715536073,
+  "feature_space": "100 * daily log return",
+  "warnings": [
+    "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+  ],
+  "validation_persistence": 0.7090620031796503,
+  "runtime_seconds": 51.95299999999406
+}

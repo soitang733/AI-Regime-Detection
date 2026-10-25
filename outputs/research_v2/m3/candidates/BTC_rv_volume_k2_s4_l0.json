@@ -1,0 +1,33 @@
+{
+  "asset": "BTC",
+  "family": "rv_volume",
+  "K": 2,
+  "seed": 4,
+  "penalty": 0,
+  "id": "BTC_rv_volume_k2_s4_l0",
+  "eligible": true,
+  "converged": true,
+  "iterations": 27,
+  "min_train_share": 0.48228450555261765,
+  "validation_log_score": -3.577278570685834,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 6.093443413427101e-08,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      958.0056276453249,
+      18.187556991566325
+    ],
+    [
+      19.1847054885503,
+      894.6221098745579
+    ]
+  ],
+  "label_map": {
+    "0": "High-Vol",
+    "1": "Low-Vol"
+  },
+  "high_risk_state": 0,
+  "runtime_seconds": 0.48399999999674037
+}

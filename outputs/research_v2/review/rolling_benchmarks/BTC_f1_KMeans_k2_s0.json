@@ -1,0 +1,17 @@
+{
+  "asset": "BTC",
+  "fold": 1,
+  "K": 2,
+  "seed": 0,
+  "method": "KMeans",
+  "id": "BTC_f1_KMeans_k2_s0",
+  "eligible": true,
+  "train_days": 1526,
+  "validation_days": 365,
+  "last_date_utc": "2023-05-05",
+  "sample": "development only",
+  "test_used": false,
+  "train_inertia": 3286.8572500020887,
+  "persistence": 0.967032967032967,
+  "min_validation_share": 0.0273972602739726
+}

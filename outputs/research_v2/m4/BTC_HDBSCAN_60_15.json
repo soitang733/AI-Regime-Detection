@@ -1,0 +1,14 @@
+{
+  "asset": "BTC",
+  "method": "HDBSCAN",
+  "size": 60,
+  "samples": 15,
+  "id": "BTC_HDBSCAN_60_15",
+  "eligible": true,
+  "K": 2,
+  "validation_noise_rate": 0.765079365079365,
+  "assignment": "fixed nearest train medoid with 95% train-radius; not native prediction",
+  "probabilities_available": false,
+  "validation_persistence": 0.7297297297297297,
+  "runtime_seconds": 0.07899999999790452
+}

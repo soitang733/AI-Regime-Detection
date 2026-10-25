@@ -1,0 +1,14 @@
+{
+  "registered_at_utc": "2026-10-24T18:38:00.029204+00:00",
+  "inputs_sha256": {
+    "outputs/research_v2/m1/features_btc.parquet": "d759c8becc0b7f1daec1d2eac4907a690e91e80f98507454d2a0926286cb9848",
+    "outputs/research_v2/m1/features_eth.parquet": "06fb2539057fbaed68446d206db54c3e01a8369827f00e181aef496dfb280191",
+    "reports/m0_lock/PROTOCOL_V2_M0.md": "81232b608731509bc04c765d74cc9a3e6ff5605e71cf84391349f6c8985b4696",
+    "src/research_v2/hmm.py": "4d5edc5541f862eaf4592452dd96f448eda8890b62db580b63b24c5891ecedb6",
+    "src/research/robustness.py": "03b0422eb628920397c4f805c60a4b3368ce3a73f700a9bd3dec2eb41911152c",
+    "src/models/inference.py": "a66a727085c75f1d9973500037b10464dd84e31b0ff2f5398566e71f2a62040c",
+    "src/research/economics.py": "64bed46af0edda5cb844ea1b69779ab6668bbdba568590ed06a0dcea3ab62a32"
+  },
+  "existing_results_at_registration": true,
+  "note": "Existing first-batch results were registered after execution; subsequent reuse is guarded."
+}

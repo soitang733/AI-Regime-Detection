@@ -1,0 +1,19 @@
+{
+  "asset": "BTC",
+  "K": 2,
+  "seed": 4,
+  "id": "BTC_k2_s4",
+  "eligible": true,
+  "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+  "iterations": 58,
+  "gradient_norm": 1.17678613718875e-05,
+  "train_objective": 2.5914100329528265,
+  "validation_log_score": -2.273341115061462,
+  "minimum_variance": 0.2625472291580368,
+  "alpha_plus_beta": [
+    0.8603432914377996,
+    0.9547545481185954
+  ],
+  "feature_space": "100 * daily log return",
+  "runtime_seconds": 0.625
+}

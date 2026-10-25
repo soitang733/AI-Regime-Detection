@@ -1,0 +1,41 @@
+{
+  "asset": "BTC",
+  "family": "amihud_illiq",
+  "K": 3,
+  "seed": 3,
+  "penalty": 1,
+  "id": "BTC_amihud_illiq_k3_s3_l1",
+  "eligible": true,
+  "converged": true,
+  "iterations": 21,
+  "min_train_share": 0.14859862506610258,
+  "validation_log_score": -3.0640009112328777,
+  "window": "full_history",
+  "sample_start": "2018-03-02",
+  "gradient_norm": 3.446035264550513e-07,
+  "optimizer_success": true,
+  "expected_transition_counts": [
+    [
+      900.4733227288863,
+      4.714852772226661,
+      0.9883224808892104
+    ],
+    [
+      4.70317557971212,
+      258.4578524252853,
+      6.2465686345091855
+    ],
+    [
+      1.076307906144301e-07,
+      6.235681527598722,
+      708.1802237432624
+    ]
+  ],
+  "label_map": {
+    "0": "Low-Vol",
+    "1": "High-Vol",
+    "2": "State 2"
+  },
+  "high_risk_state": 1,
+  "runtime_seconds": 2.1560000000026776
+}

@@ -1,0 +1,3 @@
+# Frozen research provenance hashes exact bytes, including original line endings.
+# Keep checkout/add from silently rewriting CSV, metadata, protocol or source bytes.
+* -text

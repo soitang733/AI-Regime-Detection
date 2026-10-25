@@ -1,0 +1,238 @@
+{
+  "BTC": {
+    "RQ1": {
+      "selected_K": 4,
+      "candidate": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+      "selection": "validation predictive LL; K5 sensitivity only"
+    },
+    "RQ2": {
+      "economic_labels": {
+        "0": "Calm",
+        "1": "State 1",
+        "2": "State 2",
+        "3": "Stress"
+      },
+      "interpretation": "conditional train statistics; no forced Bull/Bear"
+    },
+    "RQ4": {
+      "pooled_validation_stability": {
+        "asset": "BTC",
+        "fold": 2,
+        "rv": 21,
+        "K": 4,
+        "family": "pooled",
+        "valid_fits": 5,
+        "median_ari": 1.0,
+        "minimum_ari": 1.0,
+        "metric_gate_passed": true,
+        "eligible_initializer_families": 1,
+        "stable": false,
+        "scope": "within one eligible initializer family only",
+        "risk_probability_mae": 3.868944404245225e-06,
+        "risk_disagreement": 0.0,
+        "risk_jaccard": 1.0
+      },
+      "claim": "compare metrics and uncertainty; no automatic HMM superiority"
+    },
+    "limitations": [
+      "historical test already observed",
+      "economic intervals conditional on fitted model",
+      "macro historical release vintages not verified"
+    ],
+    "RQ3": {
+      "status": "evaluated",
+      "limitation": "proxy next-state targets; expected-count screen is not coefficient significance"
+    },
+    "RQ5": {
+      "historical_performance": [
+        {
+          "asset": "BTC",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "buy_and_hold",
+          "model_run_id": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "final_nav": 0.7734123965,
+          "cumulative_return": -0.2265876035,
+          "CAGR": -0.136902712,
+          "ann_volatility": 0.4298650097,
+          "Sharpe": -0.1277693231,
+          "max_drawdown": -0.5297176591,
+          "turnover": 1.0,
+          "total_cost": 0.001,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "BTC",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "volatility_targeting",
+          "model_run_id": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "final_nav": 0.7888561526,
+          "cumulative_return": -0.2111438474,
+          "CAGR": -0.1270690116,
+          "ann_volatility": 0.381358581,
+          "Sharpe": -0.1655243394,
+          "max_drawdown": -0.5172712032,
+          "turnover": 9.0927875631,
+          "total_cost": 0.0090927876,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "BTC",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "regime_defensive",
+          "model_run_id": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "final_nav": 0.730739661,
+          "cumulative_return": -0.269260339,
+          "CAGR": -0.1645196709,
+          "ann_volatility": 0.4129948717,
+          "Sharpe": -0.2280762872,
+          "max_drawdown": -0.5509156028,
+          "turnover": 4.0,
+          "total_cost": 0.004,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "BTC",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "regime_volatility_targeting",
+          "model_run_id": "BTC_f2_rv21_k4_volatility_quantiles_s3",
+          "final_nav": 0.7567716333,
+          "cumulative_return": -0.2432283667,
+          "CAGR": -0.1475929244,
+          "ann_volatility": 0.376428101,
+          "Sharpe": -0.2356937951,
+          "max_drawdown": -0.5339280891,
+          "turnover": 10.5682757048,
+          "total_cost": 0.0105682757,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        }
+      ],
+      "independent_confirmation": "pending"
+    }
+  },
+  "ETH": {
+    "RQ1": {
+      "selected_K": 4,
+      "candidate": "ETH_f2_rv21_k4_kmeans_s4",
+      "selection": "validation predictive LL; K5 sensitivity only"
+    },
+    "RQ2": {
+      "economic_labels": {
+        "0": "State 0",
+        "1": "High-Vol",
+        "2": "Calm",
+        "3": "State 3"
+      },
+      "interpretation": "conditional train statistics; no forced Bull/Bear"
+    },
+    "RQ4": {
+      "pooled_validation_stability": {
+        "asset": "ETH",
+        "fold": 2,
+        "rv": 21,
+        "K": 4,
+        "family": "pooled",
+        "valid_fits": 10,
+        "median_ari": 0.7910574381079727,
+        "minimum_ari": 0.008338513780626246,
+        "metric_gate_passed": false,
+        "eligible_initializer_families": 2,
+        "stable": false,
+        "scope": "pooled across at least two eligible initializer families",
+        "risk_probability_mae": 0.008149981741308095,
+        "risk_disagreement": 0.008183421516754849,
+        "risk_jaccard": 0.3636363636363636
+      },
+      "claim": "compare metrics and uncertainty; no automatic HMM superiority"
+    },
+    "limitations": [
+      "historical test already observed",
+      "economic intervals conditional on fitted model",
+      "macro historical release vintages not verified"
+    ],
+    "RQ3": {
+      "status": "evaluated",
+      "limitation": "proxy next-state targets; expected-count screen is not coefficient significance"
+    },
+    "RQ5": {
+      "historical_performance": [
+        {
+          "asset": "ETH",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "buy_and_hold",
+          "model_run_id": "ETH_f2_rv21_k4_kmeans_s4",
+          "final_nav": 0.7205902693,
+          "cumulative_return": -0.2794097307,
+          "CAGR": -0.1711886826,
+          "ann_volatility": 0.6908073211,
+          "Sharpe": 0.0698437806,
+          "max_drawdown": -0.6755345018,
+          "turnover": 1.0,
+          "total_cost": 0.001,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "ETH",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "volatility_targeting",
+          "model_run_id": "ETH_f2_rv21_k4_kmeans_s4",
+          "final_nav": 0.8206535303,
+          "cumulative_return": -0.1793464697,
+          "CAGR": -0.1070775869,
+          "ann_volatility": 0.4616218587,
+          "Sharpe": -0.0176213251,
+          "max_drawdown": -0.5701340386,
+          "turnover": 16.2622892546,
+          "total_cost": 0.0162622893,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "ETH",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "regime_defensive",
+          "model_run_id": "ETH_f2_rv21_k4_kmeans_s4",
+          "final_nav": 0.6983086571,
+          "cumulative_return": -0.3016913429,
+          "CAGR": -0.1859718567,
+          "ann_volatility": 0.6889748017,
+          "Sharpe": 0.0421451358,
+          "max_drawdown": -0.670620103,
+          "turnover": 4.0,
+          "total_cost": 0.004,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        },
+        {
+          "asset": "ETH",
+          "scenario": "baseline_close_to_close",
+          "fee_rate": 0.001,
+          "strategy": "regime_volatility_targeting",
+          "model_run_id": "ETH_f2_rv21_k4_kmeans_s4",
+          "final_nav": 0.8100729049,
+          "cumulative_return": -0.1899270951,
+          "CAGR": -0.1136924344,
+          "ann_volatility": 0.4611080569,
+          "Sharpe": -0.0342707082,
+          "max_drawdown": -0.5669825921,
+          "turnover": 17.6235540815,
+          "total_cost": 0.0176235541,
+          "n": 637,
+          "sample_status": "historical_exploratory"
+        }
+      ],
+      "independent_confirmation": "pending"
+    }
+  }
+}
