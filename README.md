@@ -48,9 +48,3 @@ python -m src.research_v2.acceptance
 - Chẩn đoán bổ sung: `outputs/research_v2/review/`; báo cáo replay: `outputs/research_v2/reproduction/result.json`.
 - Tests/log/XML và nghiệm thu: `outputs/research_v2/acceptance_*`, `technical_acceptance.json`, `ui/acceptance.json`.
 - [Protocol rà soát](docs/V2_REVIEW_PROTOCOL.md), [protocol M0](reports/m0_lock/PROTOCOL_V2_M0.md), `outputs/research_v2/confirmation_lock.json`.
-
-
-
-## Ranh giới nghiệm thu
-
-**Technical PASSED** chỉ nói implementation, schema, thời gian, xác suất, artifact, tests và UI đã qua kiểm tra thực chạy. **Research Confirmation PENDING**: test lịch sử đã được xem; chưa có tái lập bởi team độc lập hoặc prospective sample đủ dài/sự kiện. Không dùng kết quả khám phá để tuyên bố model hữu ích cho giao dịch thật. Team khác viết nội dung học thuật từ các bảng/hình và RQ result cards.
