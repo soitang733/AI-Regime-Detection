@@ -49,19 +49,7 @@ python -m src.research_v2.acceptance
 - Tests/log/XML và nghiệm thu: `outputs/research_v2/acceptance_*`, `technical_acceptance.json`, `ui/acceptance.json`.
 - [Protocol rà soát](docs/V2_REVIEW_PROTOCOL.md), [protocol M0](reports/m0_lock/PROTOCOL_V2_M0.md), `outputs/research_v2/confirmation_lock.json`.
 
-## Dashboard
 
-Giao diện dùng phong cách research terminal xanh rêu–kem–vàng đồng. Header và sidebar đồng bộ BTC/ETH; chỉ V2. Overview có Radar, current/T+1 và price overlay. History có Historical Regimes, Economic Profiles, Transition Analysis và Market Drivers. Comparison trực quan hóa lựa chọn K, matched-sample stability và rolling windows; Portfolio giữ các kết quả sau phí và conditional CI. Cuối mỗi trang có thể tải T01–T08, F01–F06 và báo cáo nghiên cứu.
-
-Market-studio bổ sung ticker/sparkline và họa tiết nến từ OHLC thật, cùng lựa chọn biểu đồ nến. Cảnh báo dài được thu trong “Chất lượng mô hình & phạm vi dữ liệu”; badge UNSTABLE và ngày snapshot vẫn hiện. Phần ĐỌC TÍN HIỆU và các tab nghiên cứu giữ diễn giải RQ1–RQ5, không biến xác suất regime thành dự báo giá.
-
-Dashboard trình bày kết quả trực tiếp tại đúng output: Radar cho current/T+1; Economic Profiles và Drivers cho RQ2/RQ3; Model Selection và Stability cho RQ1/RQ4; Portfolio cho RQ5 theo phí/scenario đang chọn. Kết luận nghiên cứu nằm cạnh bảng/biểu đồ liên quan, không lặp lại thành một banner diễn giải ở đầu trang.
-
-Overview có Radar, toàn bộ K state thật, xác suất filtered hiện tại, T+1, High-Risk, ngày/as-of và giải thích mô hình. Với HMM: `q[t+1] = alpha[t] @ P`; NHHMM: `q[t+1] = alpha[t] @ P(z[t])`, chỉ dùng covariates có sẵn tại t. Forecast là xác suất trạng thái, không phải xác suất giá tăng.
-
-Regime History mặc định filtered; smoothed chỉ để nhìn lại với cảnh báo hindsight. Model Comparison so BTC/ETH theo thống kê/nhãn riêng từng model, không đồng nhất State 0 giữa hai tài sản. Portfolio giữ nguyên kết quả sau phí, gồm cả trường hợp kém benchmark. Model chưa đủ ổn định luôn có cảnh báo; cơ chế `require_stable`/`acknowledge_unstable` được giữ.
-
-Biểu đồ có thanh công cụ Zoom/Pan, nút +/− và đặt lại góc nhìn. Kéo chọn một vùng hoặc cuộn chuột trên vùng vẽ để zoom; nhấp đúp/Reset axes để trở về khung ban đầu. Các nút vẫn hiện trên mobile. Zoom chỉ đổi góc nhìn, không thay khoảng mẫu hoặc tính lại kết quả nghiên cứu.
 
 ## Ranh giới nghiệm thu
 
