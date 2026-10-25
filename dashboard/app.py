@@ -1,6 +1,6 @@
 """One current, verified research result set. The dashboard never fits models."""
-from pathlib import Path
 import sys
+from pathlib import Path
 
 import pandas as pd
 import streamlit as st
@@ -9,12 +9,12 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from dashboard import ui, v2_pages, v2_service  # noqa: E402
+from dashboard import ui, v2_pages, v2_service
 
 st.set_page_config(page_title='Crypto Market Regime Radar', page_icon='📡',
                    layout='wide', initial_sidebar_state='auto')
 st.markdown(ui.CSS, unsafe_allow_html=True)
-PAGES = ['Overview', 'Regime History', 'Model Comparison', 'Portfolio & Risk']
+PAGES = ['Overview', 'Regime History', 'Model Comparison', 'Portfolio & Risk', 'Research Outputs']
 
 
 def sync_header_asset():
