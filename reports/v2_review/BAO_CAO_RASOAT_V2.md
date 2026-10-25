@@ -142,15 +142,3 @@ Giữ nguyên các trường hợp regime-aware kém benchmark. Không tìm chi�
 
 Ở block21, cả8 CI chênh lệch Sharpe của hai chiến lược regime-aware so hai đối chứng cho BTC/ETH đều chứa0. Chưa có bằng chứng cải thiện Sharpe sau phí trong phép đánh giá có điều kiện này; không lấy một vài điểm estimate thuận lợi để tuyên bố thắng benchmark.
 
-## 6. Dashboard và nghiệm thu
-
-Giữ nguyên phong cách hiện tại. Radar dùng toàn bộ K thật; filtered hiện tại, HMM T+1=`alpha @ P`, NHHMM T+1=`alpha @ P(z_t)`; ngày/as_of UTC rõ ràng. Smoothed chỉ hindsight, không làm tín hiệu backtest. Comparison không đồng nhất State0 giữa BTC/ETH. `unstable` và acknowledge/require-stable không bị xóa.
-
-Biểu đồ giá/regime, xác suất và NAV/drawdown có thanh zoom luôn hiển thị: kéo chọn vùng, +/−, pan, cuộn chuột và reset/nhấp đúp. Chỉ đổi góc nhìn, không thay dữ liệu hoặc kết quả mô hình. Kết quả tương tác thực ở `outputs/research_v2/ui/chart_zoom.json`: 12 trường hợp desktop/mobile đã được ghi nhận ở lần nghiệm thu này.
-
-- Replay: **passed**, 13 stage, 257 CSV so sánh, original artifacts unchanged=True. Fresh fits trong replay=0; các fit cũ dùng checkpoint, không giả là refit toàn bộ hoặc independent replication.
-- Pytest: 226 tests; failures/errors=0; skipped=0.
-- Browser: 48 trường hợp có kiểm kích thước/nội dung, hai tài sản/bốn trang/desktop/mobile. Zoom125% là viewport/device emulation, không thao tác menu zoom Chrome.
-- Hash model/data/protocol/confirmation lock phải khớp. Bảng/hình T01–T08/F01–F06 cũ giữ nguyên; `outputs/research_v2/review/artifact_index.json` nối tất cả output gốc và bổ sung với SHA-256. `RQ_review_cards.json` cung cấp RQ1–RQ5 cho team viết nội dung.
-
-Research Confirmation **PENDING**: historical test đã xem; chưa có clean-room replication độc lập, prospective sample đủ180 ngày và20 stress entries, hay macro release-vintage verification. Negative research results được giữ trung thực, không coi Technical PASSED là chứng nhận hiệu quả đầu tư.
