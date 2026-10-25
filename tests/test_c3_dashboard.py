@@ -4,8 +4,8 @@ Dùng streamlit.testing (chạy app không cần trình duyệt). Skip nếu ch�
 chưa có đầu ra C2/C3; không dùng dữ liệu mock.
 """
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 import pytest
 from bs4 import BeautifulSoup
 
@@ -13,11 +13,12 @@ pytest.importorskip("streamlit")
 pytest.importorskip("plotly")
 from streamlit.testing.v1 import AppTest
 
+from dashboard import ui
+from dashboard import v2_service as service
 from src.utils.config import ROOT
-from dashboard import ui, v2_service as service
 
 APP = str(ROOT / "dashboard" / "app.py")
-PAGES = ["Overview", "Regime History", "Model Comparison", "Portfolio & Risk"]
+PAGES = ["Overview", "Regime History", "Model Comparison", "Portfolio & Risk", "Research Outputs"]
 
 
 @pytest.fixture(scope="module")
@@ -54,7 +55,7 @@ def _kpi(at, label):
 
 
 @pytest.mark.parametrize("asset", ["BTC", "ETH"])
-def test_app_renders_four_pages_without_errors(ready, asset):
+def test_app_renders_all_pages_without_errors(ready, asset):
     at = _run(asset)
     assert _radio(at, "Trang").options == [f"{i}.  {p}" for i, p in enumerate(PAGES, start=1)]
     for page in PAGES:

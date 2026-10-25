@@ -205,20 +205,45 @@ SUBMISSION_TABLES = {
     'B08 · Portfolio 10 bps V2': 'outputs/tables/B08_portfolio_v2.csv',
 }
 
+SUBMISSION_FIGURES = {
+    'H01 · Price History': 'outputs/figures/H01_price_history.png',
+    'H02 · Price & Regimes': 'outputs/figures/H02_{asset}_price_regimes.png',
+    'H03 · Filtered & Smoothed Probabilities': 'outputs/figures/H03_{asset}_regime_probabilities.png',
+    'H04 · HMM vs GMM': 'outputs/figures/H04_{asset}_hmm_vs_gmm.png',
+    'H05 · Portfolio NAV sau phí': 'outputs/figures/H05_{asset}_portfolio_nav.png',
+    'H06 · Dashboard Screenshot': 'outputs/figures/H06_dashboard.png',
+}
 
-def evidence(st, ui, ctx, page):
+
+def evidence(st, ui, ctx):
+    with st.container(border=True, key='submission_pack'):
+        st.markdown(ui.sec_html('Research Outputs', 'B01–B08 và H01–H06 · đã kiểm tra SHA-256'),
+                    unsafe_allow_html=True)
+        st.caption('B01/B02/H01 được giữ nguyên; B03–B05, B07/B08 và H02–H06 lấy từ V2 đã khóa. '
+                   'B06 không xuất vì chưa qua event-count screen.')
+        table_label = st.selectbox('Bảng chuẩn', list(SUBMISSION_TABLES), key='submission_table')
+        figure_label = st.selectbox('Hình chuẩn', list(SUBMISSION_FIGURES), key='submission_figure')
+        table_path = service.submission_path(SUBMISSION_TABLES[table_label], ctx.root)
+        relative = SUBMISSION_FIGURES[figure_label].format(asset=ctx.asset)
+        figure_path = service.submission_path(relative, ctx.root)
+        left, right = st.columns(2)
+        left.download_button('↓ Tải bảng CSV', table_path.read_bytes(), file_name=table_path.name,
+                             mime='text/csv', key='download_submission_table', width='stretch')
+        right.download_button('↓ Tải hình PNG', figure_path.read_bytes(), file_name=figure_path.name,
+                              mime='image/png', key='download_submission_figure', width='stretch')
+        table_data = pd.read_csv(table_path)
+        if 'asset' in table_data:
+            table_data = table_data.loc[table_data.asset.eq(ctx.asset)]
+        st.dataframe(table_data.head(20), hide_index=True, width='stretch')
+        st.caption('Xem trước tối đa 20 dòng; CSV tải xuống chứa toàn bộ dữ liệu.')
+        st.image(str(figure_path), caption=f'{figure_label} · {ctx.asset}', width='stretch')
+
     with st.expander('Research evidence · tải bảng, hình và báo cáo'):
-        st.caption('B01–B08 / H01–H06 · bộ chuẩn cho báo cáo; B06 được lược bỏ vì chưa qua event-count screen.')
-        standard = st.selectbox('Bảng chuẩn B', list(SUBMISSION_TABLES), key=f'submission_table_{page}')
-        relative = SUBMISSION_TABLES[standard]
-        standard_path = service.submission_path(relative, ctx.root)
-        st.download_button('Tải bảng B chuẩn', standard_path.read_bytes(), file_name=standard_path.name,
-                           mime='text/csv', key=f'download_submission_table_{page}')
         st.caption('T01–T08 / F01–F06 · kết quả thật đã xác minh · Research Confirmation PENDING.')
-        selection = st.selectbox('Bảng nghiên cứu', list(TABLES), key=f'evidence_table_{page}')
+        selection = st.selectbox('Bảng nghiên cứu', list(TABLES), key='evidence_table')
         name = TABLES[selection]
         path = service.verified_path('deliverables', f'tables/{name}', ctx.root)
-        st.download_button('Tải bảng CSV', path.read_bytes(), file_name=name, mime='text/csv', key=f'download_table_{page}')
+        st.download_button('Tải bảng CSV', path.read_bytes(), file_name=name, mime='text/csv', key='download_table')
         with st.expander('Xem một phần bảng đã chọn'):
             data = pd.read_csv(path)
             if 'asset' in data:
@@ -227,10 +252,10 @@ def evidence(st, ui, ctx, page):
             st.caption('Tối đa 30 dòng xem trước; file tải chứa nguyên bảng cho cả hai tài sản nếu có.')
         manifest = service.manifest('deliverables', ctx.root)
         images = sorted(name for name in manifest['files_sha256'] if name.startswith('figures/') and f'_{ctx.asset}_' in name)
-        image_name = st.selectbox('Hình nghiên cứu', images, format_func=lambda s: s.split('/')[-1], key=f'evidence_figure_{page}')
+        image_name = st.selectbox('Hình nghiên cứu', images, format_func=lambda s: s.split('/')[-1], key='evidence_figure')
         image_path = service.verified_path('deliverables', image_name, ctx.root)
-        st.download_button('Tải hình PNG', image_path.read_bytes(), file_name=image_path.name, mime='image/png', key=f'download_figure_{page}')
+        st.download_button('Tải hình PNG', image_path.read_bytes(), file_name=image_path.name, mime='image/png', key='download_figure')
         report = ctx.root/'reports/v2_review/BAO_CAO_RASOAT_V2.md'
         if report.exists():
             st.download_button('Tải báo cáo RQ1–RQ5', report.read_bytes(), file_name=report.name,
-                               mime='text/markdown', key=f'download_report_{page}')
+                               mime='text/markdown', key='download_report')

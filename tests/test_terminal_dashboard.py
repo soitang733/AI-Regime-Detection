@@ -6,8 +6,9 @@ import pandas as pd
 import pytest
 from streamlit.testing.v1 import AppTest
 
-from dashboard import v2_charts as figures, v2_service as service
+from dashboard import v2_charts as figures
 from dashboard import v2_market_art as market_art
+from dashboard import v2_service as service
 from src.utils.config import ROOT
 
 
@@ -114,9 +115,29 @@ def test_dynamic_transitions_use_nhhmm_K_and_do_not_fabricate_CI():
 
 def test_download_evidence_is_accessible_without_a_baseline_version():
     at = AppTest.from_file(str(ROOT/'dashboard/app.py'),default_timeout=180).run()
+    radio(at, 'Trang').set_value('Research Outputs').run()
     labels = [item.proto.label for item in at.get('download_button')]
-    assert {'Tải bảng CSV','Tải hình PNG','Tải báo cáo RQ1–RQ5'}<=set(labels)
+    assert {'↓ Tải bảng CSV','↓ Tải hình PNG','Tải bảng CSV','Tải hình PNG',
+            'Tải báo cáo RQ1–RQ5'}<=set(labels)
+    assert any('Research Outputs' in item.value for item in at.markdown)
     assert all(r.label!='Phiên kết quả' for r in at.radio)
+
+
+def test_research_outputs_page_contains_the_complete_b_and_h_catalog_only():
+    at = AppTest.from_file(str(ROOT/'dashboard/app.py'),default_timeout=180).run()
+    for page in ['Overview', 'Regime History', 'Model Comparison', 'Portfolio & Risk']:
+        radio(at, 'Trang').set_value(page).run()
+        assert not any(x.label == 'Bảng chuẩn' for x in at.selectbox)
+        assert not at.exception and not at.error
+    radio(at, 'Trang').set_value('Research Outputs').run()
+    table = next(x for x in at.selectbox if x.label == 'Bảng chuẩn')
+    figure = next(x for x in at.selectbox if x.label == 'Hình chuẩn')
+    assert {'B01 · Thống kê mô tả', 'B02 · Thông tin mẫu', 'B03 · Model Selection V2',
+            'B04 · Regime Statistics V2', 'B05 · Transition Matrix V2',
+            'B07 · HMM vs GMM V2', 'B08 · Portfolio 10 bps V2'} == set(table.options)
+    assert {f'H0{i}' for i in range(1, 7)} == {item.split(' · ')[0] for item in figure.options}
+    assert any('B06 không xuất' in item.value for item in at.caption)
+    assert not at.exception and not at.error
 
 
 def test_model_warnings_are_available_in_collapsed_quality_details():
