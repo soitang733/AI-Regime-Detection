@@ -1,275 +1,146 @@
-# AI Crypto Market Regime Detection
+# AI Crypto Market Regime Detection — Báo cáo kết quả V2
 
-## Research report — reproducible exploratory extension
+**Phiên bản kết quả:** V2
 
-Generated UTC: 2026-10-24T11:59:45.946875+00:00. Core candles through
-{'BTC': '2026-10-23', 'ETH': '2026-10-23'}. Source: Binance BTC/ETH daily Spot; external sources
-and acquisition failures are recorded in external_refresh_manifest.json.
+**Dữ liệu lõi:** Binance Spot daily BTC/USDT và ETH/USDT, đến hết nến UTC 23/10/2026
 
-### Abstract
+**Trạng thái:** Technical PASSED; Research Confirmation PENDING
 
-We estimate latent regimes using frozen train-scaled Gaussian HMMs and evaluate
-economic interpretation, initialization sensitivity, clustering comparisons,
-transition proxies and defensive allocation. We retain all unfavorable results.
-The original test has already been observed; this extension is exploratory and
-does not constitute a newly untouched holdout or evidence of deployable alpha.
+## Tóm tắt
 
-### Data and protocol
+Nghiên cứu nhận diện trạng thái ẩn của BTC và ETH bằng Gaussian HMM, mở rộng xác suất chuyển trạng thái bằng non-homogeneous HMM (NHHMM), so sánh benchmark và đánh giá giá trị kinh tế của regime signal. Mẫu được chia theo thời gian thành train, validation và historical test. Cấu hình chỉ được chọn trên train/validation; test không được dùng để chọn lại mô hình.
 
-Chronological train ends 2023-05-05, validation ends 2025-01-24. New dates only
-extend the evaluation tail. Core inputs are daily log return, 21-day realized
-volatility and log(1 + quote volume USDT), standardized on train. No interpolated
-returns across gaps; separate filtered and hindsight-smoothed outputs. External
-features use publication-time as-of joins; observations older than seven days
-are missing in the drivers experiment. Imputation/scaling is fitted on train only.
-Historical macro values are current-vintage downloads, not a fully vintage-real-time
-database; conservative time lags cannot eliminate all revision bias.
+V2 chọn **K=4 cho cả BTC và ETH**. Đây là kết quả của protocol, không phải ép đủ bốn tên Bull/Bear/Calm/Stress. Nhãn kinh tế chỉ được gán khi thống kê train thỏa điều kiện định trước. BTC có Calm và Stress; ETH có Calm, High-Vol và hai state trung tính. Chưa đủ bằng chứng gán Bull/Bear.
 
-### RQ1 — number of states and initialization
+NHHMM đã được triển khai và kiểm tra kỹ thuật, nhưng **chưa chứng minh cải thiện ngoài mẫu so với HMM đồng nhất**. Historical test chỉ có hai stress-entry proxy events cho mỗi tài sản, không đủ để kết luận mạnh về funding rate, VIX, DXY, volume hoặc liquidity.
 
-Core K=2,3,4 is selected on predictive validation likelihood, with train fit
-quality checks. A separate K=2..5 structured-initialization experiment uses both
-KMeans initialization and volatility-quantile initialization, small seeded
-perturbations and an initial 95% self-transition matrix. EM still learns the
-matrix; it is not held at 95%. Configurations meeting seed-ARI criteria are
-preferred, then validation likelihood. This stability is conditional on the
-initializer family and does not negate instability under unrestricted starts.
-Selection records are saved before test evaluation. K=5 is an optional candidate,
-not an attempt to manufacture four economically named classes.
+## Protocol và nguồn kết quả
 
-| asset | method | period | K | avg_log_score | persistence |
-| --- | --- | --- | --- | --- | --- |
-| BTC | HMM_structured | validation | 5 | -2.3796 | 0.94913 |
-| BTC | KMeans | validation | 3 | — | 0.72496 |
-| BTC | GMM_matched_K | validation | 5 | -3.3565 | 0.72337 |
-| BTC | HMM_structured | test | 5 | -2.2534 | 0.96855 |
-| BTC | KMeans | test | 3 | — | 0.72642 |
-| BTC | GMM_matched_K | test | 5 | -3.5878 | 0.71855 |
-| ETH | HMM_structured | validation | 5 | -2.182 | 0.98251 |
-| ETH | KMeans | validation | 4 | — | 0.7806 |
-| ETH | GMM_matched_K | validation | 5 | -3.6211 | 0.80922 |
-| ETH | HMM_structured | test | 5 | -2.3199 | 0.95912 |
-| ETH | KMeans | test | 4 | — | 0.72484 |
-| ETH | GMM_matched_K | test | 5 | -3.4876 | 0.79403 |
+- Biến lõi: daily log return, RV21 và log dollar volume.
+- Chuẩn hóa được fit trên train rồi giữ nguyên trên validation/test.
+- Model selection dùng validation predictive log likelihood, kèm hội tụ, occupancy, BIC và stability.
+- K thuộc {2, 3, 4}; K=5 chỉ là sensitivity.
+- Dashboard/backtest chỉ dùng filtered probability; smoothed chỉ để hindsight.
+- HMM T+1: `alpha_t @ P`; NHHMM T+1: `alpha_t @ P(z_t)` với dữ liệu khả dụng tại t.
+- Nhãn kinh tế suy ra trên train bằng posterior-weighted statistics và moving-block bootstrap.
+- Historical test đã được quan sát trong quá trình hoàn thiện V2, nên kết quả vẫn là exploratory.
 
-KMeans has no generative likelihood here: centroid distance is a separate metric,
-never ranked against HMM/GMM log density. Higher persistence is not independently
-proof of economic usefulness.
+Nguồn chuẩn là `outputs/research_v2/deliverables/tables/T01–T08`, metadata trong `outputs/research_v2/m2`, audit trong `outputs/research_v2/review` và hình F01–F06.
 
-### RQ2 — economic meaning
+## RQ1 — Số trạng thái
 
-Labels are inferred on train using paired moving-block bootstrap of returns and
-fixed-model filtered weights, 1,000 replicates, 21-day blocks; 14/42-day sensitivity
-is reported separately. Familywise bands use Bonferroni correction across mean,
-volatility-ratio and tail contrasts for all K states. A minimum 100 weighted
-effective days is required. Calm requires the upper volatility-ratio band below
-0.85 and modest mean/vol ratio. Stress requires the lower ratio band above 1.25
-and excess left-tail exposure with lower confidence bound above zero. Bull/Bear
-require the entire mean-return band beyond +/-0.05% daily log return. These are
-declared research conventions, not universally identified market classes.
+| Tài sản | K | Model ID | RV | Khởi tạo | Validation log score |
+| --- | ---: | --- | ---: | --- | ---: |
+| BTC | 4 | `BTC_f2_rv21_k4_volatility_quantiles_s3` | 21 | volatility quantiles | -2,387947 |
+| ETH | 4 | `ETH_f2_rv21_k4_kmeans_s4` | 21 | K-means | -2,192518 |
 
-| asset | state_id | model_label | economic_label | direction | mean_ci_low | mean_ci_high | volatility_ratio |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| BTC | 0 | High-Vol | Stress | Uncertain | -0.0067696 | 0.004589 | 1.4375 |
-| BTC | 1 | State 1 | State 1 | Uncertain | -0.0016436 | 0.0044076 | 0.86813 |
-| BTC | 2 | Low-Vol | Calm | Uncertain | -0.0025647 | 0.0043602 | 0.52739 |
-| ETH | 0 | State 0 | State 0 | Uncertain | -0.0049314 | 0.005421 | 0.86621 |
-| ETH | 1 | Low-Vol | Calm | Uncertain | -0.0020832 | 0.00766 | 0.64773 |
-| ETH | 2 | High-Vol | Stress | Uncertain | -0.015886 | 0.010331 | 1.7225 |
-| ETH | 3 | State 3 | State 3 | Uncertain | -0.0051502 | 0.0075482 | 0.98822 |
+**Kết luận RQ1:** K=4 là lựa chọn phát triển cho cả hai tài sản theo protocol V2. K=4 không đồng nghĩa bốn state đều có thể mang bốn nhãn kinh tế. K=5 và RV14/RV30 chỉ là robustness/sensitivity.
 
-Direction and risk are separate axes. Failure to establish Bull/Bear is a valid
-finding, not a reason to rename a state on visual intuition. The model's original
-label_map/IDs remain available; the research interpretation is frozen from train.
-Intervals are conditional on the selected fitted model, do not refit HMM parameters,
-and understate total uncertainty if initialization/selection uncertainty is ignored.
+## RQ2 — Ý nghĩa kinh tế của regime
 
-### Liquidity interpretation
+| Tài sản | State | Nhãn model | Nhãn kinh tế | Mean log return/ngày | Volatility ratio | Diễn giải |
+| --- | ---: | --- | --- | ---: | ---: | --- |
+| BTC | 0 | Low-Vol | Calm | 0,1147% | 0,5285 | Biến động thấp có bằng chứng |
+| BTC | 1 | State 1 | State 1 | 0,0180% | 0,7848 | Chưa đủ bằng chứng đặt tên |
+| BTC | 2 | State 2 | State 2 | 0,2874% | 0,9346 | Mean CI chứa 0; không gán Bull |
+| BTC | 3 | High-Vol | Stress | -0,1740% | 1,4692 | Volatility và left-tail risk cao |
+| ETH | 0 | State 0 | State 0 | 0,1190% | 0,9818 | Trung tính theo tiêu chí hiện hành |
+| ETH | 1 | High-Vol | High-Vol | -0,0770% | 1,7954 | Volatility cao; tail CI chưa đủ gọi Stress |
+| ETH | 2 | Low-Vol | Calm | 0,2745% | 0,6488 | Biến động thấp có bằng chứng |
+| ETH | 3 | State 3 | State 3 | -0,0740% | 0,9240 | Chưa đủ bằng chứng đặt tên |
 
-Amihud uses abs(daily simple return) / daily quote-volume USD. Larger values
-indicate a less liquid proxy, not measured order-book depth or spread. Weighted
-state means and pointwise conditional train block-bootstrap intervals are below.
-Liquidity and return-volatility rankings need not agree. Absolute quote-volume
-levels can also encode secular market growth; states with little later occupancy
-must not automatically be presented as persistent economic market classes.
+Mean-return CI của mọi state đều chứa 0, nên V2 không xác nhận Bull/Bear. Regime phân tách rõ hơn theo volatility và tail risk. Liquidity dùng Amihud từ daily quote volume, chỉ là proxy chứ không phải spread/order-book depth.
 
-| asset | state_id | mean_amihud_illiquidity | train_ci_low | train_ci_high | n_hard |
-| --- | --- | --- | --- | --- | --- |
-| BTC | 0 | 5.5297e-11 | 3.614e-11 | 7.7157e-11 | 506 |
-| BTC | 1 | 3.6724e-11 | 2.8251e-11 | 4.5714e-11 | 950 |
-| BTC | 2 | 3.5964e-11 | 2.4542e-11 | 4.9113e-11 | 435 |
-| ETH | 0 | 4.2007e-10 | 3.6374e-10 | 4.7182e-10 | 819 |
-| ETH | 1 | 3.7887e-11 | 2.8322e-11 | 5.0116e-11 | 357 |
-| ETH | 2 | 1.8265e-10 | 9.7795e-11 | 2.9312e-10 | 213 |
-| ETH | 3 | 2.4945e-11 | 2.1882e-11 | 2.9151e-11 | 502 |
+## RQ3 — NHHMM và dự báo chuyển Stress
 
-### RQ3 — macro/crypto transition proxies
+V2 triển khai NHHMM thật với transition matrix biến thiên theo covariates. Recovery mô phỏng, hội tụ, save/load, tổng xác suất và trường hợp beta=0 khớp HMM đều đã qua kiểm tra. Đó là nghiệm thu kỹ thuật, không phải bằng chứng predictive superiority.
 
-Regularized logistic regression predicts a non-High-Risk to High-Risk transition
-on the following contiguous day, using frozen HMM filtered hard labels as noisy
-proxies. Predictors at t are paired to outcomes at t+1; split assignment follows
-the outcome date. Regularization is selected on validation log loss. Compare
-core-only, macro, macro/crypto and constant train-prevalence baseline on equal
-periods. Coefficients are associations per standardized input, not causal effects
-or p-values. This is NOT a non-homogeneous HMM and no such claim is made.
+| Tài sản | Split | Observed LL delta NHHMM−HMM | Brier NHHMM | Brier HMM | Stress-entry proxy events |
+| --- | --- | ---: | ---: | ---: | ---: |
+| BTC | validation | -0,516934 | — | — | 2 |
+| BTC | historical test | -1,053583 | 0,003445 | 0,003296 | 2 |
+| ETH | validation | 0,013092 | — | — | 1 |
+| ETH | historical test | -0,018829 | 0,008682 | 0,003616 | 2 |
 
-| asset | group | n | events | Brier | log_loss | PR_AUC |
-| --- | --- | --- | --- | --- | --- | --- |
-| BTC | core | 611 | 2 | 0.0032422 | 0.020062 | 0.049603 |
-| BTC | macro | 611 | 2 | 0.0038517 | 0.02713 | 0.013759 |
-| BTC | macro_crypto | 611 | 2 | 0.0032947 | 0.021801 | 0.016591 |
-| BTC | train_prevalence_baseline | 611 | 2 | 0.0033573 | 0.027262 | 0.0032733 |
-| ETH | core | 635 | 2 | 0.0031637 | 0.02199 | 0.012066 |
-| ETH | macro | 635 | 2 | 0.0035247 | 0.022787 | 0.010238 |
-| ETH | macro_crypto | 635 | 2 | 0.003408 | 0.022713 | 0.0081346 |
-| ETH | train_prevalence_baseline | 635 | 2 | 0.0031733 | 0.023812 | 0.0031496 |
+Delta LL âm nghĩa là NHHMM kém HMM trong phép so tương ứng. Trên historical test, NHHMM kém HMM ở cả hai tài sản; Brier cũng không tốt hơn. PR-AUC không đủ tin cậy khi mỗi test chỉ có hai event.
 
-Rare stress transitions, especially on ETH test, severely limit PR-AUC and
-calibration inference. A model must beat its prevalence baseline to support
-predictive utility; attractive coefficients alone are insufficient evidence.
+Target là proxy từ filtered next-state argmax của HMM đối chứng, không phải latent ground truth. Không split nào đạt ngưỡng sàng lọc 20 stress-entry events. Vì vậy:
 
-### RQ4 — out-of-sample robustness
+- chưa có bằng chứng NHHMM vượt HMM ngoài mẫu;
+- chưa thể kết luận funding, volume, VIX, DXY hay liquidity dự báo Stress đáng tin cậy;
+- beta thể hiện association có điều kiện, không phải p-value hay quan hệ nhân quả;
+- không được đổi specification theo test để làm đẹp kết quả.
 
-See research_hmm_stability.csv, C2_stability_summary.csv, research_benchmarks.csv
-and C2_window_sensitivity.csv. Random-start core models remain flagged unstable.
-Structured initialization, KMeans seed agreement, temporal persistence and
-predictive density are reported separately. No latent state has observed ground
-truth; log-score and ARI are not Bull/Bear classification accuracy.
+**Kết luận RQ3:** NHHMM đã triển khai và technically valid, nhưng research confirmation về predictive improvement vẫn **PENDING**. Cần prospective cohort đủ Stress events và dữ liệu macro theo historical vintage.
 
-### RQ5 — economic value
+## RQ4 — Stability và benchmark
 
-Fixed 40% annual volatility target, long/cash cap 1, no leverage, cash return zero.
-Also report the fixed baseline regime-aware allocation and their multiplicative
-combination. All use the same signal dates, opening fee, costs and execution
-scenario. Parameters are declared in research.yaml, not optimized on test.
-Close-to-close execution is idealized; next-open and drift-adjusted cross-checks
-are shown separately. These remain research assumptions without spread, slippage
-or market impact. Original B08/NAV are retained for audit.
+| Tài sản | K | Valid fits | Median ARI | Minimum ARI | Eligible initializer families | Kết luận |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| BTC | 4 | 5 | 1,0000 | 1,0000 | 1 | Chưa ổn định toàn cục |
+| ETH | 4 | 10 | 0,7911 | 0,0083 | 2 | Unstable |
 
-| asset | strategy | CAGR | ann_volatility | Sharpe | max_drawdown | total_cost |
-| --- | --- | --- | --- | --- | --- | --- |
-| BTC | buy_and_hold | -0.1369 | 0.42987 | -0.12777 | -0.52972 | 0.001 |
-| BTC | regime_aware | -0.16794 | 0.41264 | -0.23856 | -0.55092 | 0.004 |
-| BTC | volatility_targeting | -0.12707 | 0.38136 | -0.16552 | -0.51727 | 0.0090928 |
-| BTC | regime_volatility_targeting | -0.14894 | 0.37634 | -0.24005 | -0.53393 | 0.010432 |
-| ETH | buy_and_hold | -0.17119 | 0.69081 | 0.069844 | -0.67553 | 0.001 |
-| ETH | regime_aware | -0.17486 | 0.68818 | 0.061052 | -0.66274 | 0.004 |
-| ETH | volatility_targeting | -0.10708 | 0.46162 | -0.017621 | -0.57013 | 0.016262 |
-| ETH | regime_volatility_targeting | -0.10975 | 0.46095 | -0.024807 | -0.56361 | 0.017451 |
+BTC nhất quán trong họ volatility-quantile đủ điều kiện, nhưng chỉ một initializer family hợp lệ nên chưa chứng minh stability toàn cục. ETH nhạy với initialization: median ARI tương đối cao nhưng minimum ARI gần 0. Cả hai model vì thế giữ cảnh báo `unstable`.
 
-Paired 21-day block bootstrap intervals for differences in Sharpe, CAGR and maximum
-drawdown are in research_portfolio_uncertainty.csv. Signals/rules are held fixed,
-not refitted; intervals are exploratory, not an untouched confirmatory test.
+HMM được đối chiếu với GMM, K-means, MS-AR, online change-point, HDBSCAN và MS-GARCH bằng metric phù hợp. K-means không có generative likelihood nên không xếp hạng trực tiếp bằng log score với HMM/GMM. Không có latent-state ground truth; ARI không phải độ chính xác Bull/Bear.
 
-### Additional feature-family experiment — trend-aware regimes
+**Kết luận RQ4:** HMM tạo regime persistent và diễn giải được, nhưng chưa đạt ngưỡng stability nghiên cứu. Kết quả không hỗ trợ tuyên bố chung rằng HMM luôn tốt hơn mọi benchmark.
 
-To investigate directional regimes, augment the three core inputs with trailing
-7/30-day sums of log returns, computed within segments after closed candles.
-Drop warm-up rows and fit all five scales on train; keep the original split dates.
-Select K=2..5 and seed within this family on initialization stability and validation
-likelihood. The 5-dimensional density is **not comparable in level** to the
-3-dimensional core likelihood. A separate matched-K GMM uses the same five inputs.
-Overlapping momentum/RV windows weaken the diagonal conditional-independence
-assumption. This is an exploratory feature extension, not a replacement for the
-archived core model or proof that Bull/Bear exist as ground-truth classes.
+## RQ5 — Giá trị kinh tế
 
-Train-frozen labels and conditional mean intervals:
+Historical test dùng cùng lịch tín hiệu, phí 0,1%, cash return bằng 0, không leverage; rule và tham số được khóa trước test.
 
-| asset | state_id | economic_label | direction | mean_ci_low | mean_ci_high | volatility_ratio |
-| --- | --- | --- | --- | --- | --- | --- |
-| BTC | 0 | Bull | Bull | 0.003878 | 0.011079 | 1.0105 |
-| BTC | 1 | Stress | Uncertain | -0.019466 | 0.00098139 | 1.6833 |
-| BTC | 2 | Calm | Uncertain | -0.0031068 | 0.0020785 | 0.63609 |
-| BTC | 3 | State 3 | Uncertain | -0.0052496 | 0.0011585 | 0.7998 |
-| ETH | 0 | Calm | Uncertain | -0.0036003 | 0.0037244 | 0.62807 |
-| ETH | 1 | State 1 | Uncertain | -0.0010346 | 0.0067788 | 0.73366 |
-| ETH | 2 | Bull | Bull | 0.0010648 | 0.014623 | 1.1257 |
-| ETH | 3 | State 3 | Uncertain | -0.015817 | 0.0019421 | 1.2076 |
-| ETH | 4 | High-Vol | Uncertain | -0.1856 | 0.058728 | 2.5235 |
+| Tài sản | Chiến lược | CAGR | Ann. volatility | Sharpe | Max drawdown | Total cost |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| BTC | Buy-and-Hold | -13,69% | 42,99% | -0,128 | -52,97% | 0,10% |
+| BTC | Volatility Targeting | -12,71% | 38,14% | -0,166 | -51,73% | 0,91% |
+| BTC | Regime Defensive | -16,45% | 41,30% | -0,228 | -55,09% | 0,40% |
+| BTC | Regime + Vol Target | -14,76% | 37,64% | -0,236 | -53,39% | 1,06% |
+| ETH | Buy-and-Hold | -17,12% | 69,08% | 0,070 | -67,55% | 0,10% |
+| ETH | Volatility Targeting | -10,71% | 46,16% | -0,018 | -57,01% | 1,63% |
+| ETH | Regime Defensive | -18,60% | 68,90% | 0,042 | -67,06% | 0,40% |
+| ETH | Regime + Vol Target | -11,37% | 46,11% | -0,034 | -56,70% | 1,76% |
 
-Same-feature-space comparison:
+Volatility targeting giảm volatility/drawdown trong mẫu này, đặc biệt với ETH, nhưng Sharpe không vượt Buy-and-Hold. Regime Defensive không cải thiện kết quả sau phí; chiến lược kết hợp cũng không chứng minh alpha. T06 bootstrap intervals là conditional/exploratory.
 
-| asset | method | period | K | avg_log_score | persistence |
-| --- | --- | --- | --- | --- | --- |
-| BTC | HMM_trend_5d | validation | 4 | -4.8558 | 0.94436 |
-| BTC | GMM_trend_5d | validation | 4 | -5.0276 | 0.74086 |
-| BTC | HMM_trend_5d | test | 4 | -4.9709 | 0.96069 |
-| BTC | GMM_trend_5d | test | 4 | -4.9937 | 0.83333 |
-| ETH | HMM_trend_5d | validation | 5 | -4.3927 | 0.98092 |
-| ETH | GMM_trend_5d | validation | 5 | -5.3227 | 0.82194 |
-| ETH | HMM_trend_5d | test | 5 | -4.6403 | 0.96384 |
-| ETH | GMM_trend_5d | test | 5 | -5.5568 | 0.82704 |
+**Kết luận RQ5:** chưa có bằng chứng regime probability cải thiện Sharpe hoặc lợi nhuận sau phí. Tác dụng giảm rủi ro quan sát được chủ yếu đến từ volatility targeting, không thể quy riêng cho regime signal.
 
-Out-of-sample meanings, with labels kept frozen (contrary signs are retained):
+## Product output — Crypto Market Regime Radar
 
-| asset | period | state_id | economic_label | mean_return | annualized_volatility | n_hard |
-| --- | --- | --- | --- | --- | --- | --- |
-| BTC | train | 0 | Bull | 0.0074315 | 0.72609 | 613 |
-| BTC | train | 1 | Stress | -0.0079578 | 1.2096 | 245 |
-| BTC | train | 2 | Calm | -0.00047215 | 0.45708 | 540 |
-| BTC | train | 3 | State 3 | -0.0019473 | 0.57472 | 464 |
-| BTC | validation | 0 | Bull | 0.0067325 | 0.55248 | 167 |
-| BTC | validation | 1 | Stress | -0.035394 | 0.76383 | 1 |
-| BTC | validation | 2 | Calm | 0.0002246 | 0.26827 | 103 |
-| BTC | validation | 3 | State 3 | 0.00041454 | 0.4671 | 359 |
-| BTC | test | 0 | Bull | 0.005396 | 0.40759 | 84 |
-| BTC | test | 1 | Stress | -0.003427 | 0.83625 | 25 |
-| BTC | test | 2 | Calm | 0.0019889 | 0.20058 | 26 |
-| BTC | test | 3 | State 3 | -0.0013704 | 0.41001 | 502 |
-| ETH | train | 0 | Calm | 8.6708e-05 | 0.59764 | 482 |
-| ETH | train | 1 | State 1 | 0.0028871 | 0.69811 | 567 |
-| ETH | train | 2 | Bull | 0.0081368 | 1.0712 | 388 |
-| ETH | train | 3 | State 3 | -0.0066645 | 1.1491 | 379 |
-| ETH | train | 4 | High-Vol | -0.01513 | 2.4013 | 46 |
-| ETH | validation | 0 | Calm | 0.00048922 | 0.090755 | 0 |
-| ETH | validation | 1 | State 1 | 0.00022388 | 0.5263 | 580 |
-| ETH | validation | 2 | Bull | 0.012797 | 0.87653 | 29 |
-| ETH | validation | 3 | State 3 | -0.00042096 | 0.91424 | 21 |
-| ETH | validation | 4 | High-Vol | 0.037786 | 1.4961 | 0 |
-| ETH | test | 0 | Calm | 0.0066315 | 0.2031 | 3 |
-| ETH | test | 1 | State 1 | -0.00127 | 0.56411 | 487 |
-| ETH | test | 2 | Bull | 0.011378 | 0.91161 | 62 |
-| ETH | test | 3 | State 3 | -0.0048948 | 1.0255 | 85 |
-| ETH | test | 4 | High-Vol | -0.064469 | 2.1185 | 0 |
+Dashboard V2 hiển thị current filtered probability của toàn bộ K state, nhãn model/economic label, forecast T+1, history, persistence, transition/drivers, BTC–ETH comparison, backtest sau phí, ngày UTC/`as_of_utc` và cảnh báo `unstable`. State ID của BTC không bị coi là cùng nghĩa với State ID tương ứng của ETH. Smoothed probability chỉ dùng trong hindsight, không dùng làm tín hiệu. Đây là công cụ nhận diện regime, không phải dự báo giá hay khuyến nghị đầu tư.
 
-Fixed baseline allocation on trend-HMM filtered High-Risk:
+## Đối chiếu thử nghiệm cũ
 
-| asset | strategy | n_days | CAGR | Sharpe | max_drawdown |
-| --- | --- | --- | --- | --- | --- |
-| BTC | buy_and_hold | 637 | -0.1369 | -0.12777 | -0.52972 |
-| BTC | trend_regime_aware | 637 | -0.17279 | -0.25362 | -0.56332 |
-| ETH | buy_and_hold | 637 | -0.17119 | 0.069844 | -0.67553 |
-| ETH | trend_regime_aware | 637 | -0.17119 | 0.069844 | -0.67553 |
+`HMM_structured K=5`, trend-HMM 5 chiều và logistic transition proxy thuộc giai đoạn exploratory trước V2. Chúng được giữ trong lịch sử Git/artifacts để audit và robustness, nhưng **không phải model hiện hành và không dùng cho kết luận chính**. Bản nộp lấy bảng/hình chính từ T01–T08/F01–F06 V2.
 
-A Bull label describes contemporaneous fitted-state returns on train; it is not a
-forecast of tomorrow's positive return. All subsequent sample results remain
-exploratory because the original test has been observed.
+## Hạn chế và kết luận chung
 
-### Product and reproducibility
+- HMM BTC/ETH chưa được xác nhận ổn định toàn cục.
+- Economic-label intervals có điều kiện theo fitted model, chưa bao trọn model-selection uncertainty.
+- Không đủ bằng chứng gán Bull/Bear.
+- NHHMM không vượt HMM ngoài mẫu; Stress events quá ít.
+- Macro histories chưa phải fully vintage-real-time database.
+- Quote-volume/Amihud chỉ là liquidity proxy.
+- Historical test đã được quan sát; cần prospective data để xác nhận độc lập.
+- Backtest chưa chứng minh regime signal tạo alpha sau phí.
 
-Run `python scripts/complete_research.py` after the C1/C2/C3 pipeline; see README.
-Dashboard retains its established visual theme. It distinguishes model labels,
-train-derived interpretation, state probabilities, next-day marginal distribution,
-model-instability warnings and simulated performance. The exact explanation of
-the latest observation decomposes diagonal-Gaussian log emission terms and the
-filtered prior; it is a model calculation, not a macro causal explanation.
+V2 trả lời RQ1–RQ5 ở mức trung thực: pipeline và output hoàn chỉnh về kỹ thuật, nhưng stability, NHHMM superiority và economic alpha chưa được xác nhận. Trạng thái đúng là **Technical PASSED / Research Confirmation PENDING**.
 
-### Limitations and conclusions
+## Danh mục output
 
-The project is a probabilistic research tool, not a price forecaster or investment
-recommendation. Core EM can reach different local optima; overlapping RV windows
-violate exact emission independence; quote volume is not full market liquidity.
-Some external histories are unavailable or limited. Cached data is retained on
-source failure. Revised historical external data and endogenous regime proxies
-limit causal interpretation. New holdout observations are needed before making
-prospective performance claims. NHHMM, Markov-switching GARCH, Bayesian change-point
-and RL are not implemented; the report does not represent them as completed.
+- T01: descriptive statistics.
+- T02: model selection K/seed/initializer/window.
+- T03: regime profiles, labels và conditional contrasts.
+- T04: transition matrices.
+- T05: NHHMM regressors, coverage, failures và predictive comparison.
+- T06: portfolio performance và uncertainty.
+- T07: benchmark comparison.
+- T08: seed/window/label/occupancy sensitivity.
+- F01–F06: price-regime, probabilities, dynamic transitions, agreement, portfolio NAV và occupancy.
 
-### References and implementation sources
+## Tài liệu tham khảo
 
-- Hamilton (1989), Econometrica 57(2), 357–384: regime-switching framework.
-- Rabiner (1989), Proceedings of the IEEE 77(2), 257–286: HMM inference.
-- hmmlearn tutorial: https://hmmlearn.readthedocs.io/en/stable/tutorial.html
-- scikit-learn leakage guidance: https://scikit-learn.org/stable/common_pitfalls.html
-- Temporal evaluation: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html
-- Probability assessment: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.brier_score_loss.html
+1. Hamilton, J. D. (1989). *Econometrica*, 57(2), 357–384.
+2. Rabiner, L. R. (1989). *Proceedings of the IEEE*, 77(2), 257–286.
+3. Giudici, P., & Abu-Hashish, I. (2020). *Quality and Reliability Engineering International*.
+4. Figà-Talamanca, G., Focardi, S., & Patacca, M. (2021). *North American Journal of Economics and Finance*, 57, 101425.

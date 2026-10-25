@@ -314,7 +314,9 @@ Train-frozen labels and conditional mean intervals:
         content = content.replace(
             "### Product and reproducibility", trend_section + "### Product and reproducibility"
         )
-    destination = ROOT / "paper/research_report.md"
+    # This is the archived pre-V2 exploratory pipeline. Keep its report for
+    # audit, but never overwrite the submission report based on locked V2 data.
+    destination = ROOT / "paper/research_report_legacy.md"
     destination.parent.mkdir(exist_ok=True)
     destination.write_text(content, encoding="utf-8")
 
