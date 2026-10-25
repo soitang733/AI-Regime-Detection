@@ -27,9 +27,11 @@ python scripts/reproduce_v2.py
 python -m src.research_v2.review
 python -m src.research_v2.rolling_benchmarks
 python -m pytest -q -p no:cacheprovider --junitxml=outputs/research_v2/acceptance_pytest_final.xml
-python scripts/check_v2_layout.py
-python -m src.research_v2.acceptance
 ```
+
+`python scripts/check_v2_layout.py` là kiểm tra trình duyệt tùy chọn khi máy có Chrome. Bộ
+`src.research_v2.acceptance` dùng thêm archive refs và ảnh nghiệm thu local nên không phải lệnh CI
+portable cho một checkout GitHub mới.
 
 `reproduce_v2.py` chạy đủ 13 stage trong bản sao tạm, dùng lại checkpoint fit đã đăng ký và tính lại data/inference/evaluation/tables/figures. Script so sánh số liệu với bản khóa, lưu log và xóa bản sao. Đây là technical replay cục bộ, **không phải huấn luyện lại từ đầu hoặc tái lập độc lập**. Không chạy fit trực tiếp lên cohort có confirmation lock. Muốn fresh fit phải tạo một bản nghiên cứu riêng, giữ protocol/input hashes và không sử dụng test để lựa chọn.
 

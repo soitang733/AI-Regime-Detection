@@ -17,6 +17,24 @@ venv/
 # data/processed/*.parquet
 .DS_Store
 
+# Local UI captures and verification logs (not submission artifacts).
+/outputs/figures/design_*.png
+/outputs/figures/layout_*.png
+/outputs/figures/local_overview_review.png
+/outputs/figures/restored_original_dashboard.png
+/outputs/metadata/*.log
+/outputs/metadata/*tests*.xml
+/outputs/metadata/*.xml
+/reports/blueprint_final_plan/
+/reports/cleanup/
+/reports/market_studio/
+/reports/terminal_design/
+/reports/ui_review_*/
+/reports/v2_delivery/
+/reports/v2_benchmark_interpretation_notes.md
+/reports/m0_lock/*.py
+/reports/v2_review/*.log
+
 # C2 generated outputs. Keep local handoff artifacts; regenerate with complete_c2.py.
 /outputs/models/hmm_*.joblib
 /outputs/models/gmm_*.joblib

@@ -3,6 +3,7 @@ import pandas as pd
 import pytest
 
 from scripts.reproduce_v2 import compare_csv
+from src.research_v2.portfolio import aligned_inputs
 from src.research_v2.review import paired_interval, path_metrics, probability_error
 from src.research_v2.rolling_benchmarks import development_fold
 
@@ -47,3 +48,14 @@ def test_reproduction_comparison_rejects_changed_metric_and_schema(tmp_path):
     assert not compare_csv(original, reproduced)['passed']
     pd.DataFrame({'different': [1., np.nan]}).to_csv(reproduced, index=False)
     assert not compare_csv(original, reproduced)['passed']
+
+
+@pytest.mark.parametrize('asset', ['BTC', 'ETH'])
+def test_v2_portfolio_inputs_are_self_contained_and_causal(asset):
+    frame, metadata = aligned_inputs(asset)
+    assert len(frame) > 600
+    assert frame['split'].eq('test').all()
+    assert (frame['signal_date_utc'] < frame['return_date_utc']).all()
+    assert (frame['as_of_utc'] <= frame['return_date_utc']).all()
+    assert frame['prob_high_risk'].between(0, 1).all()
+    assert frame['state_id'].between(0, metadata['K'] - 1).all()

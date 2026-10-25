@@ -1,5 +1,5 @@
 {
-  "started_at_utc": "2026-10-24T21:10:15.147866+00:00",
+  "started_at_utc": "2026-10-25T05:38:58.616450+00:00",
   "inputs_sha256": {
     "outputs/research_v2/m1/coverage.csv": "9a90fe2e5d81ed85b4c9e7c460b9aebf9b6ab4db5083b39dc8b32afa0bb1fa82",
     "outputs/research_v2/m1/features_btc.parquet": "d759c8becc0b7f1daec1d2eac4907a690e91e80f98507454d2a0926286cb9848",

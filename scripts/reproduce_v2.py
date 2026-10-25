@@ -8,11 +8,11 @@ from __future__ import annotations
 import hashlib
 import json
 import os
-from pathlib import Path
 import shutil
 import subprocess
 import sys
 import time
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -61,8 +61,9 @@ def main():
             shutil.copy2(ROOT / 'reports' / name, WORK / 'reports' / name)
         for name in FOLDERS:
             shutil.copytree(ROOT / f'outputs/research_v2/{name}', WORK / f'outputs/research_v2/{name}')
-        # C3's frozen input contract is an explicit dependency of the V2 portfolio.
-        for name in ['metadata', 'predictions', 'models', 'tables']:
+        # Only versioned C1 inputs are dependencies. V2 portfolio signals come from
+        # outputs/research_v2/m2, so a clean checkout must not require ignored C2/C3 exports.
+        for name in ['metadata', 'models', 'tables']:
             shutil.copytree(ROOT / 'outputs' / name, WORK / 'outputs' / name,
                             ignore=shutil.ignore_patterns('*.pid', '*.zip'))
         env = {**os.environ, 'OMP_NUM_THREADS': '1', 'OPENBLAS_NUM_THREADS': '1',
@@ -72,7 +73,8 @@ def main():
             tick = time.monotonic()
             with (DEST / f'{stage}.log').open('w', encoding='utf-8') as stream:
                 command = [sys.executable, 'scripts/run_research_v2.py', '--stage', stage]
-                result = subprocess.run(command, cwd=WORK, env=env, stdout=stream, stderr=subprocess.STDOUT)
+                result = subprocess.run(command, check=False, cwd=WORK, env=env,
+                                        stdout=stream, stderr=subprocess.STDOUT)
             log.append({'stage': stage, 'exit_code': result.returncode, 'seconds': time.monotonic() - tick,
                         'registered_fit_checkpoints_reused': stage in ['m2', 'ablation', 'simulation', 'm3', 'm4', 'msgarch']})
             internal = WORK / f'outputs/research_v2/run_logs/{stage}.log'

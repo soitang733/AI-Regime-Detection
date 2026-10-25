@@ -4,79 +4,79 @@
     {
       "stage": "m1",
       "exit_code": 0,
-      "seconds": 4.546999999998661,
+      "seconds": 2.5780000000004293,
       "registered_fit_checkpoints_reused": false
     },
     {
       "stage": "m2",
       "exit_code": 0,
-      "seconds": 74.54699999999866,
+      "seconds": 26.04699999999957,
       "registered_fit_checkpoints_reused": true
     },
     {
       "stage": "ablation",
       "exit_code": 0,
-      "seconds": 7.063000000001921,
+      "seconds": 4.0,
       "registered_fit_checkpoints_reused": true
     },
     {
       "stage": "simulation",
       "exit_code": 0,
-      "seconds": 6.5310000000026776,
+      "seconds": 3.4210000000002765,
       "registered_fit_checkpoints_reused": true
     },
     {
       "stage": "m3",
       "exit_code": 0,
-      "seconds": 20.625,
+      "seconds": 11.407000000000153,
       "registered_fit_checkpoints_reused": true
     },
     {
       "stage": "m3_evaluation",
       "exit_code": 0,
-      "seconds": 12.421999999998661,
+      "seconds": 7.467999999999847,
       "registered_fit_checkpoints_reused": false
     },
     {
       "stage": "m4",
       "exit_code": 0,
-      "seconds": 7.639999999999418,
+      "seconds": 4.234999999999673,
       "registered_fit_checkpoints_reused": true
     },
     {
       "stage": "msgarch",
       "exit_code": 0,
-      "seconds": 3.0469999999986612,
+      "seconds": 2.905999999999949,
       "registered_fit_checkpoints_reused": true
     },
     {
       "stage": "m4_evaluation",
       "exit_code": 0,
-      "seconds": 33.07800000000134,
+      "seconds": 16.375,
       "registered_fit_checkpoints_reused": false
     },
     {
       "stage": "m5",
       "exit_code": 0,
-      "seconds": 5.421999999998661,
+      "seconds": 4.640999999999622,
       "registered_fit_checkpoints_reused": false
     },
     {
       "stage": "profiles",
       "exit_code": 0,
-      "seconds": 6.921999999998661,
+      "seconds": 5.406000000000859,
       "registered_fit_checkpoints_reused": false
     },
     {
       "stage": "outputs",
       "exit_code": 0,
-      "seconds": 15.296999999998661,
+      "seconds": 9.515999999999622,
       "registered_fit_checkpoints_reused": false
     },
     {
       "stage": "seal",
       "exit_code": 0,
-      "seconds": 17.8440000000046,
+      "seconds": 11.046000000000276,
       "registered_fit_checkpoints_reused": false
     }
   ],
@@ -1625,7 +1625,7 @@
     }
   ],
   "original_artifacts_unchanged": true,
-  "seconds": 231.53199999999924,
+  "seconds": 114.57799999999952,
   "fresh_model_fits": 0,
   "mode": "all stages; registered fit checkpoints reused; data/inference/evaluation rebuilt",
   "independent_research_confirmation": "pending"

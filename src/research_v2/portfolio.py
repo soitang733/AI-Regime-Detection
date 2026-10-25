@@ -1,28 +1,50 @@
 """Frozen V2 strategies with explicit unstable acknowledgement and execution audit."""
 import hashlib
 import json
+
 import numpy as np
 import pandas as pd
 from statsmodels.stats.multitest import multipletests
-from src.evaluation.backtest import simulate,performance_metrics,regime_weights
-from src.evaluation.backtest_run import build_inputs,load_backtest_config
-from src.research.portfolio import volatility_weights,_bootstrap_metrics
+
+from src.evaluation.backtest import performance_metrics, regime_weights, simulate
+from src.evaluation.backtest_run import load_backtest_config
 from src.research.economics import moving_blocks
+from src.research.portfolio import _bootstrap_metrics, volatility_weights
 from src.research_v2.handoff import load_hmm
-from src.utils.config import ROOT,load_config
+from src.utils.config import ROOT
 
 
 def aligned_inputs(asset):
     prediction,metadata=load_hmm(asset,require_stable=False,acknowledge_unstable=True)
-    existing,_,_=build_inputs(load_config(),load_backtest_config(),asset)
-    existing['date_utc']=existing.signal_date_utc.dt.strftime('%Y-%m-%d')
-    wanted=['date_utc','prob_high_risk','as_of_utc']
-    merged=existing.drop(columns=['prob_high_risk','as_of_utc']).merge(prediction[wanted],on='date_utc',validate='one_to_one')
-    if len(merged)!=len(existing):raise ValueError('Incomplete prediction/date coverage')
-    merged['as_of_utc']=pd.to_datetime(merged.as_of_utc,utc=True)
-    if (merged.as_of_utc>merged.return_date_utc).any():raise ValueError('Signal not available at execution time')
+    prediction=prediction.copy()
+    prediction['signal_date_utc']=pd.to_datetime(prediction.pop('date_utc'),utc=True)
+    prediction['as_of_utc']=pd.to_datetime(prediction.as_of_utc,utc=True)
+
     features=pd.read_parquet(ROOT/f'outputs/research_v2/m1/features_{asset.lower()}.parquet')
-    merged=merged.merge(features[['date_utc','rv21']],on='date_utc',validate='one_to_one')
+    features['date_utc']=pd.to_datetime(features.date_utc,utc=True)
+    returns=features[['date_utc','split','segment_id']].rename(columns={'date_utc':'return_date_utc'}).copy()
+
+    prices=pd.read_parquet(ROOT/'data/processed/prices_daily.parquet')
+    prices=prices.loc[prices.asset.eq(asset)].sort_values('date_utc').copy()
+    prices['return_date_utc']=pd.to_datetime(prices.pop('date_utc'),utc=True)
+    prices['target_simple_return']=prices.groupby('segment_id',sort=False).close.pct_change()
+    returns=returns.merge(prices[['return_date_utc','segment_id','open','target_simple_return']],
+                          on=['return_date_utc','segment_id'],validate='one_to_one')
+    following_open=prices[['return_date_utc','segment_id','open']].copy()
+    following_open['return_date_utc']-=pd.Timedelta(days=1)
+    following_open=following_open.rename(columns={'open':'open_t2'})
+    returns=returns.merge(following_open,on=['return_date_utc','segment_id'],how='left',validate='one_to_one')
+    returns['next_open_return']=returns.open_t2/returns.open-1
+    returns['signal_date_utc']=returns.return_date_utc-pd.Timedelta(days=1)
+    returns=returns.loc[returns.split.eq('test')]
+
+    wanted=['signal_date_utc','segment_id','prob_high_risk','as_of_utc','state_id']
+    merged=returns.merge(prediction[wanted],on=['signal_date_utc','segment_id'],validate='one_to_one')
+    if len(merged)!=len(returns):raise ValueError('Incomplete V2 prediction/date coverage')
+    signal_features=features[['date_utc','segment_id','rv21']].rename(columns={'date_utc':'signal_date_utc'})
+    merged=merged.merge(signal_features,on=['signal_date_utc','segment_id'],validate='one_to_one')
+    if (merged.as_of_utc>merged.return_date_utc).any():raise ValueError('Signal not available at execution time')
+    if not (merged.signal_date_utc<merged.return_date_utc).all():raise ValueError('Signal must precede return')
     return merged,metadata
 
 

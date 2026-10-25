@@ -316,9 +316,16 @@ def run():
     portfolio_uncertainty(out)
     if any(hashlib.sha256((ROOT / p).read_bytes()).hexdigest() != digest for p, digest in inputs.items()):
         raise ValueError('Frozen input modified during review')
+    supplemental = [p for p in out.iterdir() if p.is_file() and p.name not in ['manifest.json', 'input_snapshot.json']]
+    source_files = ['src/research_v2/review.py', 'src/research_v2/rolling_benchmarks.py',
+                    'scripts/reproduce_v2.py', 'scripts/build_v2_review.py', 'docs/V2_REVIEW_PROTOCOL.md']
+    rolling_manifest = out / 'rolling_benchmarks/manifest.json'
     manifest = {'status': 'diagnostics_complete', 'research_confirmation': 'pending', 'frozen_inputs_unchanged': True,
                 'new_fits': 0, 'test_used_for_selection': False,
-                'files_sha256': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in out.glob('*.csv')}}
+                'files_sha256': {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in supplemental},
+                'source_sha256': {name: hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in source_files}}
+    if rolling_manifest.exists():
+        manifest['rolling_benchmarks_manifest_sha256'] = hashlib.sha256(rolling_manifest.read_bytes()).hexdigest()
     (out / 'manifest.json').write_text(json.dumps(manifest, indent=2), encoding='utf-8')
     print(json.dumps(manifest))
 
