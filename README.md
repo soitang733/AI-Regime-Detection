@@ -26,6 +26,9 @@ $env:PYTHONHASHSEED='0'
 python scripts/reproduce_v2.py
 python -m src.research_v2.review
 python -m src.research_v2.rolling_benchmarks
+python run_pipeline.py --steps models backtest
+python -m src.models.diagnostics
+python -m src.research.run
 python -m pytest -q -p no:cacheprovider --junitxml=outputs/research_v2/acceptance_pytest_final.xml
 ```
 
