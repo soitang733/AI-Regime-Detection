@@ -1,0 +1,46 @@
+{
+  "created_at_utc": "2026-10-24T18:51:37.609534+00:00",
+  "status": "complete",
+  "source": "locked Research V2 artifacts; no model fitting",
+  "B06_status": "omitted: event-count screen failed; T05 coefficients retained without inferential claims",
+  "retained_existing": [
+    "outputs/tables/B01_descriptives.csv",
+    "outputs/tables/B02_sample_manifest.csv",
+    "outputs/figures/H01_price_history.png"
+  ],
+  "generated": [
+    "outputs/tables/B03_model_selection_v2.csv",
+    "outputs/tables/B04_regime_statistics_v2.csv",
+    "outputs/tables/B05_transition_matrix_v2.csv",
+    "outputs/tables/B07_hmm_vs_gmm_v2.csv",
+    "outputs/tables/B08_portfolio_v2.csv",
+    "outputs/figures/H02_BTC_price_regimes.png",
+    "outputs/figures/H02_ETH_price_regimes.png",
+    "outputs/figures/H03_BTC_regime_probabilities.png",
+    "outputs/figures/H03_ETH_regime_probabilities.png",
+    "outputs/figures/H04_BTC_hmm_vs_gmm.png",
+    "outputs/figures/H04_ETH_hmm_vs_gmm.png",
+    "outputs/figures/H05_BTC_portfolio_nav.png",
+    "outputs/figures/H05_ETH_portfolio_nav.png",
+    "outputs/figures/H06_dashboard.png"
+  ],
+  "files_sha256": {
+    "outputs/tables/B01_descriptives.csv": "db395f42dc81eb73f7340ccdf504f795a13b149e5f06164d2735d61f2e7963d2",
+    "outputs/tables/B02_sample_manifest.csv": "1b5aa9a99e5884318942c3c623eef3179e0f8577d0d2a36a527181af81e037a4",
+    "outputs/figures/H01_price_history.png": "c6524672d108ac04e74da24262039c8ee460baf6b7ff39fa302b52c1cb1ad56d",
+    "outputs/tables/B03_model_selection_v2.csv": "e78e7e261fded438b436099e39973f0dd144b42a89f92ebf2cb030ca97025fdb",
+    "outputs/tables/B04_regime_statistics_v2.csv": "0962af52969255d22c914230873724aa25496bfd732c10781981d6304e49d2e5",
+    "outputs/tables/B05_transition_matrix_v2.csv": "6265e1ed2494ae03de4cd74972f3ac3e1fc6b010b18e713bf2419ecc31d8a32f",
+    "outputs/tables/B07_hmm_vs_gmm_v2.csv": "618dac98177b31ddfd831a4e792bea3e6be214310b366d22eea933e8d6f11111",
+    "outputs/tables/B08_portfolio_v2.csv": "d74539a006ab8cfd0939351f370a0c87cd91be5c1faa08989bbd55c611ec6377",
+    "outputs/figures/H02_BTC_price_regimes.png": "9d1efcf6e310690bdf233572b03a8612f61fc94abad03e48405bbff79036a270",
+    "outputs/figures/H02_ETH_price_regimes.png": "a38de40ec8110f26974c3ec85fe93d30292ac70e2ba1f2c0ee03c436cdf0da4d",
+    "outputs/figures/H03_BTC_regime_probabilities.png": "46325cb5b4152654361757ed458250457f6752eb5cbf18eb60959c8271b7d94b",
+    "outputs/figures/H03_ETH_regime_probabilities.png": "70cf71bdbbc6b7b6779ed7c844ff7726cfe4dc12915bdc48509a9437afccbd69",
+    "outputs/figures/H04_BTC_hmm_vs_gmm.png": "44338be4d592917889621549ca9d6fc02a4df34976242ffa456277e1d5a62057",
+    "outputs/figures/H04_ETH_hmm_vs_gmm.png": "a1dbe7451a1f10d9efd31835ffc9957ae884f5918400140a7c5c797c7f3f11eb",
+    "outputs/figures/H05_BTC_portfolio_nav.png": "f336f23a83e964917393fb775086be4f335c11b293b88e31600239fac4349653",
+    "outputs/figures/H05_ETH_portfolio_nav.png": "0e43fd433c9caf3c4ad954c782852148f9376ffadf5096d9902e45fb7a343010",
+    "outputs/figures/H06_dashboard.png": "263b73ec2f969072d71ce1e582bda31e0251847b9efd503d3aea5e637ce1ce01"
+  }
+}

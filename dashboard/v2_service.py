@@ -1,16 +1,16 @@
 """Verified V2 view data. No model fitting, strategy tuning, or fallback to baseline."""
 from __future__ import annotations
 
-from dataclasses import dataclass
 import hashlib
 import json
-from pathlib import Path
 import warnings
+from dataclasses import dataclass
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-from src.research_v2.handoff import load_hmm, UnstableResearchWarning
+from src.research_v2.handoff import UnstableResearchWarning, load_hmm
 from src.utils.config import ROOT
 
 
@@ -51,6 +51,21 @@ def verified_path(stage, name, root=ROOT):
     digest = manifest(stage, root)['files_sha256'].get(name)
     if not digest or not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != digest:
         raise ValueError(f'{stage}/{name}: file không khớp manifest')
+    return path
+
+
+def submission_path(relative, root=ROOT):
+    """Return a canonical B/H artifact only when its submission hash matches."""
+    manifest_path = root / 'outputs/metadata/submission_pack_manifest.json'
+    data = json.loads(manifest_path.read_text(encoding='utf-8'))
+    path = (root / relative).resolve()
+    if not path.is_relative_to(root.resolve()):
+        raise ValueError('Đường dẫn submission artifact không hợp lệ')
+    digest = data.get('files_sha256', {}).get(relative)
+    if data.get('status') != 'complete' or not digest or not path.is_file():
+        raise ValueError(f'Submission artifact chưa được xác minh: {relative}')
+    if hashlib.sha256(path.read_bytes()).hexdigest() != digest:
+        raise ValueError(f'Submission artifact không khớp manifest: {relative}')
     return path
 
 

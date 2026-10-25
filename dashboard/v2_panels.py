@@ -6,7 +6,8 @@ import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-from dashboard import v2_charts as figures, v2_service as service
+from dashboard import v2_charts as figures
+from dashboard import v2_service as service
 
 
 def source(st, ctx, text, period):
@@ -194,9 +195,25 @@ TABLES = {
     'T08 · Stability qua seed / initializer / window': 'T08_HMM_stability.csv',
 }
 
+SUBMISSION_TABLES = {
+    'B01 · Thống kê mô tả': 'outputs/tables/B01_descriptives.csv',
+    'B02 · Thông tin mẫu': 'outputs/tables/B02_sample_manifest.csv',
+    'B03 · Model Selection V2': 'outputs/tables/B03_model_selection_v2.csv',
+    'B04 · Regime Statistics V2': 'outputs/tables/B04_regime_statistics_v2.csv',
+    'B05 · Transition Matrix V2': 'outputs/tables/B05_transition_matrix_v2.csv',
+    'B07 · HMM vs GMM V2': 'outputs/tables/B07_hmm_vs_gmm_v2.csv',
+    'B08 · Portfolio 10 bps V2': 'outputs/tables/B08_portfolio_v2.csv',
+}
+
 
 def evidence(st, ui, ctx, page):
     with st.expander('Research evidence · tải bảng, hình và báo cáo'):
+        st.caption('B01–B08 / H01–H06 · bộ chuẩn cho báo cáo; B06 được lược bỏ vì chưa qua event-count screen.')
+        standard = st.selectbox('Bảng chuẩn B', list(SUBMISSION_TABLES), key=f'submission_table_{page}')
+        relative = SUBMISSION_TABLES[standard]
+        standard_path = service.submission_path(relative, ctx.root)
+        st.download_button('Tải bảng B chuẩn', standard_path.read_bytes(), file_name=standard_path.name,
+                           mime='text/csv', key=f'download_submission_table_{page}')
         st.caption('T01–T08 / F01–F06 · kết quả thật đã xác minh · Research Confirmation PENDING.')
         selection = st.selectbox('Bảng nghiên cứu', list(TABLES), key=f'evidence_table_{page}')
         name = TABLES[selection]
