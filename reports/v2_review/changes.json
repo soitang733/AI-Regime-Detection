@@ -1,0 +1,29 @@
+{
+  "files": {
+    "README.md": "V2 entrypoint, actual NHHMM status, RQ1-RQ5 outputs and limits",
+    "docs/V2_RUNBOOK.md": "isolated reproduction; prohibit overwrite of locked cohort",
+    "docs/V2_REVIEW_PROTOCOL.md": "diagnostic scope and preregistered rolling benchmark extension",
+    "docs/V2_HISTORY.md": "Git recovery, archive refs, explicit retention decision",
+    "pyproject.toml": "V2 package version and description",
+    "requirements-dev.txt": "include pinned V2 runtime dependencies",
+    ".gitignore": "ignore cache, temporary replay and export ZIP files",
+    ".gitattributes": "preserve exact bytes across Git checkouts for frozen provenance hashes",
+    ".github/workflows/verify.yml": "V2 replay/review/tests instead of V1 pipeline",
+    "scripts/run_research_v2.py": "refuse mutation of confirmation-locked working tree",
+    "scripts/consolidate_repository.py": "one-time root migration and verified Git snapshots; retained by user",
+    "scripts/reproduce_v2.py": "13-stage isolated replay, CSV numerical comparisons, automatic temporary-copy cleanup",
+    "scripts/restore_history.py": "restore Git archive bytes with SHA-256 verification",
+    "scripts/clean_v2.py": "explicit inventory; apply not executed because user chose retention",
+    "scripts/build_v2_review.py": "canonical review report, RQ cards and artifact index",
+    "dashboard/v2_pages.py": "visible zoom/pan/+/-/reset controls and wheel zoom on every interactive chart",
+    "scripts/check_chart_zoom.py": "12 real browser zoom/reset/wheel cases on desktop and mobile",
+    "scripts/check_v2_layout.py": "wait for the requested asset/page before measuring rerendered layout",
+    "src/research_v2/review.py": "read-only RQ diagnostics, economic separation and portfolio uncertainty",
+    "src/research_v2/rolling_benchmarks.py": "120 registered development-only GMM/KMeans fits",
+    "src/research_v2/acceptance.py": "numeric/provenance/replay/Git/retention acceptance gates",
+    "tests/test_v2_review.py": "eight new tests for pairing, probability, look-ahead and replay comparisons"
+  },
+  "champion_refitted": false,
+  "legacy_user_decision": "retain_listed_files",
+  "note": "Review change inventory; Git diff against V1 also includes earlier V2 development."
+}

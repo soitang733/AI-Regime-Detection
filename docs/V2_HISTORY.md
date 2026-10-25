@@ -1,6 +1,6 @@
 # Lịch sử và khôi phục
 
-Chỉ còn working tree V2 tại `D:\AI-Regime-Detection-main`. Không tạo commit hoặc push trong lần rà soát này. `main` giữ commit V1 `31779c1`; các thay đổi V2 vẫn chưa commit. Remote gốc được giữ; đã fetch để bổ sung Git objects lịch sử bị thiếu trong bản local cũ. Kết quả `git fsck` lưu trong `reports/v2_review/git_fsck.log`.
+V2 là phiên bản hiện hành trên nhánh `main`. V1 và các mốc C3 trước đó vẫn được giữ trong lịch sử Git; không cần giữ một bản source trùng trong working tree.
 
 Snapshot Git có thể phục hồi:
 

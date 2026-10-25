@@ -1,0 +1,17 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "hmmlearn": "0.3.3",
+    "statsmodels": "0.15.0",
+    "streamlit": "1.66.1",
+    "numba": "0.68.0",
+    "pytest": "9.1.1",
+    "playwright": "1.63.0"
+  },
+  "dependency_check": "pip check: no broken requirements found"
+}

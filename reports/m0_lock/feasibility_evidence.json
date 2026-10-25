@@ -1,0 +1,110 @@
+{
+  "btc": {
+    "K": 3,
+    "train_n": 1891,
+    "train_start": "2018-03-02",
+    "train_end": "2023-05-05",
+    "data_through": "2026-10-23",
+    "split_counts": {
+      "train": 1891,
+      "test": 637,
+      "validation": 630
+    },
+    "train_hard_filtered_transition_counts": [
+      [
+        487,
+        17,
+        2
+      ],
+      [
+        15,
+        911,
+        24
+      ],
+      [
+        3,
+        22,
+        409
+      ]
+    ],
+    "train_exits_by_origin": [
+      19,
+      39,
+      25
+    ],
+    "train_raw_nonnull_coverage": {
+      "vix": 1.0,
+      "dxy_return_1d": 1.0,
+      "funding_sum": 0.7054468535166578,
+      "oi_growth_7d": 0.5129561078794289,
+      "stablecoin_supply_growth_7d": 0.6414595452141724
+    },
+    "transition_parameter_counts": {
+      "p=1": 12,
+      "p=3": 24,
+      "p=7": 48
+    },
+    "max_probability_sum_error": 8.881784197001252e-16,
+    "finite_probabilities": true,
+    "duplicate_asset_dates": 0
+  },
+  "eth": {
+    "K": 4,
+    "train_n": 1891,
+    "train_start": "2018-03-02",
+    "train_end": "2023-05-05",
+    "data_through": "2026-10-23",
+    "split_counts": {
+      "train": 1891,
+      "test": 637,
+      "validation": 630
+    },
+    "train_hard_filtered_transition_counts": [
+      [
+        808,
+        2,
+        9,
+        0
+      ],
+      [
+        0,
+        349,
+        0,
+        7
+      ],
+      [
+        10,
+        1,
+        198,
+        4
+      ],
+      [
+        0,
+        5,
+        6,
+        491
+      ]
+    ],
+    "train_exits_by_origin": [
+      11,
+      7,
+      15,
+      11
+    ],
+    "train_raw_nonnull_coverage": {
+      "vix": 1.0,
+      "dxy_return_1d": 1.0,
+      "funding_sum": 0.6641988365943945,
+      "oi_growth_7d": 0.27181385510312006,
+      "stablecoin_supply_growth_7d": 0.6414595452141724
+    },
+    "transition_parameter_counts": {
+      "p=1": 24,
+      "p=3": 48,
+      "p=7": 96
+    },
+    "max_probability_sum_error": 8.881784197001252e-16,
+    "finite_probabilities": true,
+    "duplicate_asset_dates": 0
+  }
+}

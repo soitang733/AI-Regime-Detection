@@ -1,0 +1,190 @@
+{
+  "apply": false,
+  "archived_files": [
+    {
+      "path": "docs/Blueprint_completion.md",
+      "bytes": 11987,
+      "sha256": "640bd2d4030079e2c29fd182c9ab895ac30b1c43748b7f9840eea2fc115fec07",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/Blueprint_expansion_plan.md",
+      "bytes": 2478,
+      "sha256": "10f3093760f55d15113bfe9e4c1b1f51132851a8d3b0aa359b3e622c68b95acb",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/Blueprint_independent_review_20261024.md",
+      "bytes": 12930,
+      "sha256": "e1978c55991efe3e43a8832c99eab934d308de918e7ab736d3c16261f4ecdfa3",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/C1_giai_thich_va_checklist.md",
+      "bytes": 12169,
+      "sha256": "a80ba1f829e7b24e5390ce5c7f69da0c95219f8c66f89ddb43196935517e2078",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/C2_commit.md",
+      "bytes": 2311,
+      "sha256": "cef09e9270b8863b6faf55244ea7898f00e32db3e19701f06d771b0c40c6ca1d",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/C2_huong_dan_va_nghiem_thu.md",
+      "bytes": 16840,
+      "sha256": "fa754f84a223370f3bf41ae2eb5e6ee177e434c99ce8664e0479b5f963bdb810",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/C2_nghiem_thu_hoan_thien.md",
+      "bytes": 7842,
+      "sha256": "65349a2d6b7e73f4fa7cacd61794fbcc53f9b964919f1fbb2da252dba3359404",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/C3_demo_checklist.md",
+      "bytes": 2818,
+      "sha256": "e73b99cd5d8aa94a3b8ad43d6336f06c8aa2b931382b1ff8558f0ef3d254da64",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/C3_huong_dan_va_nghiem_thu.md",
+      "bytes": 15483,
+      "sha256": "272156439b2b8927db9d7db81f7d06e84a82afbe86cae0b3f0b59b74ca07d43b",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/C3_launch_instructions.md",
+      "bytes": 3252,
+      "sha256": "ef19b363fb91dd02e28930a701792610b0f9107897e3ce6919fdb2353faa48b4",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/Dashboard_layout_fix.md",
+      "bytes": 3184,
+      "sha256": "147e4754b59e51cf00fdaa2cc4cf14defab3a702951e8d8fb2860ed59b8af6db",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/Regime_radar_acceptance.md",
+      "bytes": 6536,
+      "sha256": "ddb76777854b06338f9b0899a6efb312ce16b4a2260e01b2c3ea7d2c5029343a",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "docs/Regime_radar_review.md",
+      "bytes": 3349,
+      "sha256": "baff95903dc479fff1f9f9a374e5d4a18a7d8735cbae51d36f4ab3fd8d093824",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "outputs/archive/pre_blueprint_expansion_20261024.zip",
+      "bytes": 2585900,
+      "sha256": "e4841d21aef396c518b10eb3a27196e20355bf27aa0cd1355f2fe2ad26a69ae9",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "reports/cleanup/cache_cleanup_manifest.json",
+      "bytes": 2817,
+      "sha256": "a013005d9a56903c72cd30ca294bb8362f28c5c92b2ecfcef99c4c04a9224df6",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "reports/cleanup/cleanup_manifest.json",
+      "bytes": 11682,
+      "sha256": "d142156cd15da193fbd064606c6942207ccde7bf91e4fea6be48e05200d6220a",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "reports/cleanup/cleanup_plan.json",
+      "bytes": 14241,
+      "sha256": "3002059f39fbbd72235b266b46643d8edb50aba958b9c089ac9e99c28c59b7ca",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "reports/Crypto_Market_Regime_Radar_V2_delivery.zip",
+      "bytes": 51737028,
+      "sha256": "562fc6c799a2a37895cb3503579bb3481f8e5b93aa0e465d115fb0ec353c254b",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "reports/m0_lock/baseline.zip",
+      "bytes": 29007443,
+      "sha256": "8cfecede8ff20871fc0d781bb22bb1cdedf091efff73cf77e33f83f5d377d09f",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "reports/ui_review_20261025/BAO_CAO_RASOAT_UI.md",
+      "bytes": 3676,
+      "sha256": "8a4abbcd47c52996691605745736e84356935ad8936439ae8fe273bdad2c8b2a",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "reports/v2_delivery/BAO_CAO_BAN_GIAO_V2.md",
+      "bytes": 7082,
+      "sha256": "2351ae64abacda11c5700dd5ba004326a7e935dc7d1ac30ad16da3ed0b0cf15c",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "reports/v2_delivery/package_manifest.json",
+      "bytes": 222,
+      "sha256": "7b2faffd5fd6b1cfd6ab88acf73b2ae61ac5acf5fb525a8ac7aa674a2645f5d6",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "scripts/build_ui_review_report.py",
+      "bytes": 4408,
+      "sha256": "e5026206abcdf6838bc2033dce12ad4c1123d508bc27b7d9a0d82e824db4b03b",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "scripts/build_v2_delivery.py",
+      "bytes": 10416,
+      "sha256": "755c0cb506f4f6d884e190bfba4803f967fe966e9ea9569f1847109bea7697e0",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "scripts/capture_dashboard.py",
+      "bytes": 3859,
+      "sha256": "cf38131bb18c82ccd3db9c83756ce3df21def91578327da02ac8e8f279d7d7cf",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "scripts/check_dashboard_layout.py",
+      "bytes": 4541,
+      "sha256": "d435d69c30e017e401c766adf1d1c3ee7f5d34b5828171f3c4697e2ff7c6f0d7",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "scripts/consolidate_repository.py",
+      "bytes": 5680,
+      "sha256": "d991a9a14127b0452e7798bffb0d540ac36aa88debe98a135276ca6f102247d1",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    },
+    {
+      "path": "scripts/finalize_research_v2.py",
+      "bytes": 1212,
+      "sha256": "00b60a3075ecb6809fef5e05ebbee1afdaf40ce4694a07c7f26e761a8f87e960",
+      "archive_ref": "refs/archive/v2-before-cleanup"
+    }
+  ],
+  "cache_directories": [
+    ".pytest_cache",
+    "dashboard/__pycache__",
+    "scripts/__pycache__",
+    "src/__pycache__",
+    "tests/__pycache__",
+    "src/data/__pycache__",
+    "src/evaluation/__pycache__",
+    "src/features/__pycache__",
+    "src/models/__pycache__",
+    "src/research/__pycache__",
+    "src/research_v2/__pycache__",
+    "src/utils/__pycache__"
+  ],
+  "user_decision": "retain_listed_files",
+  "user_instruction": "Keep these files; continue the research",
+  "deletion_performed": false
+}

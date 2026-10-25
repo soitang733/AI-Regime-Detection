@@ -2,9 +2,7 @@
 
 Nhận diện trạng thái BTC/ETH theo xác suất bằng Gaussian HMM và NHHMM; đối chứng GMM, K-means, MS-AR, online change-point, HDBSCAN và MS-GARCH. Đây là sản phẩm nghiên cứu theo Research Blueprint 02, không phải dự báo giá hoặc khuyến nghị đầu tư.
 
-Repository chỉ có một dashboard và một bộ kết quả hiện tại. Các module C1/C2/C3 còn được V2 sử dụng là dependency, không phải một bản ứng dụng V1 khác. Lịch sử source V1 nằm trong Git; snapshot nguồn/kết quả trước dọn dẹp nằm ở `refs/archive/*`. Xem [khôi phục lịch sử](docs/V2_HISTORY.md).
-
-Theo lựa chọn của người dùng,28 file tài liệu/công cụ/ZIP cũ và12 thư mục cache được giữ lại; danh sách ở `reports/v2_review/cleanup.json`. Chúng là tài liệu lưu giữ, không phải entrypoint hoặc kết quả hiện hành.
+Repository chỉ có một dashboard và một bộ kết quả V2 hiện hành. Các module C1/C2/C3 còn được V2 sử dụng là dependency; lịch sử các phiên bản cũ được giữ trong Git.
 
 ## Chạy local
 
@@ -45,15 +43,15 @@ python -m src.research_v2.acceptance
 | RQ4 — ổn định/benchmark | T07/T08: seed, initializer, folds, matched-K/features/dates; 120 fits rolling đối chứng bổ sung | Không so raw LL khác feature space; không mặc định HMM tốt hơn |
 | RQ5 — giá trị kinh tế | T06: 4 chiến lược, phí5/10/20bps, 3 execution scenarios, paired bootstrap | Historical exploratory; CI điều kiện theo model/tín hiệu cố định |
 
-- [Báo cáo rà soát và thay đổi](reports/v2_review/BAO_CAO_RASOAT_V2.md).
+- [Báo cáo nghiên cứu](paper/research_report.md) và [báo cáo rà soát V2](reports/v2_review/BAO_CAO_RASOAT_V2.md).
 - T01–T08, F01–F06 cho BTC/ETH: `outputs/research_v2/deliverables/`.
 - Chẩn đoán bổ sung: `outputs/research_v2/review/`; báo cáo replay: `outputs/research_v2/reproduction/result.json`.
 - Tests/log/XML và nghiệm thu: `outputs/research_v2/acceptance_*`, `technical_acceptance.json`, `ui/acceptance.json`.
-- [Protocol rà soát](docs/V2_REVIEW_PROTOCOL.md), [protocol M0](reports/m0_lock/PROTOCOL_V2_M0.md), `confirmation_lock.json`.
+- [Protocol rà soát](docs/V2_REVIEW_PROTOCOL.md), [protocol M0](reports/m0_lock/PROTOCOL_V2_M0.md), `outputs/research_v2/confirmation_lock.json`.
 
 ## Dashboard
 
-Giao diện dùng phong cách research terminal xanh rêu–kem–vàng đồng. Header và sidebar đồng bộ BTC/ETH; chỉ V2. Overview có Radar, current/T+1, price overlay và giải thích log emission/prior. History có các tab Historical Regimes, Economic Profiles, Transition Analysis và Market Drivers. Comparison trực quan hóa lựa chọn K, matched-sample stability và rolling windows; Portfolio giữ các kết quả sau phí và conditional CI. Cuối mỗi trang có tải T01–T08, F01–F06 và báo cáo. Xem [báo cáo thiết kế và ảnh trước/sau](reports/terminal_design/BAO_CAO_THIET_KE.md).
+Giao diện dùng phong cách research terminal xanh rêu–kem–vàng đồng. Header và sidebar đồng bộ BTC/ETH; chỉ V2. Overview có Radar, current/T+1 và price overlay. History có Historical Regimes, Economic Profiles, Transition Analysis và Market Drivers. Comparison trực quan hóa lựa chọn K, matched-sample stability và rolling windows; Portfolio giữ các kết quả sau phí và conditional CI. Cuối mỗi trang có thể tải T01–T08, F01–F06 và báo cáo nghiên cứu.
 
 Market-studio bổ sung ticker/sparkline và họa tiết nến từ OHLC thật, cùng lựa chọn biểu đồ nến. Cảnh báo dài được thu trong “Chất lượng mô hình & phạm vi dữ liệu”; badge UNSTABLE và ngày snapshot vẫn hiện. Phần ĐỌC TÍN HIỆU và các tab nghiên cứu giữ diễn giải RQ1–RQ5, không biến xác suất regime thành dự báo giá.
 

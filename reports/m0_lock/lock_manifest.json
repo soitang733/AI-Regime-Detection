@@ -1,0 +1,24 @@
+{
+  "version": "1.1",
+  "status": "scope_approved_m0_locked",
+  "locked_at_utc": "2026-10-24T16:38:29.625746+00:00",
+  "baseline_files_rechecked": 357,
+  "baseline_changed_files": [],
+  "source_config_data_models_unchanged": true,
+  "implementation_m1_started": false,
+  "nhhmm_readiness": "conditional_go_for_pilot_not_full_model_validation",
+  "technical_acceptance": "M0_only",
+  "independent_research_confirmation": "pending",
+  "future_branch_specifications": "must_be_locked_before_branch_implementation",
+  "files_sha256": {
+    "BAO_CAO_M0.md": "d72f1d907bfaf865f85289010a0088c944453b8983636ec41c8dbc363f1ee66b",
+    "baseline.zip": "8cfecede8ff20871fc0d781bb22bb1cdedf091efff73cf77e33f83f5d377d09f",
+    "baseline_manifest.json": "e476a125f4250acddeeeac700dd95ae84ce0b19a9c1769853516db8ce1c09fda",
+    "build_evidence.py": "5b864929090b2d5216ebba37e6feabbbbff5acfd242a1c56023c9e6b08a9ea07",
+    "environment.json": "2169f63154b4efa40eaf9e98ce6ee8e2fe3785f5bcf3d017567a7162157cb1fb",
+    "feasibility_evidence.json": "99e4e0f7c6b10ca8e95a38f158026a6103942c0315b769f83cf5fa1948b8c9eb",
+    "finalize_lock.py": "2737f5a6feac508bf787f6b5b1959041ff48de09f17cf137340f91f790abc815",
+    "KE_HOACH_V1_1_KEM_PROTOCOL.md": "b8a6568e62f475a8b12720a0327ebc55f89a708ac295341b7cbb8f7c15c61dd3",
+    "PROTOCOL_V2_M0.md": "81232b608731509bc04c765d74cc9a3e6ff5605e71cf84391349f6c8985b4696"
+  }
+}
