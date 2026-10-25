@@ -50,6 +50,7 @@ portable cho một checkout GitHub mới.
 
 - [Báo cáo nghiên cứu](paper/research_report.md) và [báo cáo rà soát V2](reports/v2_review/BAO_CAO_RASOAT_V2.md).
 - T01–T08, F01–F06 cho BTC/ETH: `outputs/research_v2/deliverables/`.
+- Bộ chuẩn cho nhóm viết báo cáo: B01–B05, B07–B08 tại `outputs/tables/` và H01–H06 tại `outputs/figures/`. B06 được chủ động lược bỏ vì số sự kiện Stress chưa qua ngưỡng suy luận; tái tạo bằng `python scripts/build_submission_pack.py`.
 - Chẩn đoán bổ sung: `outputs/research_v2/review/`; báo cáo replay: `outputs/research_v2/reproduction/result.json`.
 - Tests/log/XML và nghiệm thu: `outputs/research_v2/acceptance_*`, `technical_acceptance.json`, `ui/acceptance.json`.
 - [Protocol rà soát](docs/V2_REVIEW_PROTOCOL.md), [protocol M0](reports/m0_lock/PROTOCOL_V2_M0.md), `outputs/research_v2/confirmation_lock.json`.
